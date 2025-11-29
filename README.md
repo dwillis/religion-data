@@ -14,7 +14,7 @@ uv add requests beautifulsoup4 lxml
 
 ### Available Scrapers
 
-#### 1. People Scraper (`scraper.py`)
+#### 1. People Scraper (`people_scraper.py`)
 
 Scrapes paginated people data from UMData search results.
 
@@ -23,10 +23,26 @@ Scrapes paginated people data from UMData search results.
 - Handles HTML-encoded JSON responses
 - Exports to both CSV and JSON formats
 - Includes pastor profile URLs
+- CLI support for single or all conferences
 
-**Usage:**
+**CLI Usage:**
+```bash
+# Scrape a single conference by ID
+python people_scraper.py --conference 3067919
+
+# Scrape all conferences from conferences.json
+python people_scraper.py --all
+
+# Adjust delay between requests
+python people_scraper.py --all --delay 2.0
+
+# Specify custom output directory
+python people_scraper.py --conference 3067919 --output-dir /path/to/output
+```
+
+**Programmatic Usage:**
 ```python
-from scraper import UMDataScraper
+from people_scraper import UMDataScraper
 
 url = "https://www.umdata.org/people?confType=us&conf=3067919&historic=true"
 scraper = UMDataScraper(url, delay=1.0)
@@ -40,6 +56,7 @@ scraper.save_to_json(records, '../data/umdata_people.json')
 - CSV with flattened nested structures
 - Includes: AccountStatus, ClergyOrLay, Conferences, FirstName, LastName, GCFAId, etc.
 - Each record includes a URL field: `https://www.umdata.org/pastor?pastor={GCFAId}`
+- When using `--all`, adds ConferenceId and ConferenceName to each record
 
 #### 2. Work History Scraper (`work_history_scraper.py`)
 
@@ -90,23 +107,6 @@ from church_scraper import ChurchScraper
 
 scraper = ChurchScraper(delay=1.0)
 
-# Scrape single church
-result = scraper.scrape_church_details("https://www.umdata.org/church?church=950642")
-
-# Scrape all from work history
-all_results = scraper.scrape_from_work_history_json('../data/work_history.json')
-scraper.save_to_json(all_results, '../data/churches.json')
-scraper.save_to_csv(all_results, '../data/churches.csv')
-```
-
-**Output Fields:**
-- ChurchId, URL, ChurchName
-- QuickFactsYear, HCI_DataAvailable
-- Average Attendance, Professing Members
-- Professions of Faith, Baptized Members
-- Sunday School Attendance, Small Group Participation
-- Mission Giving, Total Spending, Total Income
-
 #### 4. Statistics Scraper (`stats.py`)
 
 Scrapes organizational hierarchy from the statistics page.
@@ -116,8 +116,19 @@ Scrapes organizational hierarchy from the statistics page.
 - Handles AJAX-loaded content
 - Queries multiple jurisdictions automatically
 - Includes conference information with districts
+- CLI support for year parameter
+- Creates year-specific district files
 
-**Usage:**
+**CLI Usage:**
+```bash
+# Scrape statistics for default year (2024)
+python stats.py
+
+# Scrape statistics for a specific year
+python stats.py --year 2023
+```
+
+**Programmatic Usage:**
 ```python
 from stats import StatsScraper
 
@@ -138,23 +149,57 @@ districts = scraper.scrape_districts_from_conferences(
 **Output:**
 - `jurisdictions.json` - 5 jurisdictions with names and URLs
 - `annual_conferences.json` - 54 conferences with names and URLs
-- `districts.json` - Districts with conference information (when available)
+- `districts_{year}.json` - Districts with full statistics (professing members, attendance, baptisms, etc.)
+data = scraper.scrape_statistics_page()
 
-### Data Relationships
+# Save separate files (automatically saves to ../data/ directory)
+### Example Workflows
 
-The scrapers are designed to work together:
+#### CLI Workflow (Recommended)
 
+```bash
+# 1. Get organizational structure and conferences
+cd umdata
+python stats.py --year 2024
+
+# 2. Get all people from all conferences
+python people_scraper.py --all --delay 1.5
+
+# 3. Get work history for all people (programmatic)
+# 4. Get church details for all appointments (programmatic)
+# (Work history and church scrapers don't have CLI yet)
 ```
-People (scraper.py)
-  └── URL → Work History (work_history_scraper.py)
-        └── Appointment_URL → Church Details (church_scraper.py)
 
-Statistics (stats.py)
-  └── Jurisdictions → Annual Conferences → Districts
+#### Programmatic Workflow
+
+```python
+# 1. Get all people in a conference
+from people_scraper import UMDataScraper
+people_scraper = UMDataScraper(
+    "https://www.umdata.org/people?confType=us&conf=3067919&historic=true",
+    delay=1.0
+)
+people = people_scraper.scrape()
+people_scraper.save_to_json(people, '../data/umdata_people.json')
+
+# 2. Get work history for all people
+from work_history_scraper import WorkHistoryScraper
+wh_scraper = WorkHistoryScraper(delay=1.0)
+work_history = wh_scraper.scrape_from_people_json('../data/umdata_people.json')
+wh_scraper.save_to_json(work_history, '../data/work_history.json')
+
+# 3. Get church details for all appointments
+from church_scraper import ChurchScraper
+church_scraper = ChurchScraper(delay=1.0)
+churches = church_scraper.scrape_from_work_history_json('../data/work_history.json')
+church_scraper.save_to_json(churches, '../data/churches.json')
+
+# 4. Get organizational structure
+from stats import StatsScraper
+stats_scraper = StatsScraper()
+stats = stats_scraper.scrape_statistics_page()
+# Output automatically goes to ../data/ directory
 ```
-
-### Example Workflow
-
 ```python
 # 1. Get all people in a conference
 from scraper import UMDataScraper

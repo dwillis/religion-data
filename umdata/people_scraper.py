@@ -4,11 +4,13 @@ UMData People Scraper
 Scrapes paginated data from umdata.org people search results
 """
 
+import argparse
 import requests
 from bs4 import BeautifulSoup
 import json
 import time
 import csv
+import os
 from typing import List, Dict, Optional
 import re
 import html
@@ -369,33 +371,139 @@ class UMDataScraper:
         print(f"Data saved to {filename}")
 
 
-def main():
-    """Example usage"""
-    # The URL from the user
-    url = "https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf=3067919&historic=true"
+def scrape_conference(conf_id: str, conf_name: str, delay: float = 1.0) -> List[Dict]:
+    """Scrape people from a single conference"""
+    url = f"https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf={conf_id}&historic=true"
     
-    # Create scraper instance
-    scraper = UMDataScraper(url, delay=1.0)
+    print(f"\nScraping conference: {conf_name} (ID: {conf_id})")
+    print("=" * 80)
+    
+    scraper = UMDataScraper(url, delay=delay)
     
     try:
-        # Scrape all data
         records = scraper.scrape()
-        
-        # Save to files
-        if records:
-            scraper.save_to_csv(records, 'umdata_people.csv')
-            scraper.save_to_json(records, 'umdata_people.json')
+        return records
+    except Exception as e:
+        print(f"Error scraping conference {conf_name}: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
+def main():
+    """Main CLI function"""
+    parser = argparse.ArgumentParser(
+        description='Scrape UMData.org people data from conference(s)'
+    )
+    parser.add_argument(
+        '--conference',
+        type=str,
+        help='Single conference ID to scrape (e.g., 3067919)'
+    )
+    parser.add_argument(
+        '--all',
+        action='store_true',
+        help='Scrape all conferences from ../data/conferences.json'
+    )
+    parser.add_argument(
+        '--delay',
+        type=float,
+        default=1.0,
+        help='Delay between requests in seconds (default: 1.0)'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=str,
+        default='../data',
+        help='Output directory for data files (default: ../data)'
+    )
+    
+    args = parser.parse_args()
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(args.output_dir, exist_ok=True)
+    
+    all_records = []
+    
+    if args.all:
+        # Load conferences from JSON file
+        conferences_file = '../data/conferences.json'
+        try:
+            with open(conferences_file, 'r', encoding='utf-8') as f:
+                conferences = json.load(f)
             
-            # Print sample
-            print("\nSample of first record:")
+            print(f"Found {len(conferences)} conferences to scrape")
+            
+            for i, conf in enumerate(conferences, 1):
+                conf_id = str(conf.get('id', ''))
+                conf_name = conf.get('name', 'Unknown')
+                
+                if not conf_id:
+                    print(f"Skipping conference {conf_name} - no ID found")
+                    continue
+                
+                print(f"\n[{i}/{len(conferences)}]")
+                records = scrape_conference(conf_id, conf_name, args.delay)
+                
+                if records:
+                    # Add conference info to each record
+                    for record in records:
+                        if isinstance(record, dict):
+                            record['ConferenceId'] = conf_id
+                            record['ConferenceName'] = conf_name
+                    all_records.extend(records)
+                    print(f"  Added {len(records)} records (Total so far: {len(all_records)})")
+                
+                # Be extra polite between conferences
+                if i < len(conferences):
+                    time.sleep(args.delay * 2)
+            
+            # Save combined results
+            if all_records:
+                csv_file = os.path.join(args.output_dir, 'umdata_people_all.csv')
+                json_file = os.path.join(args.output_dir, 'umdata_people_all.json')
+                
+                scraper = UMDataScraper("", delay=args.delay)  # Dummy scraper for save methods
+                scraper.save_to_csv(all_records, csv_file)
+                scraper.save_to_json(all_records, json_file)
+                
+                print(f"\n{'='*80}")
+                print(f"Total records scraped from all conferences: {len(all_records)}")
+                print(f"Saved to {csv_file} and {json_file}")
+            else:
+                print("\nNo records were scraped from any conference")
+                
+        except FileNotFoundError:
+            print(f"Error: {conferences_file} not found.")
+            print("Please run stats.py first to create the conferences file.")
+            return
+        except Exception as e:
+            print(f"Error reading conferences file: {e}")
+            import traceback
+            traceback.print_exc()
+            return
+    
+    elif args.conference:
+        # Scrape single conference
+        conf_id = args.conference
+        records = scrape_conference(conf_id, f"Conference {conf_id}", args.delay)
+        
+        if records:
+            csv_file = os.path.join(args.output_dir, f'umdata_people_{conf_id}.csv')
+            json_file = os.path.join(args.output_dir, f'umdata_people_{conf_id}.json')
+            
+            scraper = UMDataScraper("", delay=args.delay)  # Dummy scraper for save methods
+            scraper.save_to_csv(records, csv_file)
+            scraper.save_to_json(records, json_file)
+            
+            print(f"\nSample of first record:")
             print(json.dumps(records[0], indent=2))
         else:
             print("No records were scraped")
-            
-    except Exception as e:
-        print(f"Scraping failed: {e}")
-        import traceback
-        traceback.print_exc()
+    
+    else:
+        parser.print_help()
+        print("\nError: Must specify either --conference ID or --all")
 
 
 if __name__ == "__main__":
