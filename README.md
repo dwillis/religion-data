@@ -126,12 +126,12 @@ data = scraper.scrape_statistics_page()
 
 # Save separate files (automatically saves to ../data/ directory)
 scraper.save_sections_separately(data)
-# Creates: ../data/jurisdictions.json, ../data/annual_conferences.json, ../data/districts.json
+# Creates: ../data/jurisdictions.json, ../data/annual_conferences.json
 
-# Or scrape districts from conferences
+# Scrape districts from conferences (creates year-specific file)
 districts = scraper.scrape_districts_from_conferences(
     data['annual_conferences'],
-    output_file='../data/districts.json'
+    year='2024'  # Creates ../data/districts_2024.json
 )
 ```
 

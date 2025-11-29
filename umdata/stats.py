@@ -4,6 +4,7 @@ UMData Statistics Scraper
 Scrapes Jurisdictions, Annual Conferences, and Districts from the statistics page
 """
 
+import argparse
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -264,43 +265,39 @@ class StatsScraper:
             print(f"    Error fetching districts for conference {conf_id}: {e}")
             return []
     
-    def scrape_districts_from_conferences(self, conferences: List[Dict], output_file: str = '../data/districts.json') -> List[Dict]:
+    def scrape_districts_from_conferences(self, conferences: List[Dict], output_file: str = None, year: str = "2024") -> List[Dict]:
         """
-        Scrape districts from all conferences
+        Scrape districts from all conferences with detailed statistics
         
         Args:
-            conferences: List of conference dictionaries with 'name' and 'url'
-            output_file: Filename to save the districts data
+            conferences: List of conference dictionaries with 'id' and 'name'
+            output_file: Filename to save the districts data (default: ../data/districts_{year}.json)
+            year: Year for statistics (default: 2024)
             
         Returns:
-            List of district dictionaries with conference information
+            List of district dictionaries with conference information and statistics
         """
+        # Set default output file with year
+        if output_file is None:
+            output_file = f'../data/districts_{year}.json'
+        
         all_districts = []
         
-        print(f"\nScraping districts from {len(conferences)} conferences...")
+        print(f"\nScraping districts from {len(conferences)} conferences for year {year}...")
         
         for i, conf in enumerate(conferences, 1):
-            conf_name = conf['name']
-            conf_url = conf['url']
+            conf_id = str(conf.get('id', ''))
+            conf_name = conf.get('name', '')
             
-            # Extract conference ID from URL
-            conf_match = re.search(r'conf=(\d+)', conf_url)
-            if not conf_match:
+            if not conf_id:
                 print(f"  {i}/{len(conferences)}: {conf_name} - No conference ID found")
                 continue
             
-            conf_id = conf_match.group(1)
             print(f"  {i}/{len(conferences)}: {conf_name} (ID: {conf_id})...")
             
-            # Get districts for this conference
-            districts = self._get_districts_for_conference(conf_id)
-            
-            # Add conference information to each district
-            for district in districts:
-                district['conference_name'] = conf_name
-                district['conference_url'] = conf_url
-                district['conference_id'] = conf_id
-                all_districts.append(district)
+            # Get districts with full statistics
+            districts = self._get_districts_with_stats(conf_id, conf_name, year)
+            all_districts.extend(districts)
             
             print(f"    Found {len(districts)} districts")
             
@@ -312,18 +309,104 @@ class StatsScraper:
         
         # Save to file
         if all_districts:
+            import os
+            os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(all_districts, f, indent=2, ensure_ascii=False)
             print(f"Saved to {output_file}")
         
         return all_districts
-
+    
+    def _get_districts_with_stats(self, conf_id: str, conf_name: str, year: str) -> List[Dict]:
+        """
+        Get districts with full statistics for a conference
+        
+        Args:
+            conf_id: Conference ID
+            conf_name: Conference name
+            year: Year for statistics
+            
+        Returns:
+            List of district dictionaries with statistics
+        """
+        ajax_url = f"{self.base_url}/stats-districts-ajax?conf={conf_id}&year={year}"
+        
+        try:
+            response = self.session.get(ajax_url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'lxml')
+            
+            districts = []
+            table = soup.find('table')
+            
+            if not table:
+                return districts
+            
+            # Get all rows (skip header)
+            rows = table.find_all('tr')[1:]
+            
+            for row in rows:
+                cells = row.find_all(['td', 'th'])
+                if len(cells) < 9:  # Need at least 9 columns
+                    continue
+                
+                # Extract district name and URL
+                district_link = cells[0].find('a')
+                if not district_link:
+                    continue
+                
+                district_name = district_link.get_text(strip=True)
+                district_href = district_link.get('href')
+                district_url = f"{self.base_url}{district_href}" if district_href and not district_href.startswith('http') else district_href
+                
+                # Clean numeric values (remove commas)
+                def clean_number(text):
+                    return text.replace(',', '').strip() if text else '0'
+                
+                # Build district record
+                district = {
+                    'conference_id': conf_id,
+                    'conference': conf_name,
+                    'year': year,
+                    'district': district_name,
+                    'district_url': district_url,
+                    'professing_members': clean_number(cells[1].get_text(strip=True)),
+                    'avg_attendance': clean_number(cells[2].get_text(strip=True)),
+                    'professions_of_faith': clean_number(cells[3].get_text(strip=True)),
+                    'baptized_members': clean_number(cells[4].get_text(strip=True)),
+                    'children_baptized': clean_number(cells[5].get_text(strip=True)),
+                    'adults_baptized': clean_number(cells[6].get_text(strip=True)),
+                    'total_baptized': clean_number(cells[7].get_text(strip=True)),
+                    'constituent_members': clean_number(cells[8].get_text(strip=True))
+                }
+                
+                districts.append(district)
+            
+            return districts
+            
+        except Exception as e:
+            print(f"    Error fetching districts for conference {conf_id}: {e}")
+            return []
 
 def main():
     """Main function"""
+    parser = argparse.ArgumentParser(
+        description='Scrape UMData.org statistics for jurisdictions, conferences, and districts'
+    )
+    parser.add_argument(
+        '--year',
+        type=str,
+        default='2024',
+        help='Year for statistics (default: 2024)'
+    )
+    
+    args = parser.parse_args()
+    year = args.year
+    
     scraper = StatsScraper()
     
-    print("Scraping statistics page...")
+    print(f"Scraping statistics page for year {year}...")
+    data = scraper.scrape_statistics_page()
     data = scraper.scrape_statistics_page()
     
     print(f"\nResults:")
@@ -340,29 +423,43 @@ def main():
     os.makedirs('../data', exist_ok=True)
     for section_key, section_data in data.items():
         filename = f"../data/{section_key}.json"
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(section_data, f, indent=2, ensure_ascii=False)
-        print(f"Saved {len(section_data)} records to {filename}")
+    # Now scrape districts from conferences.json
+    print("\n" + "="*80)
+    print(f"Scraping districts from conferences.json for year {year}...")
+    print("="*80)
     
-    # Print samples
-    if data['jurisdictions']:
-        print("\nSample Jurisdiction:")
-        print(json.dumps(data['jurisdictions'][0], indent=2))
+    conferences_file = '../data/conferences.json'
+    try:
+        with open(conferences_file, 'r', encoding='utf-8') as f:
+            conferences = json.load(f)
+        
+        districts = scraper.scrape_districts_from_conferences(
+            conferences,
+            year=year
+            # output_file will default to ../data/districts_{year}.json
+        )("\n" + "="*80)
+    print("Scraping districts from conferences.json...")
+    print("="*80)
     
-    if data['annual_conferences']:
-        print("\nSample Annual Conference:")
-        print(json.dumps(data['annual_conferences'][0], indent=2))
-    
-    # Now scrape districts from all conferences
-    if data['annual_conferences']:
-        districts = scraper.scrape_districts_from_conferences(data['annual_conferences'])
+    conferences_file = '../data/conferences.json'
+    try:
+        with open(conferences_file, 'r', encoding='utf-8') as f:
+            conferences = json.load(f)
+        
+        districts = scraper.scrape_districts_from_conferences(
+            conferences,
+            year='2024'
+            # output_file will default to ../data/districts_2024.json
+        )
         
         if districts:
-            print("\nSample District (with conference info):")
+            print("\nSample District (with statistics):")
             print(json.dumps(districts[0], indent=2))
         else:
-            print("\nNote: No districts were found. Districts may not be publicly available")
-            print("via the statistics AJAX endpoints or may require different parameters.")
+            print("\nNote: No districts were found.")
+    except FileNotFoundError:
+        print(f"\nWarning: {conferences_file} not found. Skipping district scraping.")
+        print("Run this script to create the file first.")
 
 
 if __name__ == "__main__":
