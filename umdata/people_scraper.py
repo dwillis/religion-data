@@ -414,8 +414,8 @@ def main():
     parser.add_argument(
         '--output-dir',
         type=str,
-        default='../data',
-        help='Output directory for data files (default: ../data)'
+        default='./data',
+        help='Output directory for data files (default: ./data)'
     )
     
     args = parser.parse_args()
@@ -427,7 +427,7 @@ def main():
     
     if args.all:
         # Load conferences from JSON file
-        conferences_file = '../data/conferences.json'
+        conferences_file = './data/conferences.json'
         try:
             with open(conferences_file, 'r', encoding='utf-8') as f:
                 conferences = json.load(f)

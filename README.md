@@ -48,8 +48,8 @@ url = "https://www.umdata.org/people?confType=us&conf=3067919&historic=true"
 scraper = UMDataScraper(url, delay=1.0)
 records = scraper.scrape()
 
-scraper.save_to_csv(records, '../data/umdata_people.csv')
-scraper.save_to_json(records, '../data/umdata_people.json')
+scraper.save_to_csv(records, './data/umdata_people.csv')
+scraper.save_to_json(records, './data/umdata_people.json')
 ```
 
 **Output Format:**
@@ -78,9 +78,9 @@ scraper = WorkHistoryScraper(delay=1.0)
 result = scraper.scrape_work_history("https://www.umdata.org/pastor?pastor=0124740")
 
 # Scrape all from people JSON
-all_results = scraper.scrape_from_people_json('../data/umdata_people.json')
-scraper.save_to_json(all_results, '../data/work_history.json')
-scraper.save_to_csv(all_results, '../data/work_history.csv')
+all_results = scraper.scrape_from_people_json('./data/umdata_people.json')
+scraper.save_to_json(all_results, './data/work_history.json')
+scraper.save_to_csv(all_results, './data/work_history.csv')
 ```
 
 **Output Fields:**
@@ -135,14 +135,14 @@ from stats import StatsScraper
 scraper = StatsScraper()
 data = scraper.scrape_statistics_page()
 
-# Save separate files (automatically saves to ../data/ directory)
+# Save separate files (automatically saves to ./data/ directory)
 scraper.save_sections_separately(data)
-# Creates: ../data/jurisdictions.json, ../data/annual_conferences.json
+# Creates: ./data/jurisdictions.json, ./data/annual_conferences.json
 
 # Scrape districts from conferences (creates year-specific file)
 districts = scraper.scrape_districts_from_conferences(
     data['annual_conferences'],
-    year='2024'  # Creates ../data/districts_2024.json
+    year='2024'  # Creates ./data/districts_2024.json
 )
 ```
 
@@ -180,25 +180,25 @@ people_scraper = UMDataScraper(
     delay=1.0
 )
 people = people_scraper.scrape()
-people_scraper.save_to_json(people, '../data/umdata_people.json')
+people_scraper.save_to_json(people, './data/umdata_people.json')
 
 # 2. Get work history for all people
 from work_history_scraper import WorkHistoryScraper
 wh_scraper = WorkHistoryScraper(delay=1.0)
-work_history = wh_scraper.scrape_from_people_json('../data/umdata_people.json')
-wh_scraper.save_to_json(work_history, '../data/work_history.json')
+work_history = wh_scraper.scrape_from_people_json('./data/umdata_people.json')
+wh_scraper.save_to_json(work_history, './data/work_history.json')
 
 # 3. Get church details for all appointments
 from church_scraper import ChurchScraper
 church_scraper = ChurchScraper(delay=1.0)
-churches = church_scraper.scrape_from_work_history_json('../data/work_history.json')
-church_scraper.save_to_json(churches, '../data/churches.json')
+churches = church_scraper.scrape_from_work_history_json('./data/work_history.json')
+church_scraper.save_to_json(churches, './data/churches.json')
 
 # 4. Get organizational structure
 from stats import StatsScraper
 stats_scraper = StatsScraper()
 stats = stats_scraper.scrape_statistics_page()
-# Output automatically goes to ../data/ directory
+# Output automatically goes to ./data/ directory
 ```
 ```python
 # 1. Get all people in a conference

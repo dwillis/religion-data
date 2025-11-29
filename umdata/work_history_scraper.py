@@ -4,11 +4,13 @@ UMData Work History Scraper
 Scrapes work history from individual pastor pages
 """
 
+import argparse
 import requests
 from bs4 import BeautifulSoup
 import json
 import time
 import csv
+import os
 from typing import List, Dict, Optional
 import re
 
@@ -78,14 +80,42 @@ class WorkHistoryScraper:
         # Look for the main heading or title
         h1 = soup.find('h1')
         if h1:
-            return h1.get_text(strip=True)
+            # Replace newlines with spaces and clean up extra whitespace
+            name = h1.get_text(separator=' ', strip=True)
+            return ' '.join(name.split())  # Normalize whitespace
         
         # Alternative: look for a specific element with the name
         name_elem = soup.find('div', class_='pastor-name')
         if name_elem:
-            return name_elem.get_text(strip=True)
+            name = name_elem.get_text(separator=' ', strip=True)
+            return ' '.join(name.split())
         
         return None
+    
+    def _convert_to_iso_date(self, date_str: str) -> Optional[str]:
+        """
+        Convert date from M/D/YYYY format to YYYY-MM-DD format
+        
+        Args:
+            date_str: Date string like "7/1/2018" or "1/1/2015"
+            
+        Returns:
+            ISO format date string (YYYY-MM-DD) or None if invalid
+        """
+        if not date_str:
+            return None
+        
+        try:
+            # Parse M/D/YYYY format
+            parts = date_str.split('/')
+            if len(parts) == 3:
+                month, day, year = parts
+                # Pad with zeros and format as YYYY-MM-DD
+                return f"{year.strip()}-{month.strip().zfill(2)}-{day.strip().zfill(2)}"
+        except (ValueError, AttributeError):
+            pass
+        
+        return date_str  # Return original if conversion fails
     
     def _parse_dates(self, date_string: str) -> tuple[Optional[str], Optional[str]]:
         """
@@ -95,7 +125,7 @@ class WorkHistoryScraper:
             date_string: Date string like "7/1/2018 -Present" or "1/1/2015 - 6/30/2018"
             
         Returns:
-            Tuple of (start_date, end_date) where end_date is None if "Present"
+            Tuple of (start_date, end_date) in YYYY-MM-DD format, end_date is None if "Present"
         """
         if not date_string:
             return None, None
@@ -105,16 +135,16 @@ class WorkHistoryScraper:
         
         if len(parts) == 1:
             # Single date
-            return parts[0].strip(), None
+            return self._convert_to_iso_date(parts[0].strip()), None
         elif len(parts) == 2:
             start_date = parts[0].strip()
             end_date = parts[1].strip()
             
             # Check if end date is "Present" (case insensitive)
             if end_date.lower() == 'present':
-                end_date = None
+                return self._convert_to_iso_date(start_date), None
             
-            return start_date, end_date
+            return self._convert_to_iso_date(start_date), self._convert_to_iso_date(end_date)
         else:
             # Unexpected format, return original
             return date_string, None
@@ -298,34 +328,83 @@ class WorkHistoryScraper:
             writer.writerows(flattened_rows)
         
         print(f"Data saved to {filename}")
-
-
 def main():
-    """Example usage"""
-    # Example: scrape a single pastor
-    scraper = WorkHistoryScraper(delay=1.0)
+    """Main CLI function"""
+    parser = argparse.ArgumentParser(
+        description='Scrape work history from UMData.org pastor pages'
+    )
+    parser.add_argument(
+        '--input',
+        type=str,
+        required=True,
+        help='Input JSON file with people data (must contain URL field)'
+    )
+    parser.add_argument(
+        '--output',
+        type=str,
+        required=True,
+        help='Output JSON file for work history data'
+    )
+    parser.add_argument(
+        '--limit',
+        type=int,
+        default=None,
+        help='Limit number of records to process (for testing)'
+    )
+    parser.add_argument(
+        '--delay',
+        type=float,
+        default=1.0,
+        help='Delay between requests in seconds (default: 1.0)'
+    )
+    parser.add_argument(
+        '--csv',
+        action='store_true',
+        help='Also save as CSV (flattened format)'
+    )
     
-    # Test with one URL
-    test_url = "https://www.umdata.org/pastor?pastor=0124740"
-    print(f"Testing with: {test_url}\n")
+    args = parser.parse_args()
     
-    result = scraper.scrape_work_history(test_url)
-    print(f"\nResult for {result.get('Name')}:")
-    print(f"  GCFAId: {result.get('GCFAId')}")
-    print(f"  Work History Entries: {len(result.get('WorkHistory', []))}")
+    # Validate input file exists
+    if not os.path.exists(args.input):
+        print(f"Error: Input file '{args.input}' not found")
+        return
     
-    if result.get('WorkHistory'):
-        print(f"\nFirst work history entry:")
-        print(json.dumps(result['WorkHistory'][0], indent=2))
+    # Create output directory if needed
+    output_dir = os.path.dirname(args.output)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     
-    # To scrape all pastors from the people JSON file:
-    # Uncomment the following lines:
-    #
-    # print("\n\nScraping all pastors from ../data/umdata_people.json...")
-    # all_results = scraper.scrape_from_people_json('../data/umdata_people.json')
-    # scraper.save_to_json(all_results, '../data/work_history.json')
-    # scraper.save_to_csv(all_results, '../data/work_history.csv')
-
+    # Create scraper
+    scraper = WorkHistoryScraper(delay=args.delay)
+    
+    # Scrape work history
+    print(f"Scraping work history from pastors in {args.input}")
+    if args.limit:
+        print(f"Limited to {args.limit} records for testing")
+    
+    all_results = scraper.scrape_from_people_json(args.input, max_records=args.limit)
+    
+    # Save JSON output
+    if all_results:
+        scraper.save_to_json(all_results, args.output)
+        
+        # Optionally save CSV
+        if args.csv:
+            csv_output = args.output.replace('.json', '.csv')
+            scraper.save_to_csv(all_results, csv_output)
+        
+        print(f"\n{'='*80}")
+        print(f"Total pastors processed: {len(all_results)}")
+        total_entries = sum(len(r.get('WorkHistory', [])) for r in all_results)
+        print(f"Total work history entries: {total_entries}")
+        
+        # Show sample
+        if all_results and all_results[0].get('WorkHistory'):
+            print(f"\nSample work history entry from {all_results[0].get('Name')}:")
+            print(json.dumps(all_results[0]['WorkHistory'][0], indent=2))
+    else:
+        print("No results to save")
 
 if __name__ == "__main__":
     main()

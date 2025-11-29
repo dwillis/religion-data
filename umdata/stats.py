@@ -279,7 +279,7 @@ class StatsScraper:
         """
         # Set default output file with year
         if output_file is None:
-            output_file = f'../data/districts_{year}.json'
+            output_file = f'./data/districts_{year}.json'
         
         all_districts = []
         
@@ -415,20 +415,20 @@ def main():
     print(f"  Districts: {len(data['districts'])}")
     
     # Save all to one file
-    scraper.save_to_json(data, '../data/statistics_all.json')
+    scraper.save_to_json(data, './data/statistics_all.json')
     
     # Save each section separately
     print("\nSaving individual files...")
     import os
-    os.makedirs('../data', exist_ok=True)
+    os.makedirs('./data', exist_ok=True)
     for section_key, section_data in data.items():
-        filename = f"../data/{section_key}.json"
+        filename = f"./data/{section_key}.json"
     # Now scrape districts from conferences.json
     print("\n" + "="*80)
     print(f"Scraping districts from conferences.json for year {year}...")
     print("="*80)
     
-    conferences_file = '../data/conferences.json'
+    conferences_file = './data/conferences.json'
     try:
         with open(conferences_file, 'r', encoding='utf-8') as f:
             conferences = json.load(f)
@@ -436,7 +436,7 @@ def main():
         districts = scraper.scrape_districts_from_conferences(
             conferences,
             year=year
-            # output_file will default to ../data/districts_{year}.json
+            # output_file will default to ./data/districts_{year}.json
         )("\n" + "="*80)
     print("Scraping districts from conferences.json...")
     print("="*80)

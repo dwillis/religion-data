@@ -10,5 +10,5 @@ wheels/
 .venv
 
 # Scraped data
-data/*.csv
-data/*.json
+umdata/data/*.csv
+umdata/data/*.json

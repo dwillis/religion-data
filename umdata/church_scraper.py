@@ -264,10 +264,10 @@ def main():
     # To scrape all churches from work history:
     # Uncomment the following lines:
     #
-    # print("\n\nScraping all churches from ../data/work_history.json...")
-    # all_results = scraper.scrape_from_work_history_json('../data/work_history.json')
-    # scraper.save_to_json(all_results, '../data/churches.json')
-    # scraper.save_to_csv(all_results, '../data/churches.csv')
+    # print("\n\nScraping all churches from ./data/work_history.json...")
+    # all_results = scraper.scrape_from_work_history_json('./data/work_history.json')
+    # scraper.save_to_json(all_results, './data/churches.json')
+    # scraper.save_to_csv(all_results, './data/churches.csv')
 
 
 if __name__ == "__main__":
