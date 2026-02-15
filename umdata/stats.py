@@ -437,19 +437,6 @@ def main():
             conferences,
             year=year
             # output_file will default to ./data/districts_{year}.json
-        )("\n" + "="*80)
-    print("Scraping districts from conferences.json...")
-    print("="*80)
-    
-    conferences_file = '../data/conferences.json'
-    try:
-        with open(conferences_file, 'r', encoding='utf-8') as f:
-            conferences = json.load(f)
-        
-        districts = scraper.scrape_districts_from_conferences(
-            conferences,
-            year='2024'
-            # output_file will default to ../data/districts_2024.json
         )
         
         if districts:

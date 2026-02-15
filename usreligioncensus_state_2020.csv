@@ -1,0 +1,52 @@
+﻿State Code,State Name,2020 Population,Population Rank,Congregations,Congregations Rank,"Congregations per 100,000 Population","Congregations Per 100,000 Pop. Rank",Adherents,Adherents Rank,Adherents as % of Population,Adherents as % of Population Rank,Largest Body by # of Congregations,# of Congregations,% of All Congregations,Largest Body by # of Adherents,# of Adherents,% of All Adherents,Diversity Index Value,Diversity Index Value Rank
+01,Alabama,"5,024,279",24,"10,756",11,214.1,5,"3,195,509",15,63.60%,2,Southern Baptist Convention,"3,265",30.4%,Southern Baptist Convention,"1,255,396",39.3%,0.6776,9
+02,Alaska,"733,391",48,"1,264",45,172.4,11,"258,020",49,35.18%,47,Non-denominational Christian Churches,194,15.3%,Non-denominational Christian Churches,"73,930",28.7%,0.5413,47
+04,Arizona,"7,151,502",14,"5,244",28,73.3,45,"3,151,361",17,44.07%,35,Church of Jesus Christ of Latter-day Saints,932,17.8%,Catholic Church,"1,522,410",48.3%,0.6261,32
+05,Arkansas,"3,011,524",33,"7,428",18,246.7,1,"1,739,575",30,57.76%,6,Southern Baptist Convention,"1,551",20.9%,Southern Baptist Convention,"607,751",34.9%,0.6649,16
+06,California,"39,538,223",1,"23,567",2,59.6,50,"17,726,437",1,44.83%,34,Southern Baptist Convention,"2,323",9.9%,Catholic Church,"10,361,743",58.5%,0.6177,33
+08,Colorado,"5,773,714",21,"4,333",32,75.0,44,"2,044,440",28,35.41%,46,Non-denominational Christian Churches,568,13.1%,Catholic Church,"873,236",42.7%,0.5445,45
+09,Connecticut,"3,605,944",29,"2,889",35,80.1,42,"1,708,179",31,47.37%,28,Non-denominational Christian Churches,487,16.9%,Catholic Church,"1,024,927",60.0%,0.6334,31
+10,Delaware,"989,948",45,966,47,97.6,35,"409,412",45,41.36%,40,Non-denominational Christian Churches,210,21.7%,Catholic Church,"197,094",48.1%,0.6035,37
+11,District Of Columbia,"689,545",49,751,50,108.9,30,"389,241",46,56.45%,7,Non-denominational Christian Churches,145,19.3%,Catholic Church,"81,735",21.0%,0.7507,1
+12,Florida,"21,538,187",3,"17,511",3,81.3,40,"10,140,053",4,47.08%,29,Non-denominational Christian Churches,"3,287",18.8%,Catholic Church,"4,097,067",40.4%,0.6479,27
+13,Georgia,"10,711,908",8,"12,891",9,120.3,25,"5,439,946",9,50.78%,20,Southern Baptist Convention,"3,561",27.6%,Southern Baptist Convention,"1,584,393",29.1%,0.6744,11
+15,Hawaii,"1,455,271",40,"1,424",44,97.9,34,"603,730",40,41.49%,39,Church of Jesus Christ of Latter-day Saints,142,10.0%,Catholic Church,"269,726",44.7%,0.6097,35
+16,Idaho,"1,839,106",38,"2,534",37,137.8,21,"969,901",37,52.74%,12,Church of Jesus Christ of Latter-day Saints,"1,184",46.7%,Church of Jesus Christ of Latter-day Saints,"462,069",47.6%,0.6851,6
+17,Illinois,"12,812,508",6,"12,153",10,94.9,38,"6,510,363",5,50.81%,19,Non-denominational Christian Churches,"1,383",11.4%,Catholic Church,"3,099,544",47.6%,0.6806,8
+18,Indiana,"6,785,528",17,"9,028",15,133.0,22,"2,859,439",20,42.14%,37,Non-denominational Christian Churches,"1,164",12.9%,Catholic Church,"779,477",27.3%,0.6130,34
+19,Iowa,"3,190,369",31,"4,822",29,151.1,17,"1,431,349",32,44.86%,33,United Methodist Church,735,15.2%,Catholic Church,"470,487",32.9%,0.6371,29
+20,Kansas,"2,937,880",35,"4,624",30,157.4,15,"1,352,241",34,46.03%,31,United Methodist Church,630,13.6%,Catholic Church,"414,939",30.7%,0.6487,26
+21,Kentucky,"4,505,836",26,"8,143",17,180.7,10,"2,226,288",27,49.41%,22,Southern Baptist Convention,"2,530",31.1%,Southern Baptist Convention,"904,352",40.6%,0.6356,30
+22,Louisiana,"4,657,757",25,"6,600",21,141.7,20,"2,949,420",19,63.32%,3,Southern Baptist Convention,"1,633",24.7%,Catholic Church,"1,248,106",42.3%,0.7268,2
+23,Maine,"1,362,359",42,"1,574",41,115.5,28,"419,523",44,30.79%,50,Non-denominational Christian Churches,210,13.3%,Catholic Church,"219,233",52.3%,0.4888,50
+24,Maryland,"6,177,224",18,"5,715",27,92.5,39,"2,685,338",24,43.47%,36,Non-denominational Christian Churches,917,16.0%,Catholic Church,"907,317",33.8%,0.6393,28
+25,Massachusetts,"7,029,917",15,"4,357",31,62.0,49,"3,419,370",14,48.64%,24,Catholic Church,593,13.6%,Catholic Church,"2,497,737",73.0%,0.6069,36
+26,Michigan,"10,077,331",10,"9,694",13,96.2,36,"3,998,585",11,39.68%,43,Non-denominational Christian Churches,"1,267",13.1%,Catholic Church,"1,492,732",37.3%,0.5956,41
+27,Minnesota,"5,706,494",22,"5,970",26,104.6,32,"2,824,374",22,49.49%,21,Evangelical Lutheran Church in America,999,16.7%,Catholic Church,"1,111,644",39.4%,0.6740,12
+28,Mississippi,"2,961,279",34,"7,182",19,242.5,2,"1,759,935",29,59.43%,5,Southern Baptist Convention,"2,147",29.9%,Southern Baptist Convention,"830,229",47.2%,0.6698,14
+29,Missouri,"6,154,913",19,"9,058",14,147.2,18,"2,979,494",18,48.41%,25,Southern Baptist Convention,"1,957",21.6%,Catholic Church,"769,057",25.8%,0.6560,23
+30,Montana,"1,084,225",44,"1,766",40,162.9,13,"377,713",47,34.84%,48,Catholic Church,195,11.0%,Catholic Church,"112,389",29.8%,0.5415,46
+31,Nebraska,"1,961,504",37,"2,856",36,145.6,19,"966,578",38,49.28%,23,United Methodist Church,362,12.7%,Catholic Church,"375,287",38.8%,0.6709,13
+32,Nevada,"3,104,614",32,"1,540",42,49.6,51,"1,291,778",35,41.61%,38,Church of Jesus Christ of Latter-day Saints,353,22.9%,Catholic Church,"766,102",59.3%,0.5897,42
+33,New Hampshire,"1,377,529",41,"1,048",46,76.1,43,"374,948",48,27.22%,51,United Church of Christ,132,12.6%,Catholic Church,"220,305",58.8%,0.4406,51
+34,New Jersey,"9,288,994",11,"6,071",24,65.4,47,"4,846,460",10,52.17%,15,Catholic Church,673,11.1%,Catholic Church,"2,971,461",61.3%,0.6623,18
+35,New Mexico,"2,117,522",36,"2,405",38,113.6,29,"1,111,977",36,52.51%,14,Catholic Church,439,18.3%,Catholic Church,"633,259",56.9%,0.6664,15
+36,New York,"20,201,249",4,"13,828",7,68.5,46,"10,347,548",3,51.22%,18,Catholic Church,"1,451",10.5%,Catholic Church,"6,191,464",59.8%,0.6610,20
+37,North Carolina,"10,439,388",9,"16,200",4,155.2,16,"5,443,737",8,52.15%,16,Southern Baptist Convention,"4,374",27.0%,Southern Baptist Convention,"1,324,747",24.3%,0.6826,7
+38,North Dakota,"779,094",47,"1,452",43,186.4,7,"428,647",43,55.02%,11,Evangelical Lutheran Church in America,367,25.3%,Catholic Church,"164,843",38.5%,0.6969,5
+39,Ohio,"11,799,448",7,"13,906",6,117.9,26,"5,646,238",7,47.85%,27,Non-denominational Christian Churches,"1,867",13.4%,Catholic Church,"1,820,233",32.2%,0.6600,21
+40,Oklahoma,"3,959,353",28,"7,166",20,181.0,9,"2,422,123",26,61.17%,4,Southern Baptist Convention,"1,781",24.9%,Southern Baptist Convention,"775,607",32.0%,0.6627,17
+41,Oregon,"4,237,256",27,"4,072",33,96.1,37,"1,405,973",33,33.18%,49,Non-denominational Christian Churches,706,17.3%,Catholic Church,"480,618",34.2%,0.5223,48
+42,Pennsylvania,"13,002,700",5,"15,135",5,116.4,27,"6,097,345",6,46.89%,30,United Methodist Church,"1,986",13.1%,Catholic Church,"2,845,841",46.7%,0.6501,24
+44,Rhode Island,"1,097,379",43,708,51,64.5,48,"565,251",41,51.51%,17,Catholic Church,142,20.1%,Catholic Church,"445,597",78.8%,0.5969,40
+45,South Carolina,"5,118,425",23,"8,205",16,160.3,14,"2,695,900",23,52.67%,13,Southern Baptist Convention,"2,109",25.7%,Southern Baptist Convention,"816,405",30.3%,0.6767,10
+46,South Dakota,"886,667",46,"1,944",39,219.2,4,"491,026",42,55.38%,9,Non-denominational Christian Churches,281,14.5%,Catholic Church,"132,805",27.0%,0.7051,3
+47,Tennessee,"6,910,840",16,"13,397",8,193.9,6,"3,844,957",13,55.64%,8,Southern Baptist Convention,"3,151",23.5%,Southern Baptist Convention,"1,310,341",34.1%,0.6614,19
+48,Texas,"29,145,505",2,"29,750",1,102.1,33,"16,045,479",2,55.05%,10,Southern Baptist Convention,"7,935",26.7%,Catholic Church,"5,905,142",36.8%,0.6986,4
+49,Utah,"3,271,616",30,"6,018",25,183.9,8,"2,489,571",25,76.10%,1,Church of Jesus Christ of Latter-day Saints,"5,239",87.1%,Church of Jesus Christ of Latter-day Saints,"2,126,216",85.4%,0.5157,49
+50,Vermont,"643,077",50,823,49,128.0,23,"242,017",50,37.63%,45,United Church of Christ,129,15.7%,Catholic Church,"134,208",55.5%,0.5588,44
+51,Virginia,"8,631,393",12,"10,465",12,121.2,24,"3,970,305",12,46.00%,32,Southern Baptist Convention,"2,030",19.4%,Catholic Church,"888,163",22.4%,0.6489,25
+53,Washington,"7,705,281",13,"6,196",22,80.4,41,"3,184,751",16,41.33%,41,Non-denominational Christian Churches,764,12.3%,Non-denominational Christian Churches,"1,103,660",34.7%,0.6000,39
+54,West Virginia,"1,793,716",39,"4,072",33,227.0,3,"677,633",39,37.78%,44,United Methodist Church,"1,041",25.6%,Non-denominational Christian Churches,"152,518",22.5%,0.5661,43
+55,Wisconsin,"5,893,718",20,"6,183",23,104.9,31,"2,831,594",21,48.04%,26,Catholic Church,752,12.2%,Catholic Church,"1,237,342",43.7%,0.6574,22
+56,Wyoming,"576,851",51,958,48,166.1,12,"233,016",51,40.39%,42,Church of Jesus Christ of Latter-day Saints,172,18.0%,Catholic Church,"69,500",29.8%,0.6022,38

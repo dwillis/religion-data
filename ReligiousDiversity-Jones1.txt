@@ -1,0 +1,306 @@
+Religious Diversity in the United States
+Dale E. Jones
+
+
+
+
+A
+          new feature of the U.S. Religion Census is the measure of                         The first section of this chapter will examine religious diversity
+          religious diversity in each county. Religious uniformity                     at the county level. The chapter will then explore diversity for
+          would suggest that a single strategy, whether a fund-raising                 metropolitan areas and for states. But before going into those details,
+effort or a political campaign, could appeal equally to nearly every-                  we will first explain our diversity measure.
+one’s religious understanding. An appeal in a uniformly Jewish
+community might include endorsements from a synagogue leader                           Measuring Diversity
+and references to the Torah. In a Muslim community, an Imam                                  First, how do we calculate diversity?
+might be more persuasive. In an area composed mostly of people                               The easiest measure of diversity might be the count of different
+with no congregational involvement, one might avoid any endorse-                       religious bodies in each county. Los Angeles county, California, with
+ment by religious leaders. On the other hand, religious diversity                      its 171 religious bodies, is at the top of this list. Among metropolitan
+would require a broader approach, or perhaps multiple strategies.                      areas, the 198 religious bodies in New York-Newark-Jersey City put
+Such approaches would indicate that community members are                              it first. And among states, Pennsylvania has the largest number of
+aware of other traditions. This could lead to increased tolerance for                  religious bodies at 245.
+other viewpoints or increased tension between different groups.
+
+
+
+                                                       Map 1: Religious Diversity, 2020
+        Simpson’s Diversity Index Applied to 13 Categories of Religious Bodies and the Unaffiliated Population
+
+
+
+
+This map is based upon diversity among Black Protestant, Buddhist, Catholic, Evangelical Protestant, Hindu, Islam, Jewish, Jehovah’s Witnesses, Latter-day Saints,
+Mainline Protestant, Orthodox Christian, Other Christian, and Other Eastern religious groups, with those unaffiated with any religious congregation treated as a
+fourteenth group. This is the recommended diversity measure. The rationale for this recommendation is explained in the text.
+
+
+42                                                                                             2020 U.S. Religion Census • usreligioncensus.org
+     But there is more to diversity than the number of religious                    measurement, significant religious diversity is to be found in the
+bodies. Each of these three areas is dominated by just one religious                Carolinas and in the central part of the country, extending from the
+body. Catholics make up nearly half (47%) of all Pennsylvania’s reli-               Texas coast to the Upper Midwest.
+gious adherents. Catholics are 61% of the New York metropolitan
+area’s adherents and 62% of all adherents in Los Angeles county.                    Congregations or Adherents
+     A common measure of diversity is Simpson’s Diversity Index, a                       The diversity formula can be applied to the number of congre-
+mathematical formula that considers both the number of different                    gations in each county. The synagogues, churches, mosques, temples,
+groups and the relative sizes of each group within a specific territory.1           or other places where people gather, can be counted for each group,
+This is the measure used throughout this analysis.                                  then calculated as the ratio of all such gathering places in the county.
+     Map 1 shows the religious diversity result for 13 categories of                The ratios for all the groups present can then be squared, and the sum
+religious bodies and one additional category for the unaffiliated                   of those squares will be somewhere between 0 and 1. Subtracting
+population for each county of the United States. According to this                  that sum from 1 will give Simpson’s Diversity Index for that
+                                                                                    counties’ congregations.
+1
+    Simpson’s index is defined as D = ∑ (n / N)2.
+The total number of instances of the data is the large N. This universe can be
+used for bird species, for flower types, or for religious adherents. Then, one
+                                                                                    Map 2: Religious Diversity among Congregations for 372
+assigns each instance of the data to the appropriate category, the small n.         Religious Bodies
+For each category, one divides the small n (instances in that category) by the
+                                                                                        Based on the numbers of congregations for each religious
+large N (total instances overall). This is the same first step as in computing a
+percentage, but rather than multiplying by 100, one squares the result. The         body, counties in the Northeast and in the West have much greater
+same is done for each of the categories, and the squared results are added          diversity than those in the South or Great Plains. The Northeast has
+together.                                                                           many large cities with a great number of different religious bodies
+This measure yields a result between 0 (complete diversity) and 1 (no diversity).   and their congregations. On the other hand, many Southern counties
+At this point, the higher the number, the less diversity. This seems counter-
+intuitive, so Simpson’s Diversity Index adds one more step: 1-D. This effectively
+                                                                                    may have a smaller number of different religious bodies, or one
+reverses the scale, so that the higher number indicates higher diversity.           group may have a large proportion of all the congregations present.
+
+
+
+                                       Map 2: Religious Diversity among Congregations, 2020
+                               Simpson’s Diversity Index Applied to Congregations for 372 Religious Bodies
+
+
+
+
+2020 U.S. Religion Census • usreligioncensus.org                                                                                                        43
+      Recalling that the diversity index ranges between 0 and 1, it is      While there are distinctions between every religious body included
+worth noting that counties in the least diverse group of Map 2 can          in the religion census, some of those distinctions are far more
+still have an index as high as 0.81. In the United States, there is still   significant than others, at least to outside observers.
+great diversity even in many of the least diverse counties.                      In my own tradition, Nazarenes and Wesleyans have different
+      Instead of congregational counts, diversity can be measured by        leaders, different organizational structure, and different practices.
+the number of persons associated with each religious group. By              But those differences seem very minor when comparing either
+applying this formula to the adherents reported in each county, the         group to Hindu believers or to Catholics.
+diversity among religious bodies is greatest in a band from the                  The diversity index does not allow for degrees of difference
+Carolinas through Pennsylvania and the lower Midwest to the                 between categories. If Wesleyans, Nazarenes, Hindus, and Catholics
+Northwest.                                                                  are each separate categories, a county evenly split between Wesleyans
+                                                                            and Nazarenes would be considered just as religiously diverse as a
+Map 3: Religious Diversity among Adherents for 215                          county split between Hindus and Catholics. While this is technically
+Religious Bodies                                                            a defensible position, it may not meet the “common sense” under-
+                                                                            standing of diversity.
+     In this case, the overwhelmingly large Catholic population in
+                                                                                 Therefore, diversity measures need to include categories whose
+New York, New England, and California definitely affects the
+                                                                            differences are as consistent as possible within the constraints of the
+perceived diversity of these areas. While differences among congrega-
+                                                                            data available.
+tional centers is a mark of diversity, most sociological studies focus
+on people rather than structures.
+     Therefore, the remainder of this chapter will focus on diversity       World Religions
+among adherents rather than among congregations.                                 One classification is simply “world religion,” combining all
+                                                                            Christian groups into one category, all Jewish groups into one
+Categorizing Diversity                                                      category, and so on. Six world religions reported adherents in the
+                                                                            2020 U.S. Religion Census: Bahá’í, Buddhist, Christian, Hindu,
+     But counting either congregations or adherents in different
+                                                                            Islam, and Jewish.
+religious bodies may not be the best basis for measuring diversity.
+
+
+                                    Map 3: Religious Diversity among Adherents, 2020
+                     Simpson’s Diversity Index Applied to 215 Religious Bodies with Reported Adherents
+
+
+
+
+44                                                                                2020 U.S. Religion Census • usreligioncensus.org
+Map 4: Religious Diversity for 6 World Religions                          Map 5: Religious Diversity for 43 Religious Families
+     This map clearly shows the diversity of major religions along              The concentrations here are similar to those for all religious
+the East Coast, major cities of the Midwest, and the West Coast. If       bodies (Map 3).
+we had similar data for other nations, this would certainly be a good           Unfortunately, the distinctions between the families are not
+classification system for comparisons.                                    always consistent. Some of the classifications are based on the names
+     However, in the United States, this is a bit misleading. If we had   of the groups without regard to actual theological distinctions.
+used the same scale as in Map 3 (all religious bodies), this map          Theologically, the Church of the Nazarene could be included with
+would have been all one color. The highest diversity based on world       the Methodist family, but is not. Presbyterians and the United
+religions is only 0.51, compared to 0.62 as the necessary index to        Church of Christ are within the reformed tradition but are separate
+reach the “moderate diversity” of Map 3.                                  from each other and from the Reformed family.
+     While this is partially the effect of fewer categories, a more             Other classifications are based historically, with little considera-
+compelling argument against this classification is that seven             tion for changes over time. The Community of Christ considers
+additional world religions reported congregational locations but          itself part of Evangelical Christianity today, but remains part of the
+were unable to provide adherent figures.                                  Latter-day Saints family in this categorization.
+
+Religious Families                                                        American Religious Traditions
+     One of the popular features of the U.S. Religion Census is a              In the U.S., political and sociological studies often refer to
+wall map showing the dominant religious family in each county.            Evangelical Protestants, Mainline Protestants, or another of several
+This groups the Christian denominations into broader categories,          religious traditions. The Association of Religion Data Archives
+reducing the number of separate groups to 43.                             (ARDA) has assigned many of the U.S. Religion Census participants
+     This classification has the advantage of being used consistently     to one of ten Religious Traditions listed at the ARDA website.2
+for over a century, having been recorded by U.S. census reports, the
+Yearbook of American and Canadian Churches, and previous versions
+of the U.S. Religion Census.                                              2
+                                                                            See the list of Religious Traditions and the methodology for ARDA’s classifi-
+                                                                          cations at https://thearda.com/us-religion/group-profiles/traditions.
+
+
+
+                                  Map 4: Religious Diversity for World Religions, 2020
+             Simpson’s Diversity Index Applied to 6 Categories of World Religions with Reported Adherents
+
+
+
+
+2020 U.S. Religion Census • usreligioncensus.org                                                                                                      45
+                                 Map 5: Religious Diversity for Religious Families, 2020
+          Simpson’s Diversity Index Applied to 43 Categories of Religious Families with Reported Adherents
+
+
+
+
+     Based on the work of the ARDA, the U.S. Religion Census has          Including the Unaffiliated
+assigned all participating religious bodies into one of 13 categories:         By treating the unaffiliated population as an additional group
+Black Protestant, Buddhist, Catholic, Evangelical Protestant, Hindu,      within American religious categories, we get a different picture of
+Islam, Jewish, Jehovah’s Witnesses, Latter-day Saints, Mainline           religious diversity in the United States.
+Protestant, Orthodox Christian, Other Christian, and Other Eastern.            Separate studies have indicated that the unaffiliated are not a
+     These groups appear to be categories readily understood by           monolithic group. There are those who claim to be part of specific
+social commentators, and may be a better interpretation of what is        religious bodies, others who identify as atheists, and others who
+meant by religious diversity.                                             consider themselves religious but who do not choose to participate
+                                                                          in any religious congregation.3
+Map 6: Religious Diversity for 13 Religious Traditions                         Still, as a group the unaffiliated are a significant part of the
+     The lack of diversity in the central south and in the Utah area      American religious landscape; therefore, the definition of religious
+matches the common perception of Evangelical strength and                 diversity within each county should include the unaffiliated as a
+Latter-day Saints strength, respectively.                                 fourteenth category. Map 1 uses the adherent figures for 13 categories
+     The major diversity of the Northwest and non-Utah Mountain           of religious bodies and the unaffiliated population to show religious
+states indicates that multiple religious traditions may be strong in      diversity at the county level.
+these areas.                                                                   By treating the unaffiliated as a separate religious category,
+     However, one major “religious tradition” is overlooked, especially   Northern New England and the Northwest are now among the least
+in the Northwest and Northern New England. These two areas are            religiously diverse areas of the country. Further, including the
+among the least religiously affiliated in the country. With two-thirds    unaffiliated recognizes much more diversity in the South and
+of the population in Oregon, New Hampshire, and Maine not
+claimed by any religious group in the Census, perhaps the religious
+diversity in those areas is not nearly as great as Map 6 suggests.        3
+                                                                           For example, see “About Three-in-Ten U.S. Adults Are Now Religiously
+                                                                          Unaffiliated” by Gregory A. Smith, Pew Research Center, December 14, 2021.
+                                                                          https://www.pewresearch.org/religion/2021/12/14/about-three-in-ten-u-s-
+                                                                          adults-are-now-religiously-unaffiliated/
+
+
+46                                                                               2020 U.S. Religion Census • usreligioncensus.org
+                        Map 6: Religious Diversity for American Religious Traditions, 2020
+            Simpson’s Diversity Index Applied to 13 Religious Tradition Categories with Reported Adherents
+
+
+
+
+Midwest. Non-Utah mountain states, Michigan, and West Virginia             the Latter-day Saints. With one-third of the population unaffiliated
+also show much less diversity when the unnaffiliated are included.         with any religious congregation, this means that the two largest
+                                                                           groups account for less than 85% of the population, allowing for
+Map 7: Religious Diversity within Major Metropolitan Areas                 greater diversity than metro areas like Denver.
+     Because the government defines metropolitan areas by county                On the other hand, one-third of the Memphis metro is unaffili-
+units, it is easy to calculate diversity for the nation’s largest metro-   ated, nearly matching the one-third who are part of the Evangelical
+politan areas, those with at least one million people in 2020. Map 7       Protestant group. About one-sixth of the Memphis area is claimed by
+uses the same diversity levels as Map 1, making it obvious that the        Black Protestant congregations. Mainline Protestants and Catholics
+nation’s largest metro areas tend to be more diverse than counties         each claim about 5% of the population, creating a very diverse
+outside these large metros.                                                religious community.
+     Over one-third (20 of 56) of the nation’s largest metro areas              Indeed, most large metropolitan areas in the South show much
+rank with the top 20% of counties. Only 2 metros would rank with           greater diversity than maps of evangelical concentration alone would
+moderate diversity, and none would be categorized with the least           indicate. While evangelicals are usually the largest group in each of
+diverse counties.                                                          these metro areas, significant numbers of Mainline Protestants,
+     Table 1 shows the most and least religiously diverse metropol-        Catholics, and other world religions can now be found in these
+itan areas of 1,000,000 or more people. Denver, the least religiously      population centers, along with significant numbers of people
+diverse of the nation’s largest metro areas, is two-thirds unaffiliated    unaffiliated with any religious body.
+with any religious congregation. Nearly half the remaining pop-                 Applying the diversity calculation to states, rather than to
+ulation is Catholic. With nearly 90% of the population in just those       counties, we can see different patterns of what constitutes diversity.
+two groups, diversity is light, compared to other large metropolitan       Sometimes the diversity is widespread throughout a state. Other
+areas. Even so, the Denver diversity measure is still larger than that     times, diversity is concentrated in large population centers, raising the
+in 25% of America’s counties.                                              overall diversity level from the norm. And in one case, low diversity
+     One might have assumed that Salt Lake City would be among             in most counties still results in high diversity within the state.
+the least religiously diverse, with half of its population claimed by
+
+2020 U.S. Religion Census • usreligioncensus.org                                                                                                47
+                        Map 7: Religious Diversity within Major Metropolitan Areas, 2020
+      Simpson’s Diversity Index Applied to 13 Categories of Religious Traditions and the Unaffiliated Population
+
+
+
+
+Table 1: Most and Least Religiously Diverse Metropolitan Areas of         Catholics are well-represented throughout many non-metropolitan
+              1,000,000 or More Population in 2020                        counties, with concentrations of unaffiliated persons as well.
+                                                                               Idaho does not follow either pattern. Few of its counties are
+       Most Diverse         Rank           Least Diverse        Rank
+                                                                          classified as diverse, and its most populous counties are rarely
+ Memphis, TN-MS-AR              1   Tucson, AZ                     52     among them. Rather, different parts of the state are dominated by
+                                                                          different religious groups. When combined into a single unit, the
+ Charlotte-Concord-                 Sacramento-Roseville-                 diversity of the state is much higher than that of its neighbors. This
+                                2                                  53
+ Gastonia, NC-SC                    Folsom, CA
+                                                                          may be partially explained by geographic constraints, such as the
+                                    San Francisco-Oakland-                difficulty of traveling between the northern panhandle and the
+ Richmond, VA                   3                                  54
+                                    Berkeley, CA
+                                                                          southern part of the state. It is also possible that state-to-state
+                                    Portland-Vancouver-                   immigration tends to group people of like religious background
+ Milwaukee-Waukesha, WI         4                                  55
+                                    Hillsboro, OR-WA                      into the same destinations.
+                                    Denver-Aurora-Lakewood,                    The District of Columbia is not a state, of course, but if it were it
+ Cleveland-Elyria, OH           5                                  56
+                                    CO                                    would actually be the most diverse. As a major city itself and the seat
+                                                                          of the national government, many religious groups have made a point
+                                                                          of maintaining a presence in the District. While the largest single
+Map 8: Religious Diversity by State                                       group is the unclaimed (44%), four other groups each claim at least
+    Comparing Maps 1 and 7 shows that high diversity levels are not       10% of the population: Evangelical Protestants (15%), Catholics
+normally found throughout Southern counties, but are found in major       (12%), Black Protestants (10%) and Mainline Protestants (10%).
+population centers. These in turn affect the state totals, as shown in         Among the least religiously diverse states, most have a large
+Map 8. Illinois seems to follow the same pattern, with its most diverse   proportion of people unaffiliated with any religious body in the
+counties concentrated around the Chicago metropolitan area.               census (typically in the range of two-thirds of the population). Utah
+    Comparing the same maps, the Upper Midwest seems to be more           is an exception, with nearly two-thirds (65%) of the population
+uniformly diverse. Mainline Protestants, Evangelical Protestants, and     claimed by one group, the Latter-day Saints.
+
+
+48                                                                               2020 U.S. Religion Census • usreligioncensus.org
+                                          Map 8: Religious Diversity by State, 2020
+     Simpson’s Diversity Index Applied to 13 Categories of Religious Traditions and the Unaffiliated Population
+
+
+
+
+Recommended Diversity Index                                                 Table 2: Most and Least Religiously Diverse States in 2020
+     As noted under Map 1, this volume uses adherents reported
+                                                                           Most Diverse (three largest               Least Diverse (largest
+within 13 categories of religious bodies and the unclaimed population                                        Rank                               Rank
+                                                                             religious categories)                         category)
+to measure religious diversity within each county. The same process
+                                                                         Louisiana (37% unaffiliated, 27%
+can be applied to any county-defined geographic area, such as
+                                                                         Catholic; 25% Evangelical Pro-         1   Alaska (65% unaffiliated)    46
+states, metropolitan areas, micropolitan areas, and even judicatory      testant)
+boundaries within religious bodies.
+                                                                         South Carolina (45% unaffiliated,
+     This seems to the U.S. Religion Census steering committee to                                                   Oregon (67%
+                                                                         20% Evangelical Protestant, 18%        2                                 47
+be the most useful categorization for measuring religious diversity                                                 unaffiliated)
+                                                                         Mainline Protestant)
+as commonly used in this country. Data from the U.S. Religion
+                                                                         Texas (45% unaffiliated, 24%
+Census is available online, and all researchers are free to set their                                               Utah (65% Latter-day
+                                                                         Evangelical Protestant, 20%            3                                48
+own categories for measuring diversity.                                                                             Saints)
+                                                                         Catholic)
+     Here are a few reminders when making diversity comparisons:
+                                                                         North Dakota (45% unaffiliated,
+     1) When using an index, it is important to note that the index
+                                                                         21% Catholic, 21% Mainline Pro-        4   Maine (69% unaffiliated)     49
+essentially applies only to that categorization. Comparing index         testant)
+numbers between Map 3 and Map 4, as done above, can be done as
+                                                                         Idaho (47% unaffiliated, 25%
+an indication of scale comparability. But comparing specific numbers                                                New Hampshire (73%
+                                                                         Latter-day Saints, 12%                 5                                 50
+for one county from one categorization to another is not usually                                                    unaffiliated)
+                                                                         Evangelical Protestant)
+recommended.
+     2) For each of the maps above, real numbers set the boundaries
+between the five classifications. Within each map, the numbers              3) No matter how carefully one crafts the categories, there will
+themselves are less important than the relative diversity those         always be suggestions that it could have been done differently. Such
+numbers indicate. That is why the legends refer to diversity levels     suggestions are generally true, and we invite others to explore the
+and not to index ranges.                                                data.
+
+2020 U.S. Religion Census • usreligioncensus.org                                                                                                 49
+
