@@ -313,11 +313,12 @@ class UMDataScraper:
                 flat_record = {}
                 for key, value in record.items():
                     if isinstance(value, list) and value:
-                        # Extract label or Name from first item
+                        # Join all list items with semicolons
                         if isinstance(value[0], dict):
-                            flat_record[key] = value[0].get('label') or value[0].get('Name') or str(value[0])
+                            items = [item.get('label') or item.get('Name') or str(item) for item in value]
+                            flat_record[key] = '; '.join(items)
                         else:
-                            flat_record[key] = str(value[0])
+                            flat_record[key] = '; '.join(str(v) for v in value)
                     elif value is None:
                         flat_record[key] = ''
                     else:
@@ -424,14 +425,25 @@ def main():
         if i < len(conferences):
             time.sleep(delay * 2)
 
+    # Deduplicate by GCFAId so each person appears once
+    seen_ids = set()
+    unique_records = []
+    for record in all_records:
+        gcfa_id = record.get('GCFAId', '')
+        if gcfa_id and gcfa_id not in seen_ids:
+            seen_ids.add(gcfa_id)
+            unique_records.append(record)
+
+    print(f"Deduplicated: {len(all_records)} records -> {len(unique_records)} unique people")
+
     # Save combined results
-    if all_records:
+    if unique_records:
         scraper = UMDataScraper("", delay=delay)  # For save methods
-        scraper.save_to_csv(all_records, './data/umdata_people.csv')
-        scraper.save_to_json(all_records, './data/umdata_people.json')
+        scraper.save_to_csv(unique_records, './data/umdata_people.csv')
+        scraper.save_to_json(unique_records, './data/umdata_people.json')
 
         print(f"\n{'='*80}")
-        print(f"Total records scraped from all conferences: {len(all_records)}")
+        print(f"Total unique people scraped: {len(unique_records)}")
     else:
         print("\nNo records were scraped from any conference")
 
