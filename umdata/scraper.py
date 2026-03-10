@@ -369,33 +369,71 @@ class UMDataScraper:
         print(f"Data saved to {filename}")
 
 
-def main():
-    """Example usage"""
-    # The URL from the user
-    url = "https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf=3067919&historic=true"
-    
-    # Create scraper instance
-    scraper = UMDataScraper(url, delay=1.0)
-    
+def scrape_conference(conf_id: str, conf_name: str, delay: float = 1.0) -> List[Dict]:
+    """Scrape people from a single conference"""
+    url = f"https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf={conf_id}&historic=true"
+
+    print(f"\nScraping conference: {conf_name} (ID: {conf_id})")
+    print("=" * 80)
+
+    scraper = UMDataScraper(url, delay=delay)
+
     try:
-        # Scrape all data
         records = scraper.scrape()
-        
-        # Save to files
-        if records:
-            scraper.save_to_csv(records, '../data/umdata_people.csv')
-            scraper.save_to_json(records, '../data/umdata_people.json')
-            
-            # Print sample
-            print("\nSample of first record:")
-            print(json.dumps(records[0], indent=2))
-        else:
-            print("No records were scraped")
-            
+        return records
     except Exception as e:
-        print(f"Scraping failed: {e}")
+        print(f"Error scraping conference {conf_name}: {e}")
         import traceback
         traceback.print_exc()
+        return []
+
+
+def main():
+    """Scrape people from all conferences"""
+    conferences_file = './data/conferences.json'
+
+    try:
+        with open(conferences_file, 'r', encoding='utf-8') as f:
+            conferences = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: {conferences_file} not found.")
+        print("Please run stats.py first to create the conferences file.")
+        return
+
+    print(f"Found {len(conferences)} conferences to scrape")
+
+    all_records = []
+    delay = 1.0
+
+    for i, conf in enumerate(conferences, 1):
+        conf_id = str(conf.get('id', ''))
+        conf_name = conf.get('name', 'Unknown')
+
+        if not conf_id:
+            print(f"Skipping conference {conf_name} - no ID found")
+            continue
+
+        print(f"\n[{i}/{len(conferences)}]")
+        records = scrape_conference(conf_id, conf_name, delay)
+
+        if records:
+            all_records.extend(records)
+            print(f"  Added {len(records)} records (Total so far: {len(all_records)})")
+
+        # Be extra polite between conferences
+        if i < len(conferences):
+            time.sleep(delay * 2)
+
+    # Save combined results
+    if all_records:
+        scraper = UMDataScraper("", delay=delay)  # For save methods
+        scraper.save_to_csv(all_records, './data/umdata_people.csv')
+        scraper.save_to_json(all_records, './data/umdata_people.json')
+
+        print(f"\n{'='*80}")
+        print(f"Total records scraped from all conferences: {len(all_records)}")
+    else:
+        print("\nNo records were scraped from any conference")
 
 
 if __name__ == "__main__":
