@@ -27,11 +27,12 @@ class StatsScraper:
     
     def scrape_statistics_page(self, url: str = 'https://www.umdata.org/statistics') -> Dict:
         """
-        Scrape the statistics page for Jurisdictions, Annual Conferences, and Districts
-        
+        Scrape the statistics page for Jurisdictions, Annual Conferences, and Districts.
+        Extracts IDs from page dropdowns (which use the current site ID format).
+
         Args:
             url: URL to the statistics page
-            
+
         Returns:
             Dictionary containing all three sections
         """
@@ -39,41 +40,32 @@ class StatsScraper:
             response = self.session.get(url, timeout=30)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'lxml')
-            
-            # Get jurisdictions from the page
-            jurisdictions = self._extract_section(soup, 'Jurisdictions')
-            
-            # Extract jurisdiction IDs from the dropdown (different from URL IDs)
+
+            # Extract jurisdiction IDs from the dropdown
             jur_dropdown_ids = self._extract_jurisdiction_dropdown_ids(soup)
-            
-            # Get all conferences and districts by querying each jurisdiction
-            print("Fetching conferences and districts for each jurisdiction...")
-            all_conferences = []
+
+            # Build jurisdictions list from dropdown
+            jurisdictions = []
+            for name, jur_id in jur_dropdown_ids.items():
+                jurisdictions.append({
+                    'id': jur_id,
+                    'name': name,
+                    'url': f"{self.base_url}/statistics"
+                })
+
+            # Extract conferences from the confDistricts dropdown (has current IDs)
+            all_conferences = self._extract_conferences_from_dropdown(soup)
+
+            # Note: stats-districts-ajax?jur= is broken server-side.
+            # Districts are scraped per-conference in scrape_districts_from_conferences().
             all_districts = []
-            
-            for jur in jurisdictions:
-                jur_name = jur['name']
-                jur_id = jur_dropdown_ids.get(jur_name)
-                
-                if jur_id:
-                    print(f"  Processing {jur_name} (ID: {jur_id})...")
-                    
-                    # Get conferences for this jurisdiction
-                    conferences = self._get_conferences_for_jurisdiction(jur_id)
-                    all_conferences.extend(conferences)
-                    
-                    # Get districts for this jurisdiction
-                    districts = self._get_districts_for_jurisdiction(jur_id)
-                    all_districts.extend(districts)
-                else:
-                    print(f"  Warning: No dropdown ID found for {jur_name}")
-            
+
             return {
                 'jurisdictions': jurisdictions,
                 'annual_conferences': all_conferences,
                 'districts': all_districts
             }
-            
+
         except requests.exceptions.RequestException as e:
             print(f"Error fetching {url}: {e}")
             raise
@@ -90,6 +82,27 @@ class StatsScraper:
                     jur_ids[text] = value
         return jur_ids
     
+    def _extract_conferences_from_dropdown(self, soup: BeautifulSoup) -> List[Dict]:
+        """Extract conferences with current IDs from the confDistricts dropdown"""
+        conferences = []
+        select = soup.find('select', id='confDistricts')
+        if not select:
+            # Fallback to confChurches
+            select = soup.find('select', id='confChurches')
+        if select:
+            for option in select.find_all('option'):
+                value = option.get('value')
+                text = option.get_text(strip=True)
+                if value and text and value != '':
+                    # Strip abbreviation in parens, e.g. "Alabama-West Florida(AWF)" -> "Alabama-West Florida"
+                    name = re.sub(r'\([^)]*\)$', '', text).strip()
+                    conferences.append({
+                        'id': value,
+                        'name': name,
+                        'url': f"{self.base_url}/conference?conf={value}"
+                    })
+        return conferences
+
     def _extract_section(self, soup: BeautifulSoup, section_name: str) -> List[Dict]:
         """
         Extract names and URLs from a section
@@ -403,50 +416,51 @@ def main():
     args = parser.parse_args()
     year = args.year
     
+    import os
+    os.makedirs('./data', exist_ok=True)
+
     scraper = StatsScraper()
-    
+
     print(f"Scraping statistics page for year {year}...")
     data = scraper.scrape_statistics_page()
-    data = scraper.scrape_statistics_page()
-    
+
     print(f"\nResults:")
     print(f"  Jurisdictions: {len(data['jurisdictions'])}")
     print(f"  Annual Conferences: {len(data['annual_conferences'])}")
     print(f"  Districts: {len(data['districts'])}")
-    
+
     # Save all to one file
     scraper.save_to_json(data, './data/statistics_all.json')
-    
+
     # Save each section separately
     print("\nSaving individual files...")
-    import os
-    os.makedirs('./data', exist_ok=True)
     for section_key, section_data in data.items():
         filename = f"./data/{section_key}.json"
-    # Now scrape districts from conferences.json
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(section_data, f, indent=2, ensure_ascii=False)
+        print(f"  Saved {len(section_data)} records to {filename}")
+
+    # Also save conferences.json for use by scraper.py
+    conferences = data['annual_conferences']
+    with open('./data/conferences.json', 'w', encoding='utf-8') as f:
+        json.dump(conferences, f, indent=2, ensure_ascii=False)
+    print(f"  Saved {len(conferences)} conferences to ./data/conferences.json")
+
+    # Scrape districts with stats from each conference
     print("\n" + "="*80)
-    print(f"Scraping districts from conferences.json for year {year}...")
+    print(f"Scraping districts from conferences for year {year}...")
     print("="*80)
-    
-    conferences_file = './data/conferences.json'
-    try:
-        with open(conferences_file, 'r', encoding='utf-8') as f:
-            conferences = json.load(f)
-        
-        districts = scraper.scrape_districts_from_conferences(
-            conferences,
-            year=year
-            # output_file will default to ./data/districts_{year}.json
-        )
-        
-        if districts:
-            print("\nSample District (with statistics):")
-            print(json.dumps(districts[0], indent=2))
-        else:
-            print("\nNote: No districts were found.")
-    except FileNotFoundError:
-        print(f"\nWarning: {conferences_file} not found. Skipping district scraping.")
-        print("Run this script to create the file first.")
+
+    districts = scraper.scrape_districts_from_conferences(
+        conferences,
+        year=year
+    )
+
+    if districts:
+        print("\nSample District (with statistics):")
+        print(json.dumps(districts[0], indent=2))
+    else:
+        print("\nNote: No districts were found.")
 
 
 if __name__ == "__main__":

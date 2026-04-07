@@ -371,13 +371,14 @@ class UMDataScraper:
 
 
 def scrape_conference(conf_id: str, conf_name: str, delay: float = 1.0) -> List[Dict]:
-    """Scrape people from a single conference"""
-    url = f"https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf={conf_id}&historic=true"
-
+    """Scrape people from a single conference using the people-ajax endpoint"""
     print(f"\nScraping conference: {conf_name} (ID: {conf_id})")
     print("=" * 80)
 
-    scraper = UMDataScraper(url, delay=delay)
+    scraper = UMDataScraper(
+        f"https://www.umdata.org/people?confType=us&lastName=&firstName=&middleName=&gcfaId=&jur=all&conf={conf_id}&historic=true",
+        delay=delay
+    )
 
     try:
         records = scraper.scrape()
