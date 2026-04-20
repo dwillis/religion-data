@@ -12,3 +12,5 @@ wheels/
 # Scraped data
 umdata/data/*.csv
 umdata/data/*.json
+sermons/cheverly_baptist/*
+sermons/kettering_baptist/*
