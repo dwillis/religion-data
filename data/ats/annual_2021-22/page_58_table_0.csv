@@ -1,0 +1,49 @@
+Canada,col_1,col_2,col_3
+Faculty Rank Name,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Professor,,,
+1Number,57,9,6
+2Average Salary,"114,433","98,140","113,813"
+2Median Salary,"110,579","99,629","116,150"
+3Average Salary and Housing,"117,933","98,140","113,813"
+4Average Benefits,"5,884","14,662","9,750"
+5Average Pension,"6,691","3,483","12,552"
+6Total Compensation Average,"130,509","116,286","136,116"
+Total Compensation 25th Percentile,"101,740","92,979","140,902"
+Total Compensation Median,"133,079","113,980","141,284"
+Total Compensation 75th Percentile,"151,561","122,755","145,707"
+Associate Professor,,,
+1Number,70,11,4
+2Average Salary,"95,086","77,405","110,340"
+2Median Salary,"88,930","78,806","112,866"
+3Average Salary and Housing,"96,653","77,405","110,340"
+4Average Benefits,"3,187","11,332","9,121"
+5Average Pension,"7,028","4,484","8,109"
+6Total Compensation Average,"106,869","93,223","127,571"
+Total Compensation 25th Percentile,"87,115","92,782","115,044"
+Total Compensation Median,"97,263","95,154","123,876"
+Total Compensation 75th Percentile,"120,319","98,592","131,868"
+Assistant Professor,,,
+1Number,60,16,5
+2Average Salary,"80,887","60,051","89,293"
+2Median Salary,"76,470","65,898","85,745"
+3Average Salary and Housing,"82,597","60,051","89,293"
+4Average Benefits,"4,335","3,047","6,322"
+5Average Pension,"5,561","4,059","7,114"
+6Total Compensation Average,"92,494","67,158","102,729"
+Total Compensation 25th Percentile,"72,568","57,577","82,602"
+Total Compensation Median,"87,115","72,107","107,132"
+Total Compensation 75th Percentile,"107,001","83,859","111,231"
+Non-Ranked Faculty,,,
+1Number,1,4,8
+2Average Salary,0,"91,857","30,012"
+2Median Salary,0,"91,857","20,000"
+3Average Salary and Housing,0,"91,857","30,012"
+4Average Benefits,0,"5,531",658
+5Average Pension,0,"4,363",0
+6Total Compensation Average,0,"101,752","30,671"
+Total Compensation 25th Percentile,0,"96,985","12,000"
+Total Compensation Median,0,"101,099","20,000"
+Total Compensation 75th Percentile,0,"101,578","49,200"

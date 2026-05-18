@@ -1,0 +1,53 @@
+col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
+,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
+Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
+Abilene Christian University Graduate School of Theology,ACCRED,U,N,TX,CHUCHR,"3,397","3,397",4,12,14,155,162,74,"16,872",0
+Academy for Jewish Religion,ACCRED,I,W,NY,JEWISH,"1,308","1,308",0,4,14,14,52,21,"22,484","1,355"
+Acadia Divinity College,ACCRED,U,N,NS,"CANBAPT
+ATL","2,856","2,856",17,10,13,40,195,79,"8,749","1,572"
+Alliance Theological Seminary,ACCRED,C,H,NY,CMA,"5,686","6,056",1,8,19,134,535,246,"14,280",500
+Ambrose Seminary of Ambrose University,ACCRED,C,W,AB,CMA,"1,866","1,980",1,8,13,136,150,66,"12,000",810
+America Evangelical University Graduate School of Theology,CAND,C,V,CA,KEHC,"1,189","1,189",0,2,10,40,58,51,"6,000",200
+Anabaptist Mennonite Biblical Seminary,ACCRED,I,W,IN,MBUS,"4,226","4,506",19,9,10,115,86,46,"15,900",600
+Anderson University School of Theology,ACCRED,C,N,IN,COGAND,763,816,7,8,8,201,43,29,"12,220",320
+Antiochian House of Studies,ASSOC,I,W,CA,AntOrthNA,194,194,0,4,10,28,244,244,0,0
+Aquinas Institute of Theology,ACCRED,I,W,MO,RC,"2,570","2,570",0,10,13,5,120,72,"18,720",578
+Asbury Theological Seminary,ACCRED,I,W,KY,INTER,"32,545","36,983",161,43,69,629,"1,762","1,149","15,960",750
+Ashland Theological Seminary,ACCRED,U,W,OH,BRCHAO,"4,110","4,273",8,13,15,88,247,136,"17,010",0
+Assemblies of God Theological Seminary,ACCRED,U,W,MO,AOG,"2,901","2,901",1,5,12,129,265,196,"13,560",0
+Associated Canadian Theological Schools,ACCRED,C,W,BC,INTER,"3,967","3,967",0,12,17,214,342,184,"15,500",500
+Athenaeum of Ohio,ACCRED,I,W,OH,RC,"7,106","7,590",29,9,20,124,162,134,"21,250",590
+Atlantic School of Theology,ACCRED,I,N,NS,INTER,"3,174","3,256",6,9,11,92,97,46,"7,220",180
+Augustine Institute,ACCRED,I,N,CO,RC,"15,918","15,918",0,7,14,0,352,156,0,0
+Austin Presbyterian Theological Seminary,ACCRED,I,W,TX,PCUSA,"10,000","11,047",144,16,17,96,185,120,"14,400",145
+Azusa Pacific Seminary,ACCRED,U,H,CA,WESLCH,"4,554","4,554",1,12,12,86,256,173,"14,035",125
+B. H. Carroll Theological Institute,ACCRED,I,M,TX,BAPT,"2,014","2,014",0,26,26,31,188,123,"5,040",340
+Baptist Missionary Association Theological Seminary,ACCRED,I,W,TX,BAPTMA,"1,529","1,534",1,7,9,86,61,41,"6,600",300
+Baptist Seminary of Kentucky,ACCRED,I,M,KY,CBF,986,986,3,6,8,0,35,28,"5,625",0
+Barry University Department of Theology and Philosophy,ACCRED,U,H,FL,RC,"1,423","1,423",0,12,19,371,58,21,0,0
+Beeson Divinity School,ACCRED,U,W,AL,INTER,"4,085","4,085",59,17,19,274,143,119,"16,002",640
+Berkeley Divinity School,ACCRED,U,W,CT,EPISC,0,0,0,0,0,0,0,0,0,0
+Berkeley School of Theology (CA),ACCRED,I,M,CA,ABCUSA,"2,693","3,281",7,5,5,0,42,20,"16,800",420
+Bethany Theological Seminary,ACCRED,I,W,IN,CHBRETH,"3,450","3,450",50,8,10,362,73,45,"12,000",0
+Bethel Seminary,ACCRED,C,W,MN,BAPTCW,"7,254","7,255",14,9,30,147,442,228,"9,906",31
+"Bexley Hall Seabury-Western Theological Seminary Federation,
+Inc.",ACCRED,I,W,IL,EPISC,"2,882","2,882",22,7,12,0,71,31,"19,022","1,237"
+Boston College School of Theology and Ministry,ACCRED,U,W,MA,RC,"16,545","17,062",62,27,31,354,274,212,"28,704",106
+Boston University School of Theology,ACCRED,U,W,MA,UMC,"18,428","18,428",83,34,38,194,367,315,"21,888","1,252"
+Briercrest College and Seminary,ACCRED,C,W,SK,INTER,"1,671","1,746",0,6,10,99,122,88,"10,175",0
+Brite Divinity School,ACCRED,I,W,TX,DISCPL,"8,860","9,540",94,20,25,226,144,103,"27,000","2,220"
+Byzantine Catholic Seminary of SS. Cyril and Methodius,ACCRED,I,W,PA,BYZANTIN,787,899,0,4,8,25,46,18,"9,800","1,100"
+Calvin Theological Seminary,ACCRED,I,W,MI,CRC,"10,506","11,104",50,17,21,740,267,210,"16,972",0
+Campbell University Divinity School,ACCRED,U,W,NC,CBF,"1,990","1,990",34,8,10,218,130,95,"16,500",300
+Canadian Reformed Theological Seminary,ACCRED,I,W,ON,CANREF,"1,555","1,578",0,5,5,37,28,26,"2,300",0
+Canadian Southern Baptist Seminary,ACCRED,C,W,AB,CNBC,"2,007","2,229",4,5,6,42,33,19,"10,320",660
+Candler School of Theology,ACCRED,U,M,GA,UMC,"27,229","27,229",267,44,61,710,483,382,"23,400",0
+Carey Theological College,ACCRED,I,N,BC,BAPTWC,"2,386","3,261",0,1,1,0,85,10,"8,280",600
+Catholic Distance University Graduate School of Theology,ACCRED,U,W,WV,RC,"1,756","1,756",1,6,8,1,138,117,0,0
+Catholic Theological Union,ACCRED,I,W,IL,RC,"10,026","11,184",45,24,27,160,225,145,"25,380",0
+"Catholic University of America School of Theology and Religious
+Studies",ACCRED,U,W,DC,RC,"6,519","6,519",0,27,33,"1,072",256,215,"32,750","1,100"
+Central Baptist Theological Seminary,ACCRED,I,V,KS,ABCUSA,"4,266","4,266",1,17,41,85,380,317,"6,570",750
+Central Baptist Theological Seminary of Minneapolis,ACCRED,I,W,MN,INDBAP,"1,930","1,930",0,3,8,71,50,27,"8,400",550
+Chapman Seminary,ACCRED,U,W,IN,GENBAPT,565,586,0,4,4,78,8,4,"8,250",0
+Chicago Theological Seminary,ACCRED,I,W,IL,UCC,"7,248","7,353",24,10,13,61,283,171,"20,817",0

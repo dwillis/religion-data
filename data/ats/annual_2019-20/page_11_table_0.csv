@@ -1,0 +1,53 @@
+col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
+,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
+Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
+Robert E. Webber Institute for Worship Studies,CAND,I,W,FL,INTER,918,918,0,1,13,10,164,162,0,0
+Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,"5,687","5,687",0,13,18,160,138,87,"29,539",0
+Sacred Heart Seminary and School of Theology,ACCRED,I,V,WI,RC,"6,684","7,525",11,14,18,0,122,98,"19,670",975
+Saint John's Seminary (MA),ACCRED,C,W,MA,RC,"6,964","6,964",40,8,8,173,77,66,"13,590","6,825"
+Saint John's University School of Theology and Seminary,ACCRED,C,W,MN,RC,"3,641","3,848",23,1,2,434,100,66,"17,100",300
+Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,"2,950","2,971",1,10,12,81,91,60,"10,120",0
+Saint Meinrad School of Theology,ACCRED,I,W,IN,RC,"9,186","11,762",46,16,24,181,177,150,"27,714","3,100"
+Saint Paul School of Theology,ACCRED,I,W,KS,UMC,"4,028","4,028",33,7,13,8,96,62,"16,775","1,200"
+Saint Paul Seminary School of Divinity,ACCRED,U,W,MN,RC,"8,213","8,213",31,11,14,106,122,99,"23,856",68
+Saint Paul University Faculty of Theology,ACCRED,U,N,ON,RC,0,0,0,0,0,0,0,0,"5,279",885
+Saint Vincent Seminary,ACCRED,C,W,PA,RC,"2,506","2,846",13,5,13,99,46,44,"30,178",45
+Samuel DeWitt Proctor School of Theology,ACCRED,C,B,VA,BAPT,"2,170","2,170",0,14,18,131,293,247,"13,988","1,025"
+San Francisco Theological Seminary,ACCRED,I,W,CA,PCUSA,"8,900","11,304",32,10,12,0,97,47,"18,000",100
+Seattle Pacific Seminary,ACCRED,U,N,WA,FRMECH,819,819,0,15,16,311,55,27,"20,448",30
+The Seattle School of Theology and Psychology,ACCRED,I,W,WA,NONDEN,"6,963","6,983",0,8,12,21,261,237,"13,500","1,335"
+Seattle University School of Theology and Ministry,ACCRED,U,W,WA,INTER,"4,415","4,415",12,8,17,81,162,88,"11,538",855
+Seminary of the Southwest,ACCRED,I,W,TX,EPISC,"7,964","8,048",42,16,19,122,130,96,"16,200",515
+Seventh-day Adventist Theological Seminary,ACCRED,U,V,MI,SDADV,"12,419","13,345",0,44,61,320,"1,005",713,"9,257","1,104"
+Shaw University Divinity School,ACCRED,U,n/a,NC,GBAPTNC,"1,348","1,436",0,6,11,17,99,92,"10,404","2,784"
+Shepherds Theological Seminary,ACCRED,I,W,NC,NONDEN,"2,300","2,300",0,7,8,25,106,86,"8,040",450
+Sioux Falls Seminary,ACCRED,I,W,SD,NABAPC,"2,082","3,453",2,5,5,60,427,262,"3,600",0
+Southeastern Baptist Theological Seminary,ACCRED,I,W,NC,SBC,"27,749","33,402",36,45,59,239,"2,354","1,393","5,872",610
+Southeastern University School of Divinity,CAND,U,N,FL,AOG,923,991,0,8,10,95,298,155,"13,365",370
+Southern Baptist Theological Seminary,ACCRED,I,W,KY,SBC,"36,534","47,983",99,54,71,500,"3,343","1,775","9,504",684
+Southwestern Baptist Theological Seminary,ACCRED,I,N,TX,SBC,"35,225","43,411",150,50,67,"1,560","2,479","1,413","8,653",700
+SS. Cyril & Methodius Seminary,ACCRED,I,W,MI,RC,"1,016","1,180",2,2,9,81,28,21,"18,308","18,174"
+St. Andrew's College,ACCRED,I,W,SK,UCCAN,"1,922","1,922",4,5,5,37,24,10,"6,750",134
+St. Augustine's Seminary of Toronto,ACCRED,I,N,ON,RC,"6,018","6,623",14,13,20,48,143,73,"6,020","1,047"
+St. Bernard's School of Theology and Ministry,ACCRED,I,W,NY,RC,"1,199","1,199",5,4,7,78,68,40,"16,175",170
+St. Charles Borromeo Seminary,ACCRED,I,W,PA,RC,"4,830","5,139",9,21,25,120,120,88,"22,727","1,313"
+St. John Vianney Theological Seminary,ACCRED,I,W,CO,RC,"6,439","6,439",32,20,22,182,49,49,"23,097",0
+St. John's Seminary (CA),ACCRED,I,H,CA,RC,"8,184","8,320",95,22,28,79,104,103,"20,200",0
+St. Joseph's Seminary,ACCRED,I,W,NY,RC,"7,924","8,913",60,20,29,110,190,174,"16,800",0
+St. Mark's College,ACCRED,I,W,BC,RC,"1,904","1,904",3,1,3,32,32,16,0,0
+St. Mary's Seminary and University,ACCRED,I,W,MD,RC,"8,080","8,310",98,11,25,165,171,103,"21,660",575
+St. Patrick's Seminary and University,ACCRED,I,W,CA,RC,"6,146","6,146",38,4,4,180,50,50,"19,795",0
+St. Peter's Seminary,ACCRED,I,N,ON,RC,"3,911","4,243",21,11,15,71,46,34,"6,051","1,636"
+St. Stephen's College,ASSOC,I,W,AB,UCCAN,988,"1,024",0,0,10,0,128,60,0,0
+St. Thomas University School of Theology and Ministry,CAND,U,N,FL,RC,"1,608","1,645",2,5,5,0,46,44,"9,666",0
+St. Tikhon's Orthodox Theological Seminary,ACCRED,I,W,PA,OCA,"2,471","2,471",2,5,9,48,43,43,"3,780",400
+St. Vincent de Paul Regional Seminary,ACCRED,I,W,FL,RC,"5,995","6,851",26,18,22,74,131,127,"22,000","1,140"
+St. Vladimir's Orthodox Theological Seminary,ACCRED,I,W,NY,OCA,"4,809","5,876",13,6,13,200,85,69,"12,000",600
+Starr King School for the Ministry,ACCRED,I,W,CA,UUA,"3,384","3,384",7,8,17,0,86,74,"17,400",35
+Talbot School of Theology,ACCRED,U,W,CA,INTER,"25,507","28,532",0,62,71,327,"1,195",576,"16,669",0
+Taylor College and Seminary,ACCRED,I,W,AB,NABAPC,"1,887","2,028",11,3,5,57,72,32,"8,880",0
+Toronto School of Theology,ACCRED,I,n/a,ON,INTER,"1,678","1,683",3,1,1,0,0,0,0,0
+Trinity College Faculty of Divinity,ACCRED,C,N,ON,ANGL,"2,984","2,984",0,4,11,204,86,45,"6,020","2,547"
+Trinity Episcopal School for Ministry,ACCRED,I,W,PA,EPISC,"6,118","6,271",24,11,29,95,176,85,"16,350",600
+Trinity Evangelical Divinity School,ACCRED,U,W,IL,EFCA,"17,325","17,505",23,35,53,217,811,642,"14,400",125
+Trinity Lutheran Seminary at Capital University,ACCRED,U,W,OH,ELCA,"3,094","3,094",22,5,9,134,64,52,"16,800",220

@@ -1,0 +1,17 @@
+col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
+,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
+Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
+"Washington Baptist Theological Seminary of Washington Baptist
+University",CAND,C,M,VA,BAPT,"2,404","2,536",0,1,17,36,149,118,"1,620",350
+Washington Theological Union,ACCRED,I,W,DC,RC,"3,667","3,862",3,10,19,112,173,83,"15,840",290
+Waterloo Lutheran Seminary,ACCRED,I,N,ON,ELCC,"1,670","1,670",6,5,8,862,123,112,"6,882",558
+Wesley Biblical Seminary,ACCRED,I,W,MS,INTER,"2,305","2,388",0,9,12,53,101,56,"9,000",360
+Wesley Theological Seminary,ACCRED,I,N,DC,UMC,"13,133","13,977",46,23,39,175,671,380,"14,880",254
+Western Seminary,ACCRED,I,W,OR,CBAPTAA,"5,653","5,717",5,22,36,56,732,393,"13,350",0
+Western Theological Seminary,ACCRED,I,W,MI,RFCHAM,"8,315","9,223",38,14,18,121,249,171,"11,904",90
+Westminster Theological Seminary,ACCRED,I,W,PA,INTER,"9,932","10,845",7,19,29,147,630,412,"10,320",60
+Westminster Theological Seminary in California,ACCRED,I,W,CA,NONDEN,"4,537","4,537",5,11,12,79,141,126,"13,690",130
+Winebrenner Theological Seminary,ACCRED,I,W,OH,COGGC,"1,847","1,847",1,5,7,47,76,49,"12,780",345
+World Mission University,CAND,I,A,CA,INTER,"1,647","1,858",0,6,10,55,124,119,"6,400",0
+Wycliffe College,ACCRED,I,W,ON,ANGL,"3,457","3,659",17,6,12,0,261,160,"5,400","1,420"
+Yale University Divinity School,ACCRED,U,W,CT,INTER,"25,855","26,547",268,41,41,520,362,343,"20,800","2,022"

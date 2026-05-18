@@ -1,0 +1,53 @@
+Canada,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
+"Race/Ethnicity
+Faculty Rank",,2018,,,2019,,,2020,,,2021,,,2022,,
+,,M,F,O,M,F,O,M,F,O,M,F,O,M,F,O
+"Asian or Pacific
+Islander",Professor,2,1,0,2,1,0,1,1,0,1,2,0,0,2,0
+,Associate Professor,3,0,0,2,1,0,2,2,0,2,1,0,4,1,0
+,Assistant Professor,2,3,0,3,2,0,4,1,0,5,2,0,6,2,0
+,Others,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
+,Total,7,5,0,7,5,0,7,4,0,8,5,0,10,6,0
+Black Non-Hispanic,Professor,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+,Associate Professor,1,0,0,1,1,0,1,1,0,1,0,0,1,0,0
+,Assistant Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Others,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Total,1,0,0,1,1,0,1,1,0,1,1,0,1,1,0
+Hispanic,Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Associate Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Assistant Professor,0,0,0,1,0,0,1,0,0,1,0,0,2,0,0
+,Others,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Total,0,0,0,1,0,0,1,0,0,1,0,0,2,0,0
+"American Indian,
+Alaskan Native or
+Inuit",Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Associate Professor,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0
+,Assistant Professor,1,0,0,2,0,0,1,0,0,1,0,0,1,0,0
+,Others,0,1,0,2,1,0,1,1,0,2,2,0,1,2,0
+,Total,1,1,0,4,1,0,3,1,0,4,2,0,3,2,0
+"Visa or Nonresident
+Alien",Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Associate Professor,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+,Assistant Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Others,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Total,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+White Non-Hispanic,Professor,56,11,0,53,11,0,49,11,0,38,8,0,39,10,0
+,Associate Professor,38,17,0,36,14,0,34,12,0,33,12,0,29,10,0
+,Assistant Professor,13,12,0,10,11,0,10,13,0,22,16,0,16,19,0
+,Others,9,7,0,10,7,0,11,6,0,7,3,0,7,3,0
+,Total,116,47,0,109,43,0,104,42,0,100,39,0,91,42,0
+Multiracial,Professor,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0
+,Associate Professor,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0
+,Assistant Professor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Others,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+,Total,1,1,0,1,1,0,2,2,0,2,1,0,2,2,0
+Not Available,Professor,19,3,0,15,3,0,18,3,0,17,2,0,24,3,0
+,Associate Professor,21,11,0,21,13,0,17,11,0,21,11,0,26,15,0
+,Assistant Professor,21,10,0,21,7,0,20,7,0,19,8,0,17,4,0
+,Others,4,1,0,4,2,0,3,2,0,3,2,0,6,2,0
+,Total,65,25,0,61,25,0,58,23,0,60,23,0,73,24,0
+Total Faculty,Professor,77,15,0,70,15,0,69,15,0,57,13,0,64,16,0
+,Associate Professor,64,30,0,61,31,0,56,28,0,59,25,0,62,27,0
+,Assistant Professor,37,25,0,37,20,0,36,21,0,48,26,0,42,25,0
+,Others,13,10,0,16,11,0,15,10,0,12,7,0,14,9,0
+,Total,191,80,0,184,77,0,176,74,0,176,71,0,182,77,0

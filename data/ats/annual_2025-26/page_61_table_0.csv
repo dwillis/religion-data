@@ -1,0 +1,49 @@
+United States,col_1,col_2,col_3
+Faculty Rank Name,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Professor,,,
+1Number,167,337,516
+2Average Salary,"117,444","95,507","109,820"
+2Median Salary,"101,500","94,436","98,400"
+3Average Salary and Housing,"120,133","99,934","112,139"
+4Average Benefits,"14,977","13,476","16,069"
+5Average Pension,"6,909","6,475","8,760"
+6Total Compensation Average,"142,019","119,885","136,967"
+Total Compensation 25th Percentile,"102,000","94,467","108,562"
+Total Compensation Median,"123,101","116,112","127,352"
+Total Compensation 75th Percentile,"179,000","140,542","155,556"
+Associate Professor,,,
+1Number,106,208,341
+2Average Salary,"91,760","83,644","94,359"
+2Median Salary,"86,460","82,483","91,225"
+3Average Salary and Housing,"93,727","85,906","98,237"
+4Average Benefits,"14,636","14,920","15,422"
+5Average Pension,"5,220","6,223","7,806"
+6Total Compensation Average,"113,584","107,050","121,466"
+Total Compensation 25th Percentile,"91,031","91,467","97,749"
+Total Compensation Median,"109,475","106,471","114,688"
+Total Compensation 75th Percentile,"133,458","121,872","139,025"
+Assistant Professor,,,
+1Number,150,171,232
+2Average Salary,"73,949","73,222","74,143"
+2Median Salary,"72,982","72,361","72,450"
+3Average Salary and Housing,"77,201","75,204","76,041"
+4Average Benefits,"13,740","12,501","13,221"
+5Average Pension,"5,187","5,790","4,882"
+6Total Compensation Average,"96,128","93,496","94,144"
+Total Compensation 25th Percentile,"73,650","72,000","79,166"
+Total Compensation Median,"92,000","93,354","93,356"
+Total Compensation 75th Percentile,"113,970","110,409","107,017"
+Not Ranked,,,
+1Number,9,8,7
+2Average Salary,"110,469","63,663","86,509"
+2Median Salary,"75,000","50,000","76,968"
+3Average Salary and Housing,"110,469","69,250","86,509"
+4Average Benefits,"7,826","15,307","24,162"
+5Average Pension,"5,587","5,900","7,204"
+6Total Compensation Average,"123,881","90,458","117,875"
+Total Compensation 25th Percentile,"71,786","50,000","99,399"
+Total Compensation Median,"80,102","62,004","105,831"
+Total Compensation 75th Percentile,"209,900","129,712","136,199"

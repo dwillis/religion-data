@@ -12,5 +12,26 @@ wheels/
 # Scraped data
 umdata/data/*.csv
 umdata/data/*.json
-sermons/cheverly_baptist/*
-sermons/kettering_baptist/*
+
+sermonaudio.py/*
+
+# macOS
+.DS_Store
+
+# Audio/Video files
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.aac
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.webm
+*.m4v
+
+# Large CCES data files
+data/cces24/

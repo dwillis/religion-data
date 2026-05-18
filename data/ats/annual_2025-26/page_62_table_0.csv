@@ -1,0 +1,49 @@
+Canada,col_1,col_2,col_3
+Faculty Rank Name,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Professor,,,
+1Number,28,9,14
+2Average Salary,"134,062","95,771","153,987"
+2Median Salary,"128,179","103,543","142,042"
+3Average Salary and Housing,"138,451","95,771","153,987"
+4Average Benefits,"6,758","3,641","17,997"
+5Average Pension,"5,838","3,900","14,217"
+6Total Compensation Average,"151,047","103,312","186,202"
+Total Compensation 25th Percentile,"131,702","78,628","153,761"
+Total Compensation Median,"148,743","113,166","168,785"
+Total Compensation 75th Percentile,"164,782","116,234","214,024"
+Associate Professor,,,
+1Number,38,26,14
+2Average Salary,"101,488","83,130","129,200"
+2Median Salary,"98,000","92,626","116,243"
+3Average Salary and Housing,"106,088","83,130","129,200"
+4Average Benefits,"4,117","4,218","13,909"
+5Average Pension,"5,486","5,168","16,073"
+6Total Compensation Average,"115,691","92,516","159,183"
+Total Compensation 25th Percentile,"94,567","78,363","117,613"
+Total Compensation Median,"117,965","101,389","137,881"
+Total Compensation 75th Percentile,"132,903","106,289","202,135"
+Assistant Professor,,,
+1Number,26,11,11
+2Average Salary,"85,238","75,658","107,960"
+2Median Salary,"85,900","81,962","113,452"
+3Average Salary and Housing,"89,769","75,658","107,960"
+4Average Benefits,"4,801","1,912","10,131"
+5Average Pension,"6,071","4,410","15,122"
+6Total Compensation Average,"100,641","81,979","133,212"
+Total Compensation 25th Percentile,"94,567","67,174","117,479"
+Total Compensation Median,"101,643","88,479","138,306"
+Total Compensation 75th Percentile,"118,158","91,902","149,008"
+Not Ranked,,,
+1Number,-,-,1
+2Average Salary,-,-,-
+2Median Salary,-,-,-
+3Average Salary and Housing,-,-,-
+4Average Benefits,-,-,-
+5Average Pension,-,-,-
+6Total Compensation Average,-,-,-
+Total Compensation 25th Percentile,-,-,-
+Total Compensation Median,-,-,-
+Total Compensation 75th Percentile,-,-,-

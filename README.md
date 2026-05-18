@@ -1,6 +1,34 @@
 # Religion Data Scrapers
 
-A collection of Python web scrapers for extracting data from religious organization websites.
+A collection of scrapers, data files, and analysis scripts for religious organization data.
+
+## Repository Structure
+
+```
+data/
+  census/        # US Religion Census CSVs and spreadsheets
+  appointments/  # BWC clergy appointment data
+  cces24/        # Cooperative Congressional Election Study 2024 data
+  clergy/        # Clergy contribution and occupation data
+  mega/          # Megachurch data
+
+scrapers/
+  bulletins/     # Catholic bulletin scraper
+  bwc/           # Baltimore-Washington Conference appointment scrapers (R)
+  mega/          # Megachurch scraper
+
+analysis/
+  cces24/        # CCES analysis scripts (R)
+  make_transcripts_rds.R
+
+docs/            # Reference PDFs, codebooks, and notes
+raw_html/        # Archived HTML source files
+
+bulletins/       # Scraped church bulletin data (organized by congregation)
+sermons/         # Scraped sermon text (organized by congregation)
+sermonaudio.py/  # SermonAudio.com scraping tools
+umdata/          # United Methodist data scrapers (see below)
+```
 
 ## UMData Scrapers
 
@@ -106,6 +134,9 @@ Scrapes church details and Quick Facts statistics.
 from church_scraper import ChurchScraper
 
 scraper = ChurchScraper(delay=1.0)
+churches = scraper.scrape_from_work_history_json('./data/work_history.json')
+scraper.save_to_json(churches, './data/churches.json')
+```
 
 #### 4. Statistics Scraper (`stats.py`)
 
@@ -150,9 +181,7 @@ districts = scraper.scrape_districts_from_conferences(
 - `jurisdictions.json` - 5 jurisdictions with names and URLs
 - `annual_conferences.json` - 54 conferences with names and URLs
 - `districts_{year}.json` - Districts with full statistics (professing members, attendance, baptisms, etc.)
-data = scraper.scrape_statistics_page()
 
-# Save separate files (automatically saves to ../data/ directory)
 ### Example Workflows
 
 #### CLI Workflow (Recommended)
@@ -199,34 +228,6 @@ from stats import StatsScraper
 stats_scraper = StatsScraper()
 stats = stats_scraper.scrape_statistics_page()
 # Output automatically goes to ./data/ directory
-```
-```python
-# 1. Get all people in a conference
-from scraper import UMDataScraper
-people_scraper = UMDataScraper(
-    "https://www.umdata.org/people?confType=us&conf=3067919&historic=true",
-    delay=1.0
-)
-people = people_scraper.scrape()
-people_scraper.save_to_json(people, '../data/umdata_people.json')
-
-# 2. Get work history for all people
-from work_history_scraper import WorkHistoryScraper
-wh_scraper = WorkHistoryScraper(delay=1.0)
-work_history = wh_scraper.scrape_from_people_json('../data/umdata_people.json')
-wh_scraper.save_to_json(work_history, '../data/work_history.json')
-
-# 3. Get church details for all appointments
-from church_scraper import ChurchScraper
-church_scraper = ChurchScraper(delay=1.0)
-churches = church_scraper.scrape_from_work_history_json('../data/work_history.json')
-church_scraper.save_to_json(churches, '../data/churches.json')
-
-# 4. Get organizational structure
-from stats import StatsScraper
-stats_scraper = StatsScraper()
-stats = stats_scraper.scrape_statistics_page()
-# Output automatically goes to ../data/ directory
 ```
 
 ### Rate Limiting

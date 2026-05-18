@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Dean of Chapel/Chaplain,,,
+Number,10,4,5
+Average Salary,"65,755",-,"97,944"
+Median Salary,"57,222",-,"95,481"
+Average Salary and Housing,"70,436",-,"103,944"
+Average Benefits,"13,546",-,"8,812"
+Average Pension,"4,201",-,"8,880"
+Total Average,"88,183",-,"121,636"
+25th percentile,"61,892",-,"95,415"
+Median,"85,316",-,"126,441"
+75th percentile,"98,400",-,"130,949"
+Dean of Students,,,
+Number,30,19,22
+Average Salary,"72,473","88,588","93,569"
+Median Salary,"63,473","92,457","88,200"
+Average Salary and Housing,"77,052","91,537","96,660"
+Average Benefits,"11,399","10,465","12,224"
+Average Pension,"4,532","9,478","8,840"
+Total Average,"92,984","111,481","117,724"
+25th percentile,"54,843","86,637","91,651"
+Median,"84,421","116,486","110,226"
+75th percentile,"116,000","124,040","130,883"
+Director/Chair of Academic Degree Program,,,
+Number,15,7,26
+Average Salary,"88,713","62,989","72,913"
+Median Salary,"75,000","62,465","72,100"
+Average Salary and Housing,"92,940","62,989","75,705"
+Average Benefits,"9,374","12,885","12,164"
+Average Pension,"6,765","3,691","6,678"
+Total Average,"109,079","79,565","94,547"
+25th percentile,"69,378","59,160","70,316"
+Median,"80,000","68,250","91,482"
+75th percentile,"104,000","103,622","123,379"

@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Accounting Staff,,,
+Number,10,16,22
+Average Salary,"51,557","72,128","73,079"
+Median Salary,"54,120","66,188","68,000"
+Average Salary and Housing,"51,557","72,128","73,079"
+Average Benefits,"3,808","12,815","13,572"
+Average Pension,"2,245","7,236","6,667"
+Total Average,"57,609","92,179","93,318"
+25th percentile,"50,202","65,560","73,909"
+Median,"58,240","81,692","81,553"
+75th percentile,"76,258","104,196","112,598"
+Admissions Officer,,,
+Number,22,42,32
+Average Salary,"60,361","60,538","66,930"
+Median Salary,"50,923","55,167","62,593"
+Average Salary and Housing,"60,361","61,692","66,930"
+Average Benefits,"7,081","11,012","11,371"
+Average Pension,"3,565","5,190","6,618"
+Total Average,"71,007","77,895","84,919"
+25th percentile,"50,353","61,171","57,977"
+Median,"58,656","71,652","80,231"
+75th percentile,"81,554","87,185","112,152"
+Alum Officer,,,
+Number,3,8,6
+Average Salary,-,"87,235","72,769"
+Median Salary,-,"76,498","71,256"
+Average Salary and Housing,-,"94,521","72,769"
+Average Benefits,-,"12,037","9,119"
+Average Pension,-,"7,085","4,785"
+Total Average,-,"113,643","86,672"
+25th percentile,-,"78,654","80,622"
+Median,-,"102,000","85,857"
+75th percentile,-,"137,777","96,852"

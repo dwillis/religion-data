@@ -1,0 +1,37 @@
+col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
+Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
+Eastern Mennonite Seminary,ACCRED,C,W,VA,MBUS,"1,476",8,5,5,44,23,"14,435"
+Ecumenical Theological Seminary,ACCRED,I,B,MI,INTER,"1,255",0,2,2,65,32,"15,686"
+Eden Theological Seminary,ACCRED,I,W,MO,UCC,"4,842",22,6,9,93,56,"15,060"
+Emmanuel Christian Seminary,ACCRED,C,W,TN,CCHCHC,"2,733",13,8,11,93,65,"15,650"
+Emmanuel College,ACCRED,U,W,ON,UCCAN,"5,449",23,15,18,172,110,"8,163"
+Erskine Theological Seminary,ACCRED,C,W,SC,ARP,"1,960",7,2,6,104,45,560
+Evangelia University Graduate School of Theology,ACCRED,U,A,CA,KPCAK,775,0,11,15,153,118,"6,030"
+Evangelical Theological Seminary,n/a,I,n/a,n/a,n/a,-,-,-,-,-,-,-
+Franciscan School of Theology,ACCRED,I,N,CA,RC,"2,959",9,5,11,70,45,"22,552"
+Freed-Hardeman University Graduate School of Theology,ACCRED,U,W,TN,CHUCHR,842,1,4,4,66,43,"55,245"
+Fresno Pacific Biblical Seminary,ACCRED,U,W,CA,MBNA,"3,591",3,8,8,109,80,"8,910"
+Fuller Theological Seminary,ACCRED,I,W,CA,INTER,"57,601",147,28,75,"2,370","1,047","22,665"
+Garrett-Evangelical Theological Seminary,ACCRED,I,M,IL,UMC,"16,611",112,26,26,280,196,"23,005"
+Gateway Seminary,ACCRED,I,M,CA,SBC,"13,215",56,17,39,"1,679",806,"8,690"
+General Theological Seminary,ACCRED,I,W,NY,EPISC,"7,622",35,3,5,50,31,"15,400"
+George W. Truett Theological Seminary,ACCRED,U,W,TX,BAPBGCT,"9,535",115,19,40,346,265,"20,010"
+Georgia Central University School of Divinity,ACCRED,U,N,GA,NONDEN,"1,958",0,22,29,126,59,"8,360"
+GETS Theological Seminary,ASSOC,I,n/a,CA,INTER,"1,063",0,12,13,89,29,0
+Gordon-Conwell Theological Seminary,ACCRED,I,W,MA,INTER,"29,414",60,23,36,"1,334",606,"23,895"
+Grace Mission University Graduate School,ACCRED,U,A,CA,PCINT,"1,472",0,1,1,241,198,"3,920"
+Grace School of Theology,ACCRED,I,W,TX,INTER,"6,082",0,5,13,424,250,"5,120"
+Grace Theological Seminary,ACCRED,C,N,IN,FEGRACE,"1,321",1,5,13,223,175,"11,600"
+"Graduate School of Theology and Ministry in Puerto Rico, St. Albert the Great",ACCRED,U,H,PR,RC,161,0,1,4,25,19,"6,362"
+Graduate Theological Union,ACCRED,I,W,CA,INTER,"11,764",53,11,14,172,145,0
+Grand Canyon Theological Seminary,ACCRED,U,B,AZ,INTER,"2,956",0,11,41,474,474,"11,084"
+Grand Rapids Theological Seminary,ACCRED,C,W,MI,INTER,"2,630",5,6,6,173,83,"14,935"
+Harding School of Theology,ACCRED,C,W,TN,CHUCHR,"2,103",18,3,5,110,43,"18,000"
+Hartford International University for Religion and Peace,ACCRED,I,W,CT,INTER,"6,833",61,5,13,100,78,"16,156"
+Harvard University Divinity School,ACCRED,U,W,MA,INTER,"41,990",793,34,46,333,333,"31,196"
+Hazelip School of Theology,ACCRED,U,W,TN,CHUCHR,996,0,9,10,80,39,"12,960"
+Henry Appenzeller University,ASSOC,I,A,CA,KMCA,276,0,0,4,23,11,"7,500"
+Heritage Christian University Graduate School of Theology,ASSOC,U,n/a,AL,CHUCHR,806,0,3,5,62,37,"5,351"
+Heritage Theological Seminary,ACCRED,C,W,ON,FEVBAPT,"1,597",1,4,5,198,64,"11,400"
+HMS Richards Divinity School Division of Graduate Studies,ACCRED,U,W,CA,SDADV,634,0,8,8,31,8,"11,262"
+Holy Apostles College and Seminary,ACCRED,C,N,CT,RC,"5,009",8,6,36,409,273,"31,600"

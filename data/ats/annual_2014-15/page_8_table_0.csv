@@ -1,0 +1,53 @@
+col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
+,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
+Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
+China Evangelical Seminary North America,CAND,I,V,CA,NONDEN,"1,524","1,524",0,6,9,16,60,43,"7,200",800
+Christ The King Seminary,ACCRED,I,W,NY,RC,"3,136","3,708",5,10,13,185,94,40,"22,750",740
+Christian Theological Seminary,ACCRED,I,W,IN,DISCPL,"18,335","18,894",126,10,12,216,159,143,"12,831",200
+Christian Witness Theological Seminary,CAND,I,A,CA,INTER,"1,102","1,102",0,6,9,30,78,35,"7,040",650
+Church Divinity School of the Pacific,ACCRED,I,W,CA,EPISC,"4,646","5,066",20,5,10,0,64,47,"16,800",0
+Cincinnati Bible Seminary,ACCRED,I,W,OH,CCHCHC,"3,014","3,151",0,7,13,138,206,141,"10,600",500
+Claremont School of Theology,ACCRED,I,W,CA,UMC,"13,524","13,524",28,21,34,215,272,246,"16,440",880
+Colgate Rochester Crozer Divinity School,ACCRED,I,W,NY,ABCUSA,"3,686","4,060",23,8,10,19,78,63,"10,560",205
+"Columbia International University - Seminary & School of
+Ministry",ACCRED,C,W,SC,INTER,"4,875","5,283",5,21,27,62,343,238,"9,600",280
+Columbia Theological Seminary,ACCRED,I,W,GA,PCUSA,"13,279","14,426",213,22,25,184,333,222,"12,600",200
+Concordia Lutheran Seminary (AB),ACCRED,I,W,AB,LUTHCA,923,939,4,2,3,22,14,12,"6,500",170
+Concordia Lutheran Theological Seminary (ON),ACCRED,I,W,ON,LUTHCA,687,694,3,4,5,34,13,12,"9,900",63
+Concordia Seminary (MO),ACCRED,I,W,MO,LUTHMS,"25,515","25,876",89,26,33,280,603,429,"26,325",105
+Concordia Theological Seminary (IN),ACCRED,I,W,IN,LUTHMS,"12,615","14,227",29,24,25,180,322,238,"26,730",546
+Covenant Theological Seminary,ACCRED,I,W,MO,PCA,"10,397","11,028",26,19,23,94,521,342,"14,880",300
+Dallas Theological Seminary,ACCRED,I,W,TX,INTER,"33,859","36,644",85,57,91,250,"2,084","1,079","14,250",420
+Denver Seminary,ACCRED,I,W,CO,INTER,"11,478","12,177",14,27,43,169,944,463,"16,200",20
+Dominican House of Studies,ACCRED,I,W,DC,RC,"4,030","4,030",6,18,21,79,87,85,"15,120",125
+Dominican School of Philosophy and Theology,ACCRED,I,W,CA,RC,"2,775","2,820",1,12,15,0,79,58,"16,200",100
+Dominican Study Center of the Caribbean,ACCRED,U,H,PR,RC,273,273,0,1,2,29,63,41,"4,440",360
+Drew University Theological School,ACCRED,U,M,NJ,UMC,"15,969","16,561",60,23,33,109,389,267,"18,200","24,782"
+Duke University Divinity School,ACCRED,U,W,NC,UMC,"17,106","17,106",166,47,51,405,639,588,"20,680",0
+Earlham School of Religion,ACCRED,C,W,IN,FRNDS,"2,290","2,327",44,8,9,382,57,38,"11,502",400
+Eastern Mennonite Seminary,ACCRED,C,W,VA,MBUS,"2,218","2,218",5,4,9,85,117,65,"14,100",165
+Ecumenical Theological Seminary,ACCRED,I,W,MI,INTER,"1,346","1,560",0,2,9,41,80,28,"14,559",380
+Eden Theological Seminary,ACCRED,I,W,MO,UCC,"6,017","6,053",22,9,10,91,144,92,"12,500","3,515"
+Emmanuel Christian Seminary,ACCRED,I,W,TN,CCHCHC,"2,938","3,292",4,7,10,141,107,64,"13,560",900
+Emmanuel College of Victoria University,ACCRED,C,W,ON,UCCAN,"4,291","4,291",19,13,17,77,147,98,"5,970","1,593"
+Episcopal Divinity School,ACCRED,I,W,MA,EPISC,"7,325","7,498",70,6,6,71,60,46,"15,210",400
+Erskine Theological Seminary,ACCRED,C,W,SC,ARP,"2,517","2,536",6,12,13,191,131,53,"13,400",225
+Evangelical Seminary of Puerto Rico,ACCRED,I,H,PR,INTER,"1,162","1,162",1,5,7,79,230,94,"4,905",0
+Evangelical Theological Seminary,ACCRED,I,W,PA,EVCONG,"2,309","2,309",3,4,6,90,124,77,"12,210",170
+Franciscan School of Theology,ACCRED,I,N,CA,RC,"2,636","2,653",10,4,8,14,46,31,"17,280",80
+Freed-Hardeman University Graduate School of Theology,CAND,U,W,TN,CHUCHR,766,840,1,4,6,145,69,40,"15,950",0
+Fresno Pacific Biblical Seminary,ACCRED,I,W,CA,MBNA,"2,414","2,424",2,8,13,156,143,135,"7,380",0
+Fuller Theological Seminary,ACCRED,I,W,CA,INTER,"55,493","64,623",212,83,185,715,"3,258","1,483","17,760",132
+Garrett-Evangelical Theological Seminary,ACCRED,I,W,IL,UMC,"13,879","16,155",101,27,33,519,365,256,"18,480",660
+General Theological Seminary,ACCRED,I,W,NY,EPISC,"6,576","8,801",30,10,17,177,68,61,"15,000",400
+George Fox Evangelical Seminary,ACCRED,C,W,OR,INTER,"1,957","1,957",2,10,12,43,324,75,"13,216",455
+George W. Truett Theological Seminary of Baylor University,ACCRED,U,W,TX,BAPBGCT,"9,090","9,090",55,17,28,"1,813",343,267,"14,724","1,756"
+Georgia Christian University School of Divinity,CAND,U,N,GA,NA,624,624,1,11,18,28,73,50,"6,847",300
+Golden Gate Baptist Theological Seminary,ACCRED,I,W,CA,SBC,"10,870","12,168",65,27,52,187,"1,390",737,"6,075",400
+Gordon-Conwell Theological Seminary,ACCRED,I,W,MA,INTER,"29,499","32,088",58,40,56,375,"2,067","1,086","18,300",575
+Grace Mission University Graduate School,ASSOC,U,A,CA,PCINT,911,911,0,3,8,26,117,60,"3,780",320
+Grace School of Theology,ASSOC,I,n/a,TX,INTER,"3,182","3,182",2,0,0,24,111,67,"3,240",362
+Grace Theological Seminary,ACCRED,C,N,IN,FEGRACE,"1,290","1,311",0,6,9,153,134,103,"14,010",0
+Graduate Theological Union,ACCRED,I,W,CA,INTER,"9,532","9,532",34,6,8,516,245,233,0,0
+Grand Rapids Theological Seminary of Cornerstone University,ACCRED,C,W,MI,INTER,"2,530","2,626",2,9,15,110,255,153,"12,150",580
+Harding School of Theology,ACCRED,C,W,TN,CHUCHR,"2,633","2,706",10,9,11,141,120,49,"18,816",0

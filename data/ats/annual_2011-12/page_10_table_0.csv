@@ -1,0 +1,53 @@
+col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
+,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
+Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
+New Orleans Baptist Theological Seminary,ACCRED,I,W,LA,SBC,"18,505","23,775",57,62,64,283,"1,587","1,465","4,110",247
+New York Theological Seminary,ACCRED,I,M,NY,INTER,"5,112","5,542",0,8,8,0,390,207,"11,160",400
+Newman Theological College,ACCRED,I,W,AB,RC,"2,359","2,618",12,4,10,75,179,78,"6,272",230
+North Park Theological Seminary,ACCRED,C,W,IL,EVCOV,"5,063","5,068",0,14,15,249,215,135,0,0
+Northeastern Seminary at Roberts Wesleyan College,ACCRED,C,N,NY,NONDEN,"1,509","1,509",2,6,7,141,137,105,"9,660",812
+Northern Baptist Theological Seminary,ACCRED,I,W,IL,ABCUSA,"2,993","3,815",18,4,17,56,150,79,"16,380",345
+Northwest Nazarene University School of Theology,ASSOC,U,W,ID,CHNAZ,889,889,0,6,11,133,126,106,"8,551",204
+Notre Dame Seminary,ACCRED,I,W,LA,RC,"3,600","4,036",5,8,11,95,137,137,"17,500",500
+Oblate School of Theology,ACCRED,I,W,TX,RC,"4,075","5,916",19,12,16,109,135,92,"12,740",480
+Oral Roberts University College of Theology and Ministry,ACCRED,U,N,OK,INTER,"3,775","3,775",0,18,23,86,338,211,"14,160",420
+Pacific Lutheran Theological Seminary,ACCRED,I,W,CA,ELCA,"3,707","3,873",10,9,9,0,118,109,"12,180",30
+Pacific School of Religion,ACCRED,I,W,CA,INTER,"7,637","8,978",39,12,21,0,192,157,"17,280",190
+Palmer Theological Seminary,ACCRED,I,B,PA,ABCUSA,"5,070","5,242",10,13,21,134,365,247,"14,520",0
+Payne Theological Seminary,ACCRED,I,B,OH,AME,"1,999","1,999",0,4,18,37,143,112,"10,500",150
+Pentecostal Theological Seminary,ACCRED,I,W,TN,COGCLEV,"3,896","3,927",14,12,19,34,171,101,"12,427",208
+Perkins School of Theology,ACCRED,U,W,TX,UMC,"16,766","16,766",184,28,33,372,423,318,"12,793","3,674"
+Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,"4,782","4,782",39,10,13,103,145,88,"12,429",430
+Phoenix Seminary,ACCRED,I,W,AZ,INTER,"4,089","4,919",2,7,9,49,208,99,"13,473",180
+Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,"9,849","11,490",172,18,26,297,307,222,"10,620",168
+Pontifical College Josephinum,ACCRED,C,N,OH,RC,"6,063","6,644",25,11,12,148,82,82,"21,573",599
+Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,"50,616","58,124",929,40,49,680,539,526,"11,000","1,000"
+Providence Theological Seminary,ACCRED,C,W,MB,INTER,"1,716","2,289",0,9,11,78,187,74,"10,020",833
+Puritan Reformed Seminary,ASSOC,I,V,MI,HERREF,"1,487","1,487",1,2,7,65,73,60,"6,033",0
+Queen's College Faculty of Theology,ASSOC,I,W,NL,ANGL,380,380,3,2,3,"1,906",49,22,"4,720",0
+Queen's School of Religion,ACCRED,I,W,ON,UCCAN,"2,540","3,003",7,11,12,"2,590",199,50,"5,375",320
+Redeemer Theological Seminary,CAND,I,N,TX,INTER,"2,353","2,353",0,11,13,18,128,93,"11,655",60
+Reformed Episcopal Seminary,CAND,I,M,PA,RFEPISC,686,771,0,5,7,26,10,8,"5,940",75
+Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,"1,589","1,596",2,3,9,75,94,51,"9,900",0
+Reformed Theological Seminary,ACCRED,I,W,MS,INTER,"17,780","18,365",56,31,47,299,"1,135",593,"14,310",160
+Regent College,ACCRED,I,W,BC,INTER,"8,923","9,902",14,14,20,140,480,253,"16,066",828
+Regent University School of Divinity,ACCRED,U,N,VA,NONDEN,"5,777","5,935",0,18,22,154,861,485,"12,360",830
+Regis College,ACCRED,I,W,ON,RC,"2,780","2,780",6,12,15,81,187,94,"5,400","1,342"
+Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,"4,375","4,375",0,22,33,147,160,98,"23,069",100
+Sacred Heart School of Theology,ACCRED,I,V,WI,RC,"5,699","6,783",9,10,14,106,143,132,"14,550",0
+Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,"2,281","2,281",1,11,16,78,109,71,"9,825",450
+Saint Meinrad School of Theology,ACCRED,C,W,IN,RC,"5,654","7,550",37,22,24,176,255,183,"18,596","1,946"
+Saint Paul School of Theology,ACCRED,I,W,MO,UMC,"8,393","9,145",33,17,21,118,184,112,"15,450","1,200"
+Saint Paul Seminary School of Divinity,ACCRED,U,W,MN,RC,"5,594","5,805",19,12,16,108,139,111,"17,745",54
+Saint Vincent Seminary,ACCRED,C,W,PA,RC,"2,272","2,626",9,7,11,108,53,50,"21,736",0
+Samuel DeWitt Proctor School of Theology,ACCRED,C,B,VA,BAPT,"2,082","2,082",0,15,21,120,378,349,"10,000",650
+San Francisco Theological Seminary,ACCRED,I,W,CA,PCUSA,"7,136","8,933",50,11,11,0,292,151,"10,600",200
+Seabury-Western Theological Seminary,ACCRED,I,W,IL,EPISC,"2,375","2,375",12,2,4,511,37,13,0,0
+The Seattle School of Theology and Psychology,CAND,I,W,WA,NONDEN,"4,083","4,464",0,9,12,18,272,247,"13,200","1,200"
+Seattle University School of Theology and Ministry,ACCRED,U,W,WA,RC,"4,753","4,753",7,13,21,77,194,129,"10,458",150
+Seminary of the Immaculate Conception,ACCRED,I,W,NY,RC,"4,224","4,226",0,6,11,63,111,71,"12,000",300
+Seminary of the Southwest,ACCRED,I,W,TX,EPISC,"6,094","6,261",23,10,20,119,135,105,"13,152",75
+Seventh-day Adventist Theological Seminary,ACCRED,U,W,MI,SDADV,"10,271","11,502",0,36,44,209,954,563,"6,724",724
+Shaw University Divinity School,ACCRED,U,B,NC,GBAPTNC,"1,581","1,581",0,8,14,17,133,124,"9,252","1,986"
+Shepherd University School of Theology,CAND,U,A,CA,INTER,694,694,0,3,6,45,62,44,"6,400",80
+Sioux Falls Seminary,ACCRED,I,W,SD,NABAPC,"2,807","3,519",2,9,14,61,149,82,"15,470",35

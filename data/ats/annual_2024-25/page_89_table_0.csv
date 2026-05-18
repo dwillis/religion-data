@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Executive Vice President,,,
+Number,8,11,11
+Average Salary,"129,149","111,435","158,367"
+Median Salary,"133,906","114,435","151,478"
+Average Salary and Housing,"131,307","131,484","158,367"
+Average Benefits,"14,616","1,330","23,554"
+Average Pension,"9,572",618,"16,052"
+Total Average,"155,496","133,432","197,973"
+25th percentile,"51,334","124,848","130,225"
+Median,"175,941","125,483","202,501"
+75th percentile,"216,196","137,210","240,694"
+VP-Administration,,,
+Number,10,21,15
+Average Salary,"108,680","96,453","128,703"
+Median Salary,"90,000","94,732","125,000"
+Average Salary and Housing,"113,138","102,652","128,703"
+Average Benefits,"15,612","13,835","16,234"
+Average Pension,"10,001","6,727","13,022"
+Total Average,"138,751","123,214","157,959"
+25th percentile,"85,935","87,668","113,698"
+Median,"116,710","115,715","159,416"
+75th percentile,"147,336","141,903","187,496"
+VP/Director-HR,,,
+Number,4,6,17
+Average Salary,-,"105,827","106,331"
+Median Salary,-,"91,740","90,000"
+Average Salary and Housing,-,"105,827","108,096"
+Average Benefits,-,"11,983","12,657"
+Average Pension,-,"9,232","8,712"
+Total Average,-,"127,042","129,464"
+25th percentile,-,"91,740","93,107"
+Median,-,"95,121","110,984"
+75th percentile,-,"191,821","150,226"

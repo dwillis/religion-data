@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Data Specialist,,,
+Number,2,1,5
+Average Salary,-,-,"75,846"
+Median Salary,-,-,"72,800"
+Average Salary and Housing,-,-,"75,846"
+Average Benefits,-,-,"10,240"
+Average Pension,-,-,"3,551"
+Total Average,-,-,"89,638"
+25th percentile,-,-,"43,146"
+Median,-,-,"95,547"
+75th percentile,-,-,"103,789"
+Development Professional Staff,,,
+Number,26,44,68
+Average Salary,"74,170","74,474","83,506"
+Median Salary,"65,000","70,680","75,996"
+Average Salary and Housing,"74,170","74,474","83,600"
+Average Benefits,"11,082","15,490","11,350"
+Average Pension,"5,301","6,398","6,873"
+Total Average,"90,553","96,362","101,824"
+25th percentile,"61,846","80,000","73,500"
+Median,"88,679","92,471","100,136"
+75th percentile,"109,500","111,771","126,816"
+Educational Technology Staff,,,
+Number,1,5,4
+Average Salary,-,"56,540",-
+Median Salary,-,"56,825",-
+Average Salary and Housing,-,"56,540",-
+Average Benefits,-,"9,837",-
+Average Pension,-,"4,124",-
+Total Average,-,"70,501",-
+25th percentile,-,"42,000",-
+Median,-,"64,980",-
+75th percentile,-,"86,128",-

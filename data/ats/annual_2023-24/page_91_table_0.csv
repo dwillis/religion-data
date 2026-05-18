@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Business Office Manager,,,
+Number,8,11,13
+Average Salary,"48,372","66,241","79,326"
+Median Salary,"42,106","68,000","73,013"
+Average Salary and Housing,"49,722","66,241","79,326"
+Average Benefits,"7,966","7,615","7,211"
+Average Pension,"1,836","3,146","4,931"
+Total Average,"59,524","77,002","91,468"
+25th percentile,"32,999","66,044","67,665"
+Median,"52,848","72,818","81,151"
+75th percentile,"81,641","79,076","98,090"
+Director of Communications,,,
+Number,8,10,9
+Average Salary,"81,203","90,434","75,926"
+Median Salary,"75,480","91,264","72,573"
+Average Salary and Housing,"81,203","94,034","75,926"
+Average Benefits,"9,734","13,769","7,776"
+Average Pension,"3,420","10,772","3,774"
+Total Average,"94,356","118,575","87,476"
+25th percentile,"49,482","101,303","61,493"
+Median,"85,554","109,322","97,911"
+75th percentile,"112,754","139,507","106,683"
+Director of Doctor of Ministry,,,
+Number,-,12,8
+Average Salary,-,"70,937","75,821"
+Median Salary,-,"68,792","75,000"
+Average Salary and Housing,-,"70,937","75,821"
+Average Benefits,-,"12,965","8,634"
+Average Pension,-,"5,678","2,796"
+Total Average,-,"89,580","87,251"
+25th percentile,-,"69,481","75,168"
+Median,-,"88,742","84,692"
+75th percentile,-,"107,200","97,004"

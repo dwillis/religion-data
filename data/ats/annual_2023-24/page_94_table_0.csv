@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+Director of Housing/Student Life,,,
+Number,3,1,9
+Average Salary,-,-,"74,411"
+Median Salary,-,-,"79,471"
+Average Salary and Housing,-,-,"74,411"
+Average Benefits,-,-,"13,519"
+Average Pension,-,-,"4,875"
+Total Average,-,-,"92,805"
+25th percentile,-,-,"63,015"
+Median,-,-,"95,694"
+75th percentile,-,-,"113,539"
+Director of IT,,,
+Number,18,30,30
+Average Salary,"87,079","83,130","101,967"
+Median Salary,"86,729","77,002","96,429"
+Average Salary and Housing,"87,079","83,130","101,967"
+Average Benefits,"11,509","14,015","16,051"
+Average Pension,"6,424","7,642","9,290"
+Total Average,"105,012","104,787","127,308"
+25th percentile,"79,768","84,710","109,895"
+Median,"95,201","99,960","118,408"
+75th percentile,"121,412","125,719","154,427"
+Director of Library,,,
+Number,35,41,29
+Average Salary,"75,288","72,602","81,287"
+Median Salary,"72,270","69,367","76,000"
+Average Salary and Housing,"75,704","74,259","81,287"
+Average Benefits,"9,243","12,361","10,910"
+Average Pension,"4,259","7,223","6,310"
+Total Average,"89,206","93,842","98,507"
+25th percentile,"67,967","71,861","78,715"
+Median,"82,590","90,159","97,632"
+75th percentile,"100,277","111,332","113,965"

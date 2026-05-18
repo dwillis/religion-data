@@ -1,0 +1,38 @@
+All Member Schools,col_1,col_2,col_3
+Position,"Master's Degrees
+(MDiv, MA, ThM/STM)","Doctoral Degreees
+(DMin and Other Prof Dr)","Doctoral Degrees
+(PhD/ThD)"
+IT Help Desk Support,,,
+Number,5,2,9
+Average Salary,"47,906",-,"58,218"
+Median Salary,"36,548",-,"59,085"
+Average Salary and Housing,"47,906",-,"58,218"
+Average Benefits,"8,545",-,"8,101"
+Average Pension,"2,180",-,"5,456"
+Total Average,"58,631",-,"71,774"
+25th percentile,"32,190",-,"51,475"
+Median,"42,792",-,"72,861"
+75th percentile,"74,662",-,"79,584"
+Library Staff,,,
+Number,22,69,55
+Average Salary,"65,871","61,791","67,127"
+Median Salary,"63,562","61,735","66,560"
+Average Salary and Housing,"65,871","61,791","67,127"
+Average Benefits,"10,095","11,947","12,379"
+Average Pension,"4,035","5,976","6,497"
+Total Average,"80,001","79,713","86,004"
+25th percentile,"48,514","64,787","65,814"
+Median,"71,084","82,280","82,411"
+75th percentile,"102,186","92,750","96,337"
+Network Administrator,,,
+Number,1,6,7
+Average Salary,-,"74,195","65,546"
+Median Salary,-,"75,000","72,750"
+Average Salary and Housing,-,"74,195","65,546"
+Average Benefits,-,"8,898","22,171"
+Average Pension,-,"4,792","5,994"
+Total Average,-,"87,884","93,712"
+25th percentile,-,"72,128","64,602"
+Median,-,"87,550","109,179"
+75th percentile,-,"102,241","109,218"
