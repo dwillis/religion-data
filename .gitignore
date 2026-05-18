@@ -35,3 +35,12 @@ sermonaudio.py/*
 
 # Large CCES data files
 data/cces24/
+
+# Bulletin PDFs
+bulletins/**/*.pdf
+
+# Sermons database
+sermons/*.db
+
+# Large clergy data
+data/clergy/*.csv
