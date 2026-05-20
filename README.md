@@ -13,6 +13,7 @@ data/
   mega/          # Megachurch data
 
 scrapers/
+  ats/           # ATS Annual Data Tables PDF scraper
   bulletins/     # Catholic bulletin scraper
   bwc/           # Baltimore-Washington Conference appointment scrapers (R)
   mega/          # Megachurch scraper
@@ -29,6 +30,40 @@ sermons/         # Scraped sermon text (organized by congregation)
 sermonaudio.py/  # SermonAudio.com scraping tools
 umdata/          # United Methodist data scrapers (see below)
 ```
+
+## ATS Annual Data Tables Scraper
+
+Extracts tables from [ATS (Association of Theological Schools) Annual Data Tables](https://www.ats.edu/Annual-Data-Tables) PDFs and writes one CSV per table into a per-PDF subdirectory under `data/ats/`.
+
+### Usage
+
+```bash
+# Scrape all annual data table PDFs from 2010 onwards (default)
+uv run python scrapers/ats/scraper.py
+
+# Scrape only fact books
+uv run python scrapers/ats/scraper.py --section factbook
+
+# Scrape everything, override minimum year
+uv run python scrapers/ats/scraper.py --section all --min-year 2015
+
+# Re-process PDFs even if output already exists
+uv run python scrapers/ats/scraper.py --no-skip
+```
+
+### Output Structure
+
+```
+data/ats/
+  annual_2024-25/
+    page_4_table_0.csv
+    page_4_table_1.csv
+    ...
+  annual_2023-24/
+    ...
+```
+
+Each CSV uses the first extracted row as a header. Numeric values have thousands-separator commas removed (e.g. `1012` not `1,012`). Chart pseudo-tables and image-only pages are automatically filtered out.
 
 ## UMData Scrapers
 

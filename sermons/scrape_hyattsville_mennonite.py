@@ -1,6 +1,6 @@
 import argparse
+import os
 import re
-import sqlite3
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -8,7 +8,7 @@ from datetime import datetime
 
 BASE_URL = "https://hyattsvillemennonite.org"
 LIST_URL = f"{BASE_URL}/worship/sermons/"
-DB_PATH = "sermons.db"
+OUTPUT_DIR = "hyattsville_mennonite_text"
 CHURCH = "Hyattsville Mennonite"
 
 
@@ -112,35 +112,23 @@ def get_sermon_urls(list_url, max_pages=None):
             time.sleep(0.5)
 
 
-def init_db(conn):
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS sermons (
-            id        INTEGER PRIMARY KEY AUTOINCREMENT,
-            church    TEXT,
-            title     TEXT,
-            date      DATE,
-            scripture TEXT,
-            speaker   TEXT,
-            full_text TEXT,
-            url       TEXT UNIQUE
-        )
-    """)
-    conn.commit()
+def make_filename(data):
+    date = data.get("date", "unknown")
+    title = data.get("title", "untitled")
+    slug = re.sub(r'[^\w\s-]', '', title).strip()
+    slug = re.sub(r'[\s]+', '_', slug)
+    return f"{date}_{slug}.txt"
 
 
-def already_scraped(conn, url):
-    row = conn.execute("SELECT 1 FROM sermons WHERE url = ?", (url,)).fetchone()
-    return row is not None
+def already_saved(filename):
+    return os.path.exists(os.path.join(OUTPUT_DIR, filename))
 
 
-def save_sermon(conn, data):
-    conn.execute(
-        """INSERT OR IGNORE INTO sermons
-           (church, title, date, scripture, speaker, full_text, url)
-           VALUES (:church, :title, :date, :scripture, :speaker, :full_text, :url)""",
-        data,
-    )
-    conn.commit()
+def save_sermon(data, filename):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filepath = os.path.join(OUTPUT_DIR, filename)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(data.get("full_text", ""))
 
 
 def main():
@@ -148,28 +136,27 @@ def main():
     parser.add_argument("--pages", type=int, default=None, help="Number of listing pages to fetch (default: all)")
     args = parser.parse_args()
 
-    conn = sqlite3.connect(DB_PATH)
-    init_db(conn)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     urls = list(get_sermon_urls(LIST_URL, max_pages=args.pages))
     print(f"\nFound {len(urls)} sermon URLs. Scraping individual pages...\n")
 
     for i, url in enumerate(urls, 1):
-        if already_scraped(conn, url):
-            print(f"  [{i}/{len(urls)}] Already saved: {url}")
-            continue
         print(f"  [{i}/{len(urls)}] Scraping: {url}")
         try:
             data = scrape_sermon(url)
             if data:
-                save_sermon(conn, data)
+                filename = make_filename(data)
+                if already_saved(filename):
+                    print(f"  [{i}/{len(urls)}] Already saved: {filename}")
+                    continue
+                save_sermon(data, filename)
             time.sleep(0.75)
         except Exception as e:
             print(f"    ERROR: {e}")
 
-    conn.close()
-    total = sqlite3.connect(DB_PATH).execute("SELECT COUNT(*) FROM sermons").fetchone()[0]
-    print(f"\nDone. {total} sermons in database.")
+    total = len(os.listdir(OUTPUT_DIR))
+    print(f"\nDone. {total} sermons saved to {OUTPUT_DIR}/")
 
 
 if __name__ == "__main__":
