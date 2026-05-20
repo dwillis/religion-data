@@ -1,36 +1,36 @@
 col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
 ,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
 Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
-Tyndale Seminary,ACCRED,C,n/a,ON,INTER,"20,988","22,780",0,20,40,135,869,430,"12,150",0
-Union Presbyterian Seminary,ACCRED,I,W,VA,PCUSA,"16,311","16,643",144,23,26,346,167,136,"12,690",500
-Union Theological Seminary,ACCRED,I,W,NY,INTER,"28,540","32,809",110,20,28,713,231,213,"23,670","5,884"
-United Lutheran Seminary,ACCRED,I,W,PA,ELCA,"15,809","16,524",91,14,14,375,381,268,"21,500",0
-United Theological Seminary,ACCRED,I,B,OH,UMC,"7,280","7,280",6,12,16,106,445,229,"15,113","1,990"
-United Theological Seminary of the Twin Cities,ACCRED,I,W,MN,UCC,"7,327","7,487",5,8,9,87,147,110,"15,960",0
-University of Chicago Divinity School,ACCRED,U,W,IL,NONDEN,"22,160","22,160",0,40,40,"12,452",265,167,"34,146",0
-University of Dubuque Theological Seminary,ACCRED,C,W,IA,PCUSA,"2,892","3,001",11,9,10,170,124,93,"10,781",0
-University of Notre Dame Department of Theology,ACCRED,U,W,IN,RC,0,0,0,52,56,"3,119",300,150,"57,050",0
-University of St. Mary of the Lake Mundelein Seminary,ACCRED,I,W,IL,RC,"13,367","16,714",37,21,25,221,171,151,"29,108",0
-University of St. Michael's College,ACCRED,U,W,ON,RC,0,0,0,6,6,162,124,70,"6,020","1,010"
-University of St. Thomas School of Theology,ACCRED,U,n/a,TX,RC,242,242,0,6,7,77,154,94,"17,436",0
-University of the South School of Theology,ACCRED,C,W,TN,EPISC,"9,964","10,652",55,14,15,140,141,96,"17,963",280
-Urshan Graduate School of Theology,ACCRED,I,W,MO,UPENTCI,"1,451","1,451",0,4,5,57,69,37,"9,780",450
-Vancouver School of Theology,ACCRED,I,W,BC,INTER,"4,251","4,251",0,8,12,33,167,86,"8,430",902
-Vanderbilt University Divinity School,ACCRED,U,W,TN,INTER,"15,892","15,892",183,27,29,280,179,148,"24,096","4,297"
+Tyndale Seminary,ACCRED,C,n/a,ON,INTER,20988,22780,0,20,40,135,869,430,12150,0
+Union Presbyterian Seminary,ACCRED,I,W,VA,PCUSA,16311,16643,144,23,26,346,167,136,12690,500
+Union Theological Seminary,ACCRED,I,W,NY,INTER,28540,32809,110,20,28,713,231,213,23670,5884
+United Lutheran Seminary,ACCRED,I,W,PA,ELCA,15809,16524,91,14,14,375,381,268,21500,0
+United Theological Seminary,ACCRED,I,B,OH,UMC,7280,7280,6,12,16,106,445,229,15113,1990
+United Theological Seminary of the Twin Cities,ACCRED,I,W,MN,UCC,7327,7487,5,8,9,87,147,110,15960,0
+University of Chicago Divinity School,ACCRED,U,W,IL,NONDEN,22160,22160,0,40,40,12452,265,167,34146,0
+University of Dubuque Theological Seminary,ACCRED,C,W,IA,PCUSA,2892,3001,11,9,10,170,124,93,10781,0
+University of Notre Dame Department of Theology,ACCRED,U,W,IN,RC,0,0,0,52,56,3119,300,150,57050,0
+University of St. Mary of the Lake Mundelein Seminary,ACCRED,I,W,IL,RC,13367,16714,37,21,25,221,171,151,29108,0
+University of St. Michael's College,ACCRED,U,W,ON,RC,0,0,0,6,6,162,124,70,6020,1010
+University of St. Thomas School of Theology,ACCRED,U,n/a,TX,RC,242,242,0,6,7,77,154,94,17436,0
+University of the South School of Theology,ACCRED,C,W,TN,EPISC,9964,10652,55,14,15,140,141,96,17963,280
+Urshan Graduate School of Theology,ACCRED,I,W,MO,UPENTCI,1451,1451,0,4,5,57,69,37,9780,450
+Vancouver School of Theology,ACCRED,I,W,BC,INTER,4251,4251,0,8,12,33,167,86,8430,902
+Vanderbilt University Divinity School,ACCRED,U,W,TN,INTER,15892,15892,183,27,29,280,179,148,24096,4297
 "Villanova University Department of Theology and Religious
-Studies",CAND,U,N,PA,RC,728,728,0,26,27,"1,582",63,55,0,0
-Virginia Theological Seminary,ACCRED,I,W,VA,EPISC,"23,826","26,609",167,15,17,233,191,66,"13,800",140
-Wake Forest University School of Divinity,ACCRED,U,W,NC,INTER,"4,661","4,661",19,14,16,17,91,88,"20,600",830
-Wartburg Theological Seminary,ACCRED,I,W,IA,ELCA,"7,133","7,666",32,12,15,98,236,202,"18,400",784
-Wesley Biblical Seminary,ACCRED,I,V,MS,INTER,"1,681","1,694",2,4,7,39,159,64,"14,715",600
-Wesley Seminary,ACCRED,U,W,IN,WESLCH,"3,964","3,964",7,12,12,190,511,385,"9,563",456
-Wesley Theological Seminary,ACCRED,I,N,DC,UMC,"15,752","16,492",48,18,33,133,453,239,"18,414","1,324"
-Western Seminary,ACCRED,I,W,OR,CBAPTAA,"9,468","9,611",2,17,42,48,837,566,"20,345",660
-Western Theological Seminary,ACCRED,I,W,MI,RFCHAM,"8,900","9,518",41,10,15,98,354,172,"15,840",100
-Westminster Theological Seminary,ACCRED,I,W,PA,INTER,"16,506","20,039",23,15,23,167,852,484,"14,145",550
-Westminster Theological Seminary in California,ACCRED,I,W,CA,NONDEN,"5,628","6,143",5,8,9,89,134,92,"18,150",200
-Winebrenner Theological Seminary,ACCRED,I,W,OH,COGGC,"1,485","1,485",2,6,7,40,61,50,"14,175",0
-Wisconsin Lutheran Seminary,ASSOC,I,W,WI,WIEVLS,"6,566","7,099",17,14,14,61,173,173,"11,385",255
-World Mission University School of Theology,ACCRED,C,A,CA,INTER,"2,253","2,702",0,6,12,64,260,205,"5,040",200
-Wycliffe College,ACCRED,I,W,ON,ANGL,"5,313","5,580",20,11,18,0,267,164,"6,020","1,745"
-Yale University Divinity School,ACCRED,U,W,CT,INTER,"35,426","37,258",441,42,59,612,348,325,"25,950",500
+Studies",CAND,U,N,PA,RC,728,728,0,26,27,1582,63,55,0,0
+Virginia Theological Seminary,ACCRED,I,W,VA,EPISC,23826,26609,167,15,17,233,191,66,13800,140
+Wake Forest University School of Divinity,ACCRED,U,W,NC,INTER,4661,4661,19,14,16,17,91,88,20600,830
+Wartburg Theological Seminary,ACCRED,I,W,IA,ELCA,7133,7666,32,12,15,98,236,202,18400,784
+Wesley Biblical Seminary,ACCRED,I,V,MS,INTER,1681,1694,2,4,7,39,159,64,14715,600
+Wesley Seminary,ACCRED,U,W,IN,WESLCH,3964,3964,7,12,12,190,511,385,9563,456
+Wesley Theological Seminary,ACCRED,I,N,DC,UMC,15752,16492,48,18,33,133,453,239,18414,1324
+Western Seminary,ACCRED,I,W,OR,CBAPTAA,9468,9611,2,17,42,48,837,566,20345,660
+Western Theological Seminary,ACCRED,I,W,MI,RFCHAM,8900,9518,41,10,15,98,354,172,15840,100
+Westminster Theological Seminary,ACCRED,I,W,PA,INTER,16506,20039,23,15,23,167,852,484,14145,550
+Westminster Theological Seminary in California,ACCRED,I,W,CA,NONDEN,5628,6143,5,8,9,89,134,92,18150,200
+Winebrenner Theological Seminary,ACCRED,I,W,OH,COGGC,1485,1485,2,6,7,40,61,50,14175,0
+Wisconsin Lutheran Seminary,ASSOC,I,W,WI,WIEVLS,6566,7099,17,14,14,61,173,173,11385,255
+World Mission University School of Theology,ACCRED,C,A,CA,INTER,2253,2702,0,6,12,64,260,205,5040,200
+Wycliffe College,ACCRED,I,W,ON,ANGL,5313,5580,20,11,18,0,267,164,6020,1745
+Yale University Divinity School,ACCRED,U,W,CT,INTER,35426,37258,441,42,59,612,348,325,25950,500

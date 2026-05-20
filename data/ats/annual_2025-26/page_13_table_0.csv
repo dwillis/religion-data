@@ -1,37 +1,37 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-San Francisco Theological Seminary,ACCRED,U,W,CA,PCUSA,"4,626",38.5,6,8,52,41,"19,700"
-Seattle Pacific Seminary,ACCRED,U,N,WA,FRMECH,928,0.0,1,1,67,39,"21,570"
-The Seattle School of Theology and Psychology,ACCRED,I,W,WA,NONDEN,"8,219",0.0,7,10,218,121,0
-Seminario Evangélico de Puerto Rico,ACCRED,I,H,PR,INTER,"1,835",0.8,2,6,121,63,"6,516"
-Seminario Teológico de Puerto Rico,ASSOC,I,H,PR,CMA,757,0.0,2,6,134,21,"3,880"
-Seminary of the Southwest,ACCRED,I,W,TX,EPISC,"12,855",46.0,15,16,121,96,"20,823"
-Seventh-day Adventist Theological Seminary of Andrews University,ACCRED,U,V,MI,SDADV,"13,260",0.0,40,63,"1,100",714,"12,051"
-Shaw University Divinity School,ACCRED,U,B,NC,GBAPTNC,469,0.0,3,7,58,36,"14,834"
-Shepherds Theological Seminary,ACCRED,I,W,NC,NONDEN,"3,867",0.1,8,10,248,149,"11,795"
-Southeastern Baptist Theological Seminary,ACCRED,I,W,NC,SBC,"43,035",52.2,28,37,"2,389","1,252","8,740"
-Southeastern University School of Divinity,ACCRED,U,N,FL,AOG,"3,548",0.0,6,13,510,358,"13,405"
-Southern Baptist Theological Seminary,ACCRED,I,W,KY,SBC,"54,173",120.6,46,55,"3,422","1,964","9,796"
-Southern California Seminary Graduate School of Bible and Theology,ACCRED,C,M,CA,NONDEN,"1,277",0.0,7,8,80,38,"14,310"
-Southwestern Baptist Theological Seminary,ACCRED,I,N,TX,SBC,"39,365",179.8,42,53,"2,282",991,"11,220"
-St. Andrew's College,ACCRED,I,W,SK,UCCAN,"2,074",3.5,2,3,24,20,"12,175"
-St. Augustine's Seminary of Toronto,ACCRED,I,N,ON,RC,"7,990",10.9,12,23,139,73,"7,276"
-St. Bernard's School of Theology and Ministry,ACCRED,I,W,NY,RC,"1,466",4.7,2,5,129,33,"13,410"
-St. Charles Borromeo Seminary,ACCRED,I,W,PA,RC,"8,137",16.4,18,18,94,94,"29,405"
-St. John Vianney Theological Seminary,ACCRED,I,W,CO,RC,"6,999",45.7,13,16,47,60,"30,131"
-St. John's Seminary (CA),ACCRED,I,H,CA,RC,"8,665",144.0,16,18,100,101,"55,350"
-St. Joseph's Seminary and College,ACCRED,I,W,NY,RC,"10,970",44.6,16,21,188,116,"21,500"
-St. Mark's College,ACCRED,I,W,BC,RC,"1,900",6.3,2,4,59,26,0
-St. Mary's Seminary and University,ACCRED,I,W,MD,RC,0,0.0,13,20,176,128,"46,509"
-St. Peter's Seminary,ACCRED,I,N,ON,RC,"2,899",0.0,5,5,37,36,"8,161"
-St. Stephen's College at the University of Alberta,ACCRED,I,W,AB,UCCAN,"1,648",0.3,0,12,106,76,0
-St. Tikhon's Orthodox Theological Seminary,ACCRED,I,W,PA,OCA,"2,324",6.9,4,7,44,55,"10,000"
-St. Vincent de Paul Regional Seminary,ACCRED,I,W,FL,RC,"8,953",40.7,22,25,156,125,"25,000"
-St. Vladimir's Orthodox Theological Seminary,ACCRED,I,W,NY,OCA,"7,977",17.3,7,9,83,75,"13,860"
-Stark Seminary of Stark College and Seminary,ASSOC,I,M,TX,BAPBGCT,"2,035",8.1,4,6,57,24,"8,400"
-Starr King School for the Ministry,ACCRED,I,W,CA,UUA,"3,309",6.2,4,11,73,51,"17,280"
-Talbot School of Theology of Biola University,ACCRED,U,W,CA,INTER,"63,658",0.0,52,62,"1,534",818,"19,223"
-Trinity Anglican Seminary,ACCRED,I,W,PA,ANGOTH,"7,312",31.5,7,22,152,86,"20,140"
-Trinity College Faculty of Divinity,ACCRED,C,N,ON,ANGL,"3,552",15.7,5,8,96,65,"7,425"
-Trinity Evangelical Divinity School of Trinity International University,ACCRED,U,W,IL,EFCA,"23,438",24.2,20,39,746,368,"17,315"
-Trinity Graduate School at Trinity Bible College,ASSOC,C,M,ND,AOG,"1,651",0.0,6,7,198,164,0
+San Francisco Theological Seminary,ACCRED,U,W,CA,PCUSA,4626,38.5,6,8,52,41,19700
+Seattle Pacific Seminary,ACCRED,U,N,WA,FRMECH,928,0.0,1,1,67,39,21570
+The Seattle School of Theology and Psychology,ACCRED,I,W,WA,NONDEN,8219,0.0,7,10,218,121,0
+Seminario Evangélico de Puerto Rico,ACCRED,I,H,PR,INTER,1835,0.8,2,6,121,63,6516
+Seminario Teológico de Puerto Rico,ASSOC,I,H,PR,CMA,757,0.0,2,6,134,21,3880
+Seminary of the Southwest,ACCRED,I,W,TX,EPISC,12855,46.0,15,16,121,96,20823
+Seventh-day Adventist Theological Seminary of Andrews University,ACCRED,U,V,MI,SDADV,13260,0.0,40,63,1100,714,12051
+Shaw University Divinity School,ACCRED,U,B,NC,GBAPTNC,469,0.0,3,7,58,36,14834
+Shepherds Theological Seminary,ACCRED,I,W,NC,NONDEN,3867,0.1,8,10,248,149,11795
+Southeastern Baptist Theological Seminary,ACCRED,I,W,NC,SBC,43035,52.2,28,37,2389,1252,8740
+Southeastern University School of Divinity,ACCRED,U,N,FL,AOG,3548,0.0,6,13,510,358,13405
+Southern Baptist Theological Seminary,ACCRED,I,W,KY,SBC,54173,120.6,46,55,3422,1964,9796
+Southern California Seminary Graduate School of Bible and Theology,ACCRED,C,M,CA,NONDEN,1277,0.0,7,8,80,38,14310
+Southwestern Baptist Theological Seminary,ACCRED,I,N,TX,SBC,39365,179.8,42,53,2282,991,11220
+St. Andrew's College,ACCRED,I,W,SK,UCCAN,2074,3.5,2,3,24,20,12175
+St. Augustine's Seminary of Toronto,ACCRED,I,N,ON,RC,7990,10.9,12,23,139,73,7276
+St. Bernard's School of Theology and Ministry,ACCRED,I,W,NY,RC,1466,4.7,2,5,129,33,13410
+St. Charles Borromeo Seminary,ACCRED,I,W,PA,RC,8137,16.4,18,18,94,94,29405
+St. John Vianney Theological Seminary,ACCRED,I,W,CO,RC,6999,45.7,13,16,47,60,30131
+St. John's Seminary (CA),ACCRED,I,H,CA,RC,8665,144.0,16,18,100,101,55350
+St. Joseph's Seminary and College,ACCRED,I,W,NY,RC,10970,44.6,16,21,188,116,21500
+St. Mark's College,ACCRED,I,W,BC,RC,1900,6.3,2,4,59,26,0
+St. Mary's Seminary and University,ACCRED,I,W,MD,RC,0,0.0,13,20,176,128,46509
+St. Peter's Seminary,ACCRED,I,N,ON,RC,2899,0.0,5,5,37,36,8161
+St. Stephen's College at the University of Alberta,ACCRED,I,W,AB,UCCAN,1648,0.3,0,12,106,76,0
+St. Tikhon's Orthodox Theological Seminary,ACCRED,I,W,PA,OCA,2324,6.9,4,7,44,55,10000
+St. Vincent de Paul Regional Seminary,ACCRED,I,W,FL,RC,8953,40.7,22,25,156,125,25000
+St. Vladimir's Orthodox Theological Seminary,ACCRED,I,W,NY,OCA,7977,17.3,7,9,83,75,13860
+Stark Seminary of Stark College and Seminary,ASSOC,I,M,TX,BAPBGCT,2035,8.1,4,6,57,24,8400
+Starr King School for the Ministry,ACCRED,I,W,CA,UUA,3309,6.2,4,11,73,51,17280
+Talbot School of Theology of Biola University,ACCRED,U,W,CA,INTER,63658,0.0,52,62,1534,818,19223
+Trinity Anglican Seminary,ACCRED,I,W,PA,ANGOTH,7312,31.5,7,22,152,86,20140
+Trinity College Faculty of Divinity,ACCRED,C,N,ON,ANGL,3552,15.7,5,8,96,65,7425
+Trinity Evangelical Divinity School of Trinity International University,ACCRED,U,W,IL,EFCA,23438,24.2,20,39,746,368,17315
+Trinity Graduate School at Trinity Bible College,ASSOC,C,M,ND,AOG,1651,0.0,6,7,198,164,0

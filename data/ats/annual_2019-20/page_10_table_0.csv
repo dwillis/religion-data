@@ -1,53 +1,53 @@
 col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
 ,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
 Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
-Montreal School of Theology,ACCRED,I,N,QC,INTER,77,77,0,3,4,0,32,28,"4,450","1,800"
-Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,"9,011","9,502",1,12,31,232,636,355,"13,350",710
-Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,"2,402","2,555",25,7,11,260,74,38,"17,160",430
-Mount Angel Seminary,ACCRED,I,W,OR,RC,"5,240","5,856",0,14,19,246,94,72,"16,410","6,958"
-Mount Saint Mary's Seminary,ACCRED,C,W,MD,RC,"3,293","6,280",10,14,18,149,152,152,"25,410",310
-Multnomah Biblical Seminary,ACCRED,C,W,OR,NONDEN,"3,796","3,938",2,6,13,116,175,99,"14,560",390
+Montreal School of Theology,ACCRED,I,N,QC,INTER,77,77,0,3,4,0,32,28,4450,1800
+Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,9011,9502,1,12,31,232,636,355,13350,710
+Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,2402,2555,25,7,11,260,74,38,17160,430
+Mount Angel Seminary,ACCRED,I,W,OR,RC,5240,5856,0,14,19,246,94,72,16410,6958
+Mount Saint Mary's Seminary,ACCRED,C,W,MD,RC,3293,6280,10,14,18,149,152,152,25410,310
+Multnomah Biblical Seminary,ACCRED,C,W,OR,NONDEN,3796,3938,2,6,13,116,175,99,14560,390
 NAIITS: An Indigenous Learning Community,CAND,I,I,PEI,OTHER,567,747,0,3,7,0,5,5,0,0
-Nashotah House,ACCRED,I,W,WI,EPISC,"4,009","4,063",9,6,9,124,69,54,"15,000",700
-Nazarene Theological Seminary,ACCRED,I,W,MO,CHNAZ,"4,399","4,526",11,8,8,115,220,135,"12,600",400
-Neal T. Jones Seminary of Washington University of Virginia,ACCRED,C,M,VA,NONDEN,"2,709","2,709",0,2,5,36,82,71,"5,760",230
-New Brunswick Theological Seminary,ACCRED,I,M,NJ,RFCHAM,"5,271","5,271",18,9,12,168,140,69,"15,624",860
-New Orleans Baptist Theological Seminary,ACCRED,I,W,LA,SBC,"24,089","32,529",62,66,75,308,"1,677",838,"6,165",480
-New York Theological Seminary,ACCRED,I,M,NY,INTER,"5,258","5,721",0,15,15,0,252,121,"15,413",410
-Newman Theological College,ACCRED,I,N,AB,RC,"3,525","4,041",24,5,10,80,124,59,"7,818",330
-North Park Theological Seminary,ACCRED,C,W,IL,EVCOV,"4,761","4,761",0,14,18,245,244,108,560,0
-Northeastern Seminary at Roberts Wesleyan College,ACCRED,C,N,NY,INTER,"2,070","2,070",4,3,6,140,157,96,"10,680",0
-Northern Baptist Theological Seminary,ACCRED,I,W,IL,ABCUSA,"4,883","4,883",17,4,9,33,261,154,"18,432",375
-Northwest Baptist Seminary,ACCRED,I,N,BC,FEVBAPT,"1,750","1,750",4,4,4,0,110,87,"6,000",700
-Northwest Nazarene University Graduate School of Theology,ACCRED,U,W,ID,CHNAZ,439,439,0,12,16,127,72,50,"8,583",200
-Notre Dame Seminary,ACCRED,I,W,LA,RC,"6,272","6,709",11,17,19,90,157,134,"21,765",620
+Nashotah House,ACCRED,I,W,WI,EPISC,4009,4063,9,6,9,124,69,54,15000,700
+Nazarene Theological Seminary,ACCRED,I,W,MO,CHNAZ,4399,4526,11,8,8,115,220,135,12600,400
+Neal T. Jones Seminary of Washington University of Virginia,ACCRED,C,M,VA,NONDEN,2709,2709,0,2,5,36,82,71,5760,230
+New Brunswick Theological Seminary,ACCRED,I,M,NJ,RFCHAM,5271,5271,18,9,12,168,140,69,15624,860
+New Orleans Baptist Theological Seminary,ACCRED,I,W,LA,SBC,24089,32529,62,66,75,308,1677,838,6165,480
+New York Theological Seminary,ACCRED,I,M,NY,INTER,5258,5721,0,15,15,0,252,121,15413,410
+Newman Theological College,ACCRED,I,N,AB,RC,3525,4041,24,5,10,80,124,59,7818,330
+North Park Theological Seminary,ACCRED,C,W,IL,EVCOV,4761,4761,0,14,18,245,244,108,560,0
+Northeastern Seminary at Roberts Wesleyan College,ACCRED,C,N,NY,INTER,2070,2070,4,3,6,140,157,96,10680,0
+Northern Baptist Theological Seminary,ACCRED,I,W,IL,ABCUSA,4883,4883,17,4,9,33,261,154,18432,375
+Northwest Baptist Seminary,ACCRED,I,N,BC,FEVBAPT,1750,1750,4,4,4,0,110,87,6000,700
+Northwest Nazarene University Graduate School of Theology,ACCRED,U,W,ID,CHNAZ,439,439,0,12,16,127,72,50,8583,200
+Notre Dame Seminary,ACCRED,I,W,LA,RC,6272,6709,11,17,19,90,157,134,21765,620
 Oakwood University School of Religion Graduate Department,CAND,U,B,AL,SDADV,916,916,1,11,13,85,31,30,0,0
-Oblate School of Theology,ACCRED,I,W,TX,RC,"7,289","9,378",30,22,25,114,164,136,"16,320",860
-Oklahoma Christian University Graduate School of Theology,ASSOC,U,W,OK,CHUCHR,228,228,0,3,5,174,42,32,"13,200",240
+Oblate School of Theology,ACCRED,I,W,TX,RC,7289,9378,30,22,25,114,164,136,16320,860
+Oklahoma Christian University Graduate School of Theology,ASSOC,U,W,OK,CHUCHR,228,228,0,3,5,174,42,32,13200,240
 "Oral Roberts University Graduate School of Theology and
-Ministry",ACCRED,U,N,OK,INTER,"4,748","4,787",0,16,21,93,331,281,"10,782","1,072"
-Pacific Lutheran Theological Seminary,ACCRED,U,W,CA,ELCA,"3,554","3,797",21,4,4,0,49,44,"22,460",0
-Pacific School of Religion,ACCRED,I,n/a,CA,INTER,"6,539","7,860",38,8,10,0,97,55,"20,061",308
+Ministry",ACCRED,U,N,OK,INTER,4748,4787,0,16,21,93,331,281,10782,1072
+Pacific Lutheran Theological Seminary,ACCRED,U,W,CA,ELCA,3554,3797,21,4,4,0,49,44,22460,0
+Pacific School of Religion,ACCRED,I,n/a,CA,INTER,6539,7860,38,8,10,0,97,55,20061,308
 "Palm Beach Atlantic University School of Ministry Graduate
-Department",CAND,U,N,FL,INTER,295,298,0,7,7,13,47,38,"13,680",580
-Palmer Theological Seminary,ACCRED,U,W,PA,ABCUSA,"2,365","2,365",17,10,13,173,221,134,"13,390",407
-Payne Theological Seminary,ACCRED,I,B,OH,AME,"3,201","3,201",0,5,12,38,190,118,"15,800",400
-Pentecostal Theological Seminary,ACCRED,I,n/a,TN,COGCLEV,"4,503","4,535",19,17,25,35,512,300,"12,977",349
-Perkins School of Theology,ACCRED,U,W,TX,UMC,"17,333","17,333",147,27,29,400,308,222,"17,836","4,642"
-Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,"6,117","6,117",92,10,11,109,168,89,"11,246",0
-Phoenix Seminary,ACCRED,I,W,AZ,INTER,"5,128","5,128",1,7,18,53,269,226,"7,833",200
-Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,"12,247","13,875",209,14,19,267,199,142,"12,312",300
-Pontifical College Josephinum,ACCRED,C,N,OH,RC,"8,067","8,796",31,7,7,147,41,41,"28,100",760
-Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,"3,864","3,864",5,7,13,59,53,53,"36,000",0
-Portland Seminary,ACCRED,C,W,OR,INTER,"2,089","2,089",4,9,11,120,298,149,"14,612",0
-Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,"1,338","1,512",0,4,12,38,128,64,"8,493",600
-Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,"60,699","72,471","1,127",43,52,721,364,356,"18,000","4,820"
-Providence Theological Seminary,ACCRED,C,W,MB,INTER,"2,416","2,715",0,10,12,87,176,79,"8,604",729
-Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,"3,701","3,892",0,9,12,106,261,91,"7,700",0
-Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,457,457,4,0,6,"2,625",209,79,0,"3,025"
-Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,611,641,1,8,10,40,24,14,"11,500",600
-Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,"2,017","2,041",4,4,7,87,115,55,"13,464",0
-Reformed Theological Seminary,ACCRED,I,W,MS,INTER,"22,318","23,184",80,37,57,388,"1,069",534,"19,433",200
-Regent College,ACCRED,I,W,BC,INTER,"8,884","9,680",22,11,29,163,387,195,"14,850",551
-Regent University School of Divinity,ACCRED,U,B,VA,INTER,"11,557","11,734",0,15,16,284,"1,108",726,"12,000","2,100"
-Regis College,ACCRED,I,W,ON,RC,"3,253","3,253",10,9,13,83,111,62,"6,020","1,655"
+Department",CAND,U,N,FL,INTER,295,298,0,7,7,13,47,38,13680,580
+Palmer Theological Seminary,ACCRED,U,W,PA,ABCUSA,2365,2365,17,10,13,173,221,134,13390,407
+Payne Theological Seminary,ACCRED,I,B,OH,AME,3201,3201,0,5,12,38,190,118,15800,400
+Pentecostal Theological Seminary,ACCRED,I,n/a,TN,COGCLEV,4503,4535,19,17,25,35,512,300,12977,349
+Perkins School of Theology,ACCRED,U,W,TX,UMC,17333,17333,147,27,29,400,308,222,17836,4642
+Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,6117,6117,92,10,11,109,168,89,11246,0
+Phoenix Seminary,ACCRED,I,W,AZ,INTER,5128,5128,1,7,18,53,269,226,7833,200
+Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,12247,13875,209,14,19,267,199,142,12312,300
+Pontifical College Josephinum,ACCRED,C,N,OH,RC,8067,8796,31,7,7,147,41,41,28100,760
+Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,3864,3864,5,7,13,59,53,53,36000,0
+Portland Seminary,ACCRED,C,W,OR,INTER,2089,2089,4,9,11,120,298,149,14612,0
+Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,1338,1512,0,4,12,38,128,64,8493,600
+Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,60699,72471,1127,43,52,721,364,356,18000,4820
+Providence Theological Seminary,ACCRED,C,W,MB,INTER,2416,2715,0,10,12,87,176,79,8604,729
+Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,3701,3892,0,9,12,106,261,91,7700,0
+Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,457,457,4,0,6,2625,209,79,0,3025
+Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,611,641,1,8,10,40,24,14,11500,600
+Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,2017,2041,4,4,7,87,115,55,13464,0
+Reformed Theological Seminary,ACCRED,I,W,MS,INTER,22318,23184,80,37,57,388,1069,534,19433,200
+Regent College,ACCRED,I,W,BC,INTER,8884,9680,22,11,29,163,387,195,14850,551
+Regent University School of Divinity,ACCRED,U,B,VA,INTER,11557,11734,0,15,16,284,1108,726,12000,2100
+Regis College,ACCRED,I,W,ON,RC,3253,3253,10,9,13,83,111,62,6020,1655

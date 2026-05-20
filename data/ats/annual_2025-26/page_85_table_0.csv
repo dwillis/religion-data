@@ -2,27 +2,27 @@ All Member Schools,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
 ,United States Canada,,United States Canada,,United States Canada,,United States Canada,
 ,HR Staff,,Developer,,IT Help Desk Support,,Library Staff,
 Number,21,1,6,-,16,4,132,12
-Average Salary,"73,787",-,"64,195",-,"63,852",-,"66,811","56,235"
-Median Salary,"76,000",-,"65,000",-,"65,000",-,"65,000","38,524"
-Average Salary and Housing,"73,787",-,"66,043",-,"63,852",-,"66,811","56,235"
-Average Benefits,"15,379",-,"16,353",-,"13,680",-,"14,539","4,865"
-Average Pension,"7,633",-,"7,808",-,"6,585",-,"6,078","6,233"
-Total Compensation Average,"96,799",-,"90,204",-,"84,117",-,"87,428","67,333"
+Average Salary,73787,-,64195,-,63852,-,66811,56235
+Median Salary,76000,-,65000,-,65000,-,65000,38524
+Average Salary and Housing,73787,-,66043,-,63852,-,66811,56235
+Average Benefits,15379,-,16353,-,13680,-,14539,4865
+Average Pension,7633,-,7808,-,6585,-,6078,6233
+Total Compensation Average,96799,-,90204,-,84117,-,87428,67333
 "Total Compensation 25th
-Percentile","75,720",-,"85,203",-,"69,302",-,"72,185","39,478"
-Total Compensation Median,"97,357",-,"87,985",-,"84,180",-,"85,545","46,788"
+Percentile",75720,-,85203,-,69302,-,72185,39478
+Total Compensation Median,97357,-,87985,-,84180,-,85545,46788
 "Total Compensation 75th
-Percentile","115,470",-,"99,549",-,"93,270",-,"97,957","60,381"
+Percentile",115470,-,99549,-,93270,-,97957,60381
 ,Network Administrator,,PC Technician,,Recruitment Staff,,Registrar,
 Number,16,-,5,-,37,7,124,23
-Average Salary,"70,912",-,"79,032",-,"69,938","42,693","69,119","66,386"
-Median Salary,"72,000",-,-,-,"66,136","42,856","68,937","58,013"
-Average Salary and Housing,"70,912",-,"79,032",-,"70,520","42,693","69,119","66,386"
-Average Benefits,"14,583",-,"12,415",-,"10,250","4,271","11,380","4,263"
-Average Pension,"7,350",-,"5,121",-,"4,993","1,779","5,026","5,518"
-Total Compensation Average,"92,846",-,"96,568",-,"85,764","48,743","85,525","76,168"
+Average Salary,70912,-,79032,-,69938,42693,69119,66386
+Median Salary,72000,-,-,-,66136,42856,68937,58013
+Average Salary and Housing,70912,-,79032,-,70520,42693,69119,66386
+Average Benefits,14583,-,12415,-,10250,4271,11380,4263
+Average Pension,7350,-,5121,-,4993,1779,5026,5518
+Total Compensation Average,92846,-,96568,-,85764,48743,85525,76168
 "Total Compensation 25th
-Percentile","67,452",-,"75,458",-,"68,616","33,841","70,685","55,699"
-Total Compensation Median,"93,185",-,"92,266",-,"78,828","49,498","83,334","66,295"
+Percentile",67452,-,75458,-,68616,33841,70685,55699
+Total Compensation Median,93185,-,92266,-,78828,49498,83334,66295
 "Total Compensation 75th
-Percentile","113,785",-,"95,095",-,"96,820","58,088","100,476","87,023"
+Percentile",113785,-,95095,-,96820,58088,100476,87023

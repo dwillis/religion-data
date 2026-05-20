@@ -87,6 +87,16 @@ def get_pdf_links(section: str = "annual") -> list[dict]:
     return links
 
 
+def _strip_numeric_commas(value: str) -> str:
+    """Remove thousands-separator commas from numeric strings (e.g. '1,012' → '1012')."""
+    stripped = value.replace(",", "")
+    try:
+        float(stripped)
+        return stripped
+    except ValueError:
+        return value
+
+
 def rows_to_records(rows: list[list]) -> list[dict]:
     """
     Convert a list-of-lists table into a list of dicts using the first row as headers.
@@ -112,7 +122,7 @@ def rows_to_records(rows: list[list]) -> list[dict]:
     records = []
     for row in rows[1:]:
         padded = list(row) + [None] * (len(headers) - len(row))
-        record = {headers[i]: (str(v).strip() if v is not None else "")
+        record = {headers[i]: (_strip_numeric_commas(str(v).strip()) if v is not None else "")
                   for i, v in enumerate(padded)}
         if any(v for v in record.values()):
             records.append(record)

@@ -1,38 +1,38 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-M. Christopher White School of Divinity of Gardner-Webb University,ACCRED,C,B,NC,BAPTNC,"3,178",16.0,6,7,101,66,"15,840"
-Martin Luther University College,ACCRED,U,N,ON,ELCC,"4,682",6.1,7,25,178,20,"10,057"
-The Master's Seminary,ACCRED,U,H,CA,NONDEN,"14,620",14.5,11,27,812,544,"12,550"
-McCormick Theological Seminary,ACCRED,I,B,IL,PCUSA,"8,473",84.1,5,11,125,52,"9,295"
-McGill University School of Religious Studies,ACCRED,U,N,QC,INTER,"1,433",19.4,21,25,2,2,0
-McMaster Divinity College,ACCRED,I,W,ON,BAPTOQ,"4,406",28.2,12,16,244,168,0
-Meadville Lombard Theological School,ACCRED,I,W,IL,UUA,"4,181",33.5,3,5,61,46,"29,410"
-Memphis Theological Seminary,ACCRED,I,B,TN,PCCUM,"3,750",15.3,4,8,171,106,"11,690"
-Methodist Theological School in Ohio,ACCRED,I,W,OH,UMC,"9,650",56.8,13,19,189,100,"30,421"
-Mid-America Reformed Seminary,ACCRED,I,W,IN,INTER,"2,836",0.5,5,7,32,34,"12,686"
-Midwestern Baptist Theological Seminary,ACCRED,I,W,MO,SBC,"27,929",38.3,31,32,"2,909","1,554","8,400"
-Missio Theological Seminary,ACCRED,I,V,PA,INTER,"1,268",3.3,4,4,19,10,"14,000"
-Montreal School of Theology,ACCRED,I,N,QC,PCC,266,0.0,6,6,46,32,"5,200"
-Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,"9,716",27.4,17,60,654,369,"12,936"
-Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,"1,508",30.0,3,6,36,25,"19,850"
-Mount Angel Seminary,ACCRED,I,W,OR,RC,"6,785",0.0,14,19,72,63,"31,400"
-Mount Saint Mary's Seminary,ACCRED,C,W,MD,RC,"8,120",12.3,10,15,111,155,"29,310"
-Multnomah Biblical Seminary of Jessup University,ACCRED,C,W,OR,NONDEN,"2,785",0.0,5,6,54,33,"16,130"
+M. Christopher White School of Divinity of Gardner-Webb University,ACCRED,C,B,NC,BAPTNC,3178,16.0,6,7,101,66,15840
+Martin Luther University College,ACCRED,U,N,ON,ELCC,4682,6.1,7,25,178,20,10057
+The Master's Seminary,ACCRED,U,H,CA,NONDEN,14620,14.5,11,27,812,544,12550
+McCormick Theological Seminary,ACCRED,I,B,IL,PCUSA,8473,84.1,5,11,125,52,9295
+McGill University School of Religious Studies,ACCRED,U,N,QC,INTER,1433,19.4,21,25,2,2,0
+McMaster Divinity College,ACCRED,I,W,ON,BAPTOQ,4406,28.2,12,16,244,168,0
+Meadville Lombard Theological School,ACCRED,I,W,IL,UUA,4181,33.5,3,5,61,46,29410
+Memphis Theological Seminary,ACCRED,I,B,TN,PCCUM,3750,15.3,4,8,171,106,11690
+Methodist Theological School in Ohio,ACCRED,I,W,OH,UMC,9650,56.8,13,19,189,100,30421
+Mid-America Reformed Seminary,ACCRED,I,W,IN,INTER,2836,0.5,5,7,32,34,12686
+Midwestern Baptist Theological Seminary,ACCRED,I,W,MO,SBC,27929,38.3,31,32,2909,1554,8400
+Missio Theological Seminary,ACCRED,I,V,PA,INTER,1268,3.3,4,4,19,10,14000
+Montreal School of Theology,ACCRED,I,N,QC,PCC,266,0.0,6,6,46,32,5200
+Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,9716,27.4,17,60,654,369,12936
+Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,1508,30.0,3,6,36,25,19850
+Mount Angel Seminary,ACCRED,I,W,OR,RC,6785,0.0,14,19,72,63,31400
+Mount Saint Mary's Seminary,ACCRED,C,W,MD,RC,8120,12.3,10,15,111,155,29310
+Multnomah Biblical Seminary of Jessup University,ACCRED,C,W,OR,NONDEN,2785,0.0,5,6,54,33,16130
 NAIITS An Indigenous Learning Community,ACCRED,I,I,PEI,OTHER,995,0.0,1,1,44,15,0
-Nashotah House,ACCRED,I,W,WI,EPISC,"4,426",8.6,7,11,140,32,"17,950"
-Nazarene Theological Seminary,ACCRED,I,W,MO,CHNAZ,"5,083",13.5,7,11,169,111,"14,560"
-New Brunswick Theological Seminary,ACCRED,I,M,NJ,RFCHAM,"5,000",15.4,7,11,130,71,"17,500"
-New Orleans Baptist Theological Seminary,ACCRED,I,W,LA,SBC,"40,611",76.9,30,52,"1,460",894,"8,788"
-Newman Theological College,ACCRED,I,N,AB,RC,"5,105",32.4,4,12,209,137,"9,296"
-North Park Theological Seminary,ACCRED,C,W,IL,EVCOV,"4,491",35.4,8,18,239,98,"13,600"
-Northeastern Seminary at Roberts Wesleyan University,ACCRED,C,N,NY,INTER,"1,913",4.4,3,8,200,101,"15,490"
-Northern Baptist Theological Seminary,ACCRED,I,W,IL,ABCUSA,"6,689",15.4,7,9,233,64,"18,980"
-Northwest Nazarene Divinity School,ACCRED,U,W,ID,CHNAZ,251,0.0,9,13,89,78,"10,183"
-Northwest Seminary,ACCRED,I,N,BC,FEVBAPT,"2,524",3.0,3,3,132,85,"8,401"
+Nashotah House,ACCRED,I,W,WI,EPISC,4426,8.6,7,11,140,32,17950
+Nazarene Theological Seminary,ACCRED,I,W,MO,CHNAZ,5083,13.5,7,11,169,111,14560
+New Brunswick Theological Seminary,ACCRED,I,M,NJ,RFCHAM,5000,15.4,7,11,130,71,17500
+New Orleans Baptist Theological Seminary,ACCRED,I,W,LA,SBC,40611,76.9,30,52,1460,894,8788
+Newman Theological College,ACCRED,I,N,AB,RC,5105,32.4,4,12,209,137,9296
+North Park Theological Seminary,ACCRED,C,W,IL,EVCOV,4491,35.4,8,18,239,98,13600
+Northeastern Seminary at Roberts Wesleyan University,ACCRED,C,N,NY,INTER,1913,4.4,3,8,200,101,15490
+Northern Baptist Theological Seminary,ACCRED,I,W,IL,ABCUSA,6689,15.4,7,9,233,64,18980
+Northwest Nazarene Divinity School,ACCRED,U,W,ID,CHNAZ,251,0.0,9,13,89,78,10183
+Northwest Seminary,ACCRED,I,N,BC,FEVBAPT,2524,3.0,3,3,132,85,8401
 Northwest University College of Ministry Graduate Studies,ASSOC,U,n/a,WA,AOG,289,0.0,0,6,69,32,0
-Notre Dame Seminary,ACCRED,I,W,LA,RC,"7,507",20.6,12,12,127,104,"24,690"
-Oakwood University School of Theology Graduate Department,ACCRED,U,B,AL,SDADV,"1,367",1.7,5,8,18,14,0
-Oblate School of Theology,ACCRED,I,H,TX,RC,"9,553",39.1,22,24,198,128,"25,160"
-Oral Roberts University Graduate School of Theology and Ministry,ACCRED,U,N,OK,INTER,"6,293",0.3,18,30,459,288,"14,180"
+Notre Dame Seminary,ACCRED,I,W,LA,RC,7507,20.6,12,12,127,104,24690
+Oakwood University School of Theology Graduate Department,ACCRED,U,B,AL,SDADV,1367,1.7,5,8,18,14,0
+Oblate School of Theology,ACCRED,I,H,TX,RC,9553,39.1,22,24,198,128,25160
+Oral Roberts University Graduate School of Theology and Ministry,ACCRED,U,N,OK,INTER,6293,0.3,18,30,459,288,14180
 "Pacific Christian College of Ministry and Biblical Studies of Hope International
-University",ASSOC,U,M,CA,CCHCHC,404,0.0,5,7,41,30,"13,700"
+University",ASSOC,U,M,CA,CCHCHC,404,0.0,5,7,41,30,13700

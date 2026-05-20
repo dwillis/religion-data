@@ -1,37 +1,37 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-Palm Beach Atlantic University School of Ministry Graduate Department,ACCRED,U,N,FL,INTER,"1,543",0.0,12,14,144,102,"13,578"
-Palmer Theological Seminary of Eastern University,ACCRED,U,W,PA,ABCUSA,"2,889",16.2,4,7,210,110,"15,133"
-Payne Theological Seminary,ACCRED,I,B,OH,AME,"3,708",0.6,4,4,149,144,"19,533"
-Pentecostal Theological Seminary,ACCRED,I,W,TN,COGCLEV,"5,532",20.1,12,23,390,200,"10,330"
-Perkins School of Theology Southern Methodist University,ACCRED,U,W,TX,UMC,"19,533",231.2,27,30,284,145,"26,641"
-Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,"7,790",134.2,10,11,98,46,"11,496"
-Phoenix Seminary,ACCRED,I,W,AZ,NONDEN,"7,009",1.5,5,20,288,137,"10,470"
-Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,"13,093",236.1,13,15,223,90,"13,260"
-Pontifical College Josephinum,ACCRED,C,N,OH,RC,"9,002",30.9,6,7,26,33,"31,536"
-Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,"3,807",5.0,3,9,42,53,"28,000"
-Portland Seminary of George Fox University,ACCRED,C,W,OR,INTER,"2,699",4.5,7,7,370,251,18
-Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,"1,854",0.0,6,26,119,79,"8,810"
-Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,"69,021",1358.2,34,50,287,276,"20,250"
-Providence Theological Seminary,ACCRED,C,W,MB,INTER,"3,405",0.0,9,15,165,80,"12,738"
-Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,"5,121",1.8,11,12,404,149,"7,900"
-Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,432,4.7,1,1,78,40,"14,000"
-Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,907,1.0,6,8,12,8,"14,625"
-Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,"2,173",5.2,4,5,97,65,"13,989"
-Reformed Theological Seminary,ACCRED,I,W,MS,INTER,"29,967",82.9,27,60,"1,127",529,"21,365"
-Regent College,ACCRED,I,W,BC,INTER,"10,463",29.8,13,27,342,155,"13,125"
-Regent University School of Divinity,ACCRED,U,B,VA,INTER,"13,724",2.4,12,29,"1,176",665,"16,920"
-Regis College,ACCRED,I,W,ON,RC,"4,080",11.5,7,10,93,60,"8,366"
-Robert E. Webber Institute for Worship Studies,ACCRED,I,W,FL,INTER,"1,059",0.1,1,5,137,174,0
-Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,"5,411",0.0,11,19,126,99,"35,032"
-Sacred Heart Seminary and School of Theology,ACCRED,I,V,WI,RC,"8,623",12.9,18,29,119,116,"36,800"
-Saint John's Seminary (MA),ACCRED,C,W,MA,RC,"5,981",41.3,0,0,96,87,"43,294"
-Saint John's University School of Theology and Seminary,ACCRED,C,W,MN,RC,"4,351",29.2,10,12,143,81,"18,030"
-Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,"3,618",0.9,9,13,109,67,"10,470"
-Saint Meinrad School of Theology,ACCRED,I,W,IN,RC,"14,719",49.6,16,22,173,152,"38,536"
-Saint Paul School of Theology,ACCRED,I,W,KS,UMC,"4,432",34.8,6,12,100,66,"17,350"
-Saint Paul Seminary School of Divinity of the University of St. Thomas,ACCRED,U,W,MN,RC,"9,021",45.1,6,9,162,100,"26,951"
-Saint Sophia Ukrainian Orthodox Theological Seminary,ASSOC,I,M,NJ,UKOCUSA,350,0.5,0,2,22,43,"15,200"
-Saint Vincent Seminary,ACCRED,C,W,PA,RC,"3,800",22.6,1,1,79,105,"34,058"
-Samuel DeWitt Proctor School of Theology of Virginia Union University,ACCRED,C,B,VA,BAPT,"1,491",0.0,14,14,238,171,"12,924"
-San Francisco Theological Seminary,ACCRED,U,W,CA,PCUSA,"4,883",34.1,7,7,89,65,"18,700"
+Palm Beach Atlantic University School of Ministry Graduate Department,ACCRED,U,N,FL,INTER,1543,0.0,12,14,144,102,13578
+Palmer Theological Seminary of Eastern University,ACCRED,U,W,PA,ABCUSA,2889,16.2,4,7,210,110,15133
+Payne Theological Seminary,ACCRED,I,B,OH,AME,3708,0.6,4,4,149,144,19533
+Pentecostal Theological Seminary,ACCRED,I,W,TN,COGCLEV,5532,20.1,12,23,390,200,10330
+Perkins School of Theology Southern Methodist University,ACCRED,U,W,TX,UMC,19533,231.2,27,30,284,145,26641
+Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,7790,134.2,10,11,98,46,11496
+Phoenix Seminary,ACCRED,I,W,AZ,NONDEN,7009,1.5,5,20,288,137,10470
+Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,13093,236.1,13,15,223,90,13260
+Pontifical College Josephinum,ACCRED,C,N,OH,RC,9002,30.9,6,7,26,33,31536
+Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,3807,5.0,3,9,42,53,28000
+Portland Seminary of George Fox University,ACCRED,C,W,OR,INTER,2699,4.5,7,7,370,251,18
+Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,1854,0.0,6,26,119,79,8810
+Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,69021,1358.2,34,50,287,276,20250
+Providence Theological Seminary,ACCRED,C,W,MB,INTER,3405,0.0,9,15,165,80,12738
+Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,5121,1.8,11,12,404,149,7900
+Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,432,4.7,1,1,78,40,14000
+Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,907,1.0,6,8,12,8,14625
+Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,2173,5.2,4,5,97,65,13989
+Reformed Theological Seminary,ACCRED,I,W,MS,INTER,29967,82.9,27,60,1127,529,21365
+Regent College,ACCRED,I,W,BC,INTER,10463,29.8,13,27,342,155,13125
+Regent University School of Divinity,ACCRED,U,B,VA,INTER,13724,2.4,12,29,1176,665,16920
+Regis College,ACCRED,I,W,ON,RC,4080,11.5,7,10,93,60,8366
+Robert E. Webber Institute for Worship Studies,ACCRED,I,W,FL,INTER,1059,0.1,1,5,137,174,0
+Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,5411,0.0,11,19,126,99,35032
+Sacred Heart Seminary and School of Theology,ACCRED,I,V,WI,RC,8623,12.9,18,29,119,116,36800
+Saint John's Seminary (MA),ACCRED,C,W,MA,RC,5981,41.3,0,0,96,87,43294
+Saint John's University School of Theology and Seminary,ACCRED,C,W,MN,RC,4351,29.2,10,12,143,81,18030
+Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,3618,0.9,9,13,109,67,10470
+Saint Meinrad School of Theology,ACCRED,I,W,IN,RC,14719,49.6,16,22,173,152,38536
+Saint Paul School of Theology,ACCRED,I,W,KS,UMC,4432,34.8,6,12,100,66,17350
+Saint Paul Seminary School of Divinity of the University of St. Thomas,ACCRED,U,W,MN,RC,9021,45.1,6,9,162,100,26951
+Saint Sophia Ukrainian Orthodox Theological Seminary,ASSOC,I,M,NJ,UKOCUSA,350,0.5,0,2,22,43,15200
+Saint Vincent Seminary,ACCRED,C,W,PA,RC,3800,22.6,1,1,79,105,34058
+Samuel DeWitt Proctor School of Theology of Virginia Union University,ACCRED,C,B,VA,BAPT,1491,0.0,14,14,238,171,12924
+San Francisco Theological Seminary,ACCRED,U,W,CA,PCUSA,4883,34.1,7,7,89,65,18700

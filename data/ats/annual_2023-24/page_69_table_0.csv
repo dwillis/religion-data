@@ -1,45 +1,45 @@
 col_0,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Academic Dean - Other,,,,,,
 Number,13,20,14,7,28,17
-Average Salary,"93,498","98,213","112,527","96,613","100,737","80,708"
-Median Salary,"91,555","96,932","108,937","84,371","91,250","82,593"
-Average Salary and Housing,"93,498","98,813","113,742","96,613","100,737","80,708"
-Average Benefits,"6,994","12,399","16,580","16,377","20,406","17,295"
-Average Pension,"4,708","6,629","7,981","7,533","9,005","4,543"
-Total Compensation Average,"105,200","117,840","138,302","120,524","130,148","102,546"
-Total Compensation 25th Percentile,"80,000","87,080","112,860","94,150","108,121","84,046"
-Total Compensation Median,"102,000","119,705","123,743","101,009","120,186","105,684"
-Total Compensation 75th Percentile,"132,759","133,215","167,088","111,125","144,000","117,420"
+Average Salary,93498,98213,112527,96613,100737,80708
+Median Salary,91555,96932,108937,84371,91250,82593
+Average Salary and Housing,93498,98813,113742,96613,100737,80708
+Average Benefits,6994,12399,16580,16377,20406,17295
+Average Pension,4708,6629,7981,7533,9005,4543
+Total Compensation Average,105200,117840,138302,120524,130148,102546
+Total Compensation 25th Percentile,80000,87080,112860,94150,108121,84046
+Total Compensation Median,102000,119705,123743,101009,120186,105684
+Total Compensation 75th Percentile,132759,133215,167088,111125,144000,117420
 Dean of Chapel/Chaplain,,,,,,
 Number,2,10,5,1,-,1
-Average Salary,-,"68,222","75,432",-,-,-
-Median Salary,-,"65,817",-,-,-,-
-Average Salary and Housing,-,"71,702","83,832",-,-,-
-Average Benefits,-,"12,794","11,862",-,-,-
-Average Pension,-,"7,115","4,503",-,-,-
-Total Compensation Average,-,"91,611","100,197",-,-,-
-Total Compensation 25th Percentile,-,"72,215","61,892",-,-,-
-Total Compensation Median,-,"87,806","98,400",-,-,-
-Total Compensation 75th Percentile,-,"117,752","99,190",-,-,-
+Average Salary,-,68222,75432,-,-,-
+Median Salary,-,65817,-,-,-,-
+Average Salary and Housing,-,71702,83832,-,-,-
+Average Benefits,-,12794,11862,-,-,-
+Average Pension,-,7115,4503,-,-,-
+Total Compensation Average,-,91611,100197,-,-,-
+Total Compensation 25th Percentile,-,72215,61892,-,-,-
+Total Compensation Median,-,87806,98400,-,-,-
+Total Compensation 75th Percentile,-,117752,99190,-,-,-
 Dean of Students,,,,,,
 Number,14,25,17,8,6,4
-Average Salary,"54,915","79,204","98,035","88,000","99,887",-
-Median Salary,"51,600","82,243","90,000","81,752","100,000",-
-Average Salary and Housing,"55,629","86,395","102,250","88,000","99,887",-
-Average Benefits,"9,120","12,746","9,530","11,591","13,498",-
-Average Pension,"3,083","6,842","9,613","7,212","8,860",-
-Total Compensation Average,"67,832","105,983","121,393","106,802","122,244",-
-Total Compensation 25th Percentile,"42,942","82,822","88,733","72,250","107,850",-
-Total Compensation Median,"51,600","102,815","116,000","97,746","115,105",-
-Total Compensation 75th Percentile,"84,000","124,983","163,711","108,218","145,200",-
+Average Salary,54915,79204,98035,88000,99887,-
+Median Salary,51600,82243,90000,81752,100000,-
+Average Salary and Housing,55629,86395,102250,88000,99887,-
+Average Benefits,9120,12746,9530,11591,13498,-
+Average Pension,3083,6842,9613,7212,8860,-
+Total Compensation Average,67832,105983,121393,106802,122244,-
+Total Compensation 25th Percentile,42942,82822,88733,72250,107850,-
+Total Compensation Median,51600,102815,116000,97746,115105,-
+Total Compensation 75th Percentile,84000,124983,163711,108218,145200,-
 Director/Chair of Academic Degree Program,,,,,,
 Number,4,17,8,7,10,2
-Average Salary,-,"62,909","79,219","118,222","78,934",-
-Median Salary,-,"64,000","68,250","88,325","72,500",-
-Average Salary and Housing,-,"63,156","89,258","118,973","79,294",-
-Average Benefits,-,"9,878","8,004","18,977","14,258",-
-Average Pension,-,"4,921","5,862","7,963","9,719",-
-Total Compensation Average,-,"77,954","103,125","145,914","103,271",-
-Total Compensation 25th Percentile,-,"60,556","68,250","89,085","79,252",-
-Total Compensation Median,-,"74,604","99,698","106,843","107,947",-
-Total Compensation 75th Percentile,-,"103,622","132,331","204,175","137,388",-
+Average Salary,-,62909,79219,118222,78934,-
+Median Salary,-,64000,68250,88325,72500,-
+Average Salary and Housing,-,63156,89258,118973,79294,-
+Average Benefits,-,9878,8004,18977,14258,-
+Average Pension,-,4921,5862,7963,9719,-
+Total Compensation Average,-,77954,103125,145914,103271,-
+Total Compensation 25th Percentile,-,60556,68250,89085,79252,-
+Total Compensation Median,-,74604,99698,106843,107947,-
+Total Compensation 75th Percentile,-,103622,132331,204175,137388,-

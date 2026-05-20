@@ -1,37 +1,37 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-Oklahoma Christian University Graduate School of Theology,ASSOC,U,W,OK,CHUCHR,88,0,2,4,31,29,"9,900"
-Oral Roberts University Graduate School of Theology and Ministry,ACCRED,U,N,OK,INTER,"5,295",0,17,23,333,234,"13,920"
-Pacific Christian College of Ministry and Biblical Studies,ASSOC,U,n/a,CA,CCHCHC,321,0,0,3,52,38,"9,900"
-Pacific Lutheran Theological Seminary,ACCRED,U,W,CA,ELCA,"4,400",37,4,5,45,44,"23,135"
-Pacific School of Religion,ACCRED,I,W,CA,INTER,"7,156",46,8,9,122,74,"20,291"
-Palm Beach Atlantic University School of Ministry Graduate Department,ACCRED,U,N,FL,INTER,"1,503",0,12,12,134,110,"14,516"
-Palmer Theological Seminary,ACCRED,U,W,PA,ABCUSA,"2,573",16,5,8,213,124,"14,630"
-Payne Theological Seminary,ACCRED,I,B,OH,AME,"3,366",1,4,4,188,108,"16,600"
-Pentecostal Theological Seminary,ACCRED,I,W,TN,COGCLEV,"4,537",19,15,26,435,226,"13,016"
-Perkins School of Theology,ACCRED,U,W,TX,UMC,"18,443",232,27,30,302,198,"23,925"
-Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,"7,114",120,12,13,132,63,"11,246"
-Phoenix Seminary,ACCRED,I,W,AZ,NONDEN,"6,860",1,5,24,310,258,"9,650"
-Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,"13,682",249,13,13,223,116,"11,630"
-Pontifical College Josephinum,ACCRED,C,N,OH,RC,"8,223",30,7,8,22,21,"28,860"
-Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,"3,813",5,5,11,47,47,"41,000"
-Portland Seminary,ACCRED,C,W,OR,INTER,"2,235",4,10,12,325,186,"14,400"
-Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,"1,660",0,0,2,134,79,"8,810"
-Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,"63,763","1,368",36,36,323,319,"20,050"
-Providence Theological Seminary,ACCRED,C,W,MB,INTER,"3,870",0,10,11,167,69,"12,516"
-Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,"4,594",2,11,13,239,101,"7,700"
-Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,438,5,2,7,84,14,"3,025"
-Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,859,1,8,9,29,17,"12,267"
-Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,"2,107",6,5,8,115,50,"16,830"
-Reformed Theological Seminary,ACCRED,I,W,MS,INTER,"26,599",89,33,63,"1,145",420,"20,870"
-Regent College,ACCRED,I,W,BC,INTER,"9,435",29,13,27,396,174,"16,231"
-Regent University School of Divinity,ACCRED,U,B,VA,INTER,"12,305",0,14,19,"1,162",802,"14,760"
-Regis College,ACCRED,I,W,ON,RC,"3,570",11,6,12,103,59,"8,251"
-Robert E. Webber Institute for Worship Studies,ACCRED,I,W,FL,INTER,"1,025",0,0,11,155,155,0
-Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,"5,121",0,14,17,134,99,"35,137"
-Sacred Heart Seminary and School of Theology,ACCRED,I,V,WI,RC,"7,935",12,13,21,122,111,"21,764"
-Saint John's Seminary (MA),ACCRED,C,W,MA,RC,"5,441",39,5,5,72,62,"28,060"
-Saint John's University School of Theology and Seminary,ACCRED,C,W,MN,RC,"3,911",27,5,9,118,77,"17,910"
-Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,"3,354",1,8,14,118,102,"10,670"
-Saint Meinrad School of Theology,ACCRED,I,W,IN,RC,"13,577",49,18,23,175,139,"35,932"
-Saint Paul School of Theology,ACCRED,I,W,KS,UMC,"4,470",33,8,15,101,64,"17,974"
+Oklahoma Christian University Graduate School of Theology,ASSOC,U,W,OK,CHUCHR,88,0,2,4,31,29,9900
+Oral Roberts University Graduate School of Theology and Ministry,ACCRED,U,N,OK,INTER,5295,0,17,23,333,234,13920
+Pacific Christian College of Ministry and Biblical Studies,ASSOC,U,n/a,CA,CCHCHC,321,0,0,3,52,38,9900
+Pacific Lutheran Theological Seminary,ACCRED,U,W,CA,ELCA,4400,37,4,5,45,44,23135
+Pacific School of Religion,ACCRED,I,W,CA,INTER,7156,46,8,9,122,74,20291
+Palm Beach Atlantic University School of Ministry Graduate Department,ACCRED,U,N,FL,INTER,1503,0,12,12,134,110,14516
+Palmer Theological Seminary,ACCRED,U,W,PA,ABCUSA,2573,16,5,8,213,124,14630
+Payne Theological Seminary,ACCRED,I,B,OH,AME,3366,1,4,4,188,108,16600
+Pentecostal Theological Seminary,ACCRED,I,W,TN,COGCLEV,4537,19,15,26,435,226,13016
+Perkins School of Theology,ACCRED,U,W,TX,UMC,18443,232,27,30,302,198,23925
+Phillips Theological Seminary,ACCRED,I,W,OK,DISCPL,7114,120,12,13,132,63,11246
+Phoenix Seminary,ACCRED,I,W,AZ,NONDEN,6860,1,5,24,310,258,9650
+Pittsburgh Theological Seminary,ACCRED,I,W,PA,PCUSA,13682,249,13,13,223,116,11630
+Pontifical College Josephinum,ACCRED,C,N,OH,RC,8223,30,7,8,22,21,28860
+Pope St. John XXIII National Seminary,ACCRED,I,W,MA,RC,3813,5,5,11,47,47,41000
+Portland Seminary,ACCRED,C,W,OR,INTER,2235,4,10,12,325,186,14400
+Presbyterian Theological Seminary in America,ACCRED,I,A,CA,KPCA,1660,0,0,2,134,79,8810
+Princeton Theological Seminary,ACCRED,I,W,NJ,PCUSA,63763,1368,36,36,323,319,20050
+Providence Theological Seminary,ACCRED,C,W,MB,INTER,3870,0,10,11,167,69,12516
+Puritan Reformed Theological Seminary,ACCRED,I,W,MI,HERREF,4594,2,11,13,239,101,7700
+Queen's College Faculty of Theology,ASSOC,C,W,NL,ANGL,438,5,2,7,84,14,3025
+Reformed Episcopal Seminary,ACCRED,I,W,PA,RFEPISC,859,1,8,9,29,17,12267
+Reformed Presbyterian Theological Seminary,ACCRED,I,W,PA,RFPRES,2107,6,5,8,115,50,16830
+Reformed Theological Seminary,ACCRED,I,W,MS,INTER,26599,89,33,63,1145,420,20870
+Regent College,ACCRED,I,W,BC,INTER,9435,29,13,27,396,174,16231
+Regent University School of Divinity,ACCRED,U,B,VA,INTER,12305,0,14,19,1162,802,14760
+Regis College,ACCRED,I,W,ON,RC,3570,11,6,12,103,59,8251
+Robert E. Webber Institute for Worship Studies,ACCRED,I,W,FL,INTER,1025,0,0,11,155,155,0
+Sacred Heart Major Seminary,ACCRED,I,W,MI,RC,5121,0,14,17,134,99,35137
+Sacred Heart Seminary and School of Theology,ACCRED,I,V,WI,RC,7935,12,13,21,122,111,21764
+Saint John's Seminary (MA),ACCRED,C,W,MA,RC,5441,39,5,5,72,62,28060
+Saint John's University School of Theology and Seminary,ACCRED,C,W,MN,RC,3911,27,5,9,118,77,17910
+Saint Mary Seminary and Graduate School of Theology,ACCRED,I,W,OH,RC,3354,1,8,14,118,102,10670
+Saint Meinrad School of Theology,ACCRED,I,W,IN,RC,13577,49,18,23,175,139,35932
+Saint Paul School of Theology,ACCRED,I,W,KS,UMC,4470,33,8,15,101,64,17974

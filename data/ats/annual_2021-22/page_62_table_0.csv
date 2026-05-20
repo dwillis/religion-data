@@ -2,45 +2,45 @@ All Member Schools,col_1,col_2,col_3,col_4,col_5,col_6
 ,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Chief Executive Officer,,,,,,
 Number,93,81,44,15,8,7
-Average Salary,"120,158","149,076","170,089","247,918","205,337","334,596"
-Median Salary,"108,493","127,453","169,984","225,000","190,045","298,700"
-Average Salary and Housing,"125,233","160,903","186,402","247,918","206,724","334,768"
-Average Benefits,"11,800","15,362","17,902","19,920","32,498","26,533"
-Average Pension,"7,728","10,740","13,533","16,488","14,447","38,328"
-Total Compensation Average,"144,762","187,006","217,838","284,327","253,670","399,629"
-Total Compensation 25th Percentile,"87,786","113,816","122,586","198,272","150,649","301,106"
-Total Compensation Median,"124,201","172,021","215,050","245,995","220,855","351,923"
-Total Compensation 75th Percentile,"181,889","215,273","298,348","295,036","257,996","385,376"
+Average Salary,120158,149076,170089,247918,205337,334596
+Median Salary,108493,127453,169984,225000,190045,298700
+Average Salary and Housing,125233,160903,186402,247918,206724,334768
+Average Benefits,11800,15362,17902,19920,32498,26533
+Average Pension,7728,10740,13533,16488,14447,38328
+Total Compensation Average,144762,187006,217838,284327,253670,399629
+Total Compensation 25th Percentile,87786,113816,122586,198272,150649,301106
+Total Compensation Median,124201,172021,215050,245995,220855,351923
+Total Compensation 75th Percentile,181889,215273,298348,295036,257996,385376
 Academic VP/Academic Dean,,,,,,
 Number,95,83,46,13,8,7
-Average Salary,"83,201","91,634","106,012","136,408","126,787","155,800"
-Median Salary,"82,779","92,420","105,099","127,500","118,048","160,000"
-Average Salary and Housing,"88,294","96,670","111,997","138,716","126,787","161,915"
-Average Benefits,"9,297","11,253","14,216","13,752","19,046","18,040"
-Average Pension,"6,375","6,379","8,586","9,345","9,876","40,552"
-Total Compensation Average,"103,967","114,303","134,801","161,814","155,709","220,507"
-Total Compensation 25th Percentile,"81,897","93,157","108,000","120,225","120,847","165,960"
-Total Compensation Median,"95,000","112,991","135,557","146,993","161,275","210,953"
-Total Compensation 75th Percentile,"126,023","133,761","166,740","181,558","181,518","253,667"
+Average Salary,83201,91634,106012,136408,126787,155800
+Median Salary,82779,92420,105099,127500,118048,160000
+Average Salary and Housing,88294,96670,111997,138716,126787,161915
+Average Benefits,9297,11253,14216,13752,19046,18040
+Average Pension,6375,6379,8586,9345,9876,40552
+Total Compensation Average,103967,114303,134801,161814,155709,220507
+Total Compensation 25th Percentile,81897,93157,108000,120225,120847,165960
+Total Compensation Median,95000,112991,135557,146993,161275,210953
+Total Compensation 75th Percentile,126023,133761,166740,181558,181518,253667
 Academic Dean - Other,,,,,,
 Number,17,32,26,24,26,38
-Average Salary,"76,267","82,126","92,880","97,690","89,257","94,147"
-Median Salary,"71,103","79,732","90,000","97,728","82,335","95,000"
-Average Salary and Housing,"79,949","83,623","93,572","98,792","90,665","96,514"
-Average Benefits,"9,751","11,128","9,381","12,058","17,822","14,042"
-Average Pension,"5,133","5,797","5,003","6,267","8,340","10,777"
-Total Compensation Average,"94,834","100,549","107,957","117,117","116,828","121,334"
-Total Compensation 25th Percentile,"63,000","84,035","84,291","94,025","105,481","96,958"
-Total Compensation Median,"79,170","99,134","101,984","115,500","111,651","123,071"
-Total Compensation 75th Percentile,"110,178","114,296","131,730","140,748","124,245","139,373"
+Average Salary,76267,82126,92880,97690,89257,94147
+Median Salary,71103,79732,90000,97728,82335,95000
+Average Salary and Housing,79949,83623,93572,98792,90665,96514
+Average Benefits,9751,11128,9381,12058,17822,14042
+Average Pension,5133,5797,5003,6267,8340,10777
+Total Compensation Average,94834,100549,107957,117117,116828,121334
+Total Compensation 25th Percentile,63000,84035,84291,94025,105481,96958
+Total Compensation Median,79170,99134,101984,115500,111651,123071
+Total Compensation 75th Percentile,110178,114296,131730,140748,124245,139373
 Vice President for Administration,,,,,,
 Number,20,22,13,24,3,5
-Average Salary,"93,569","109,864","110,260","134,083","120,312","113,696"
-Median Salary,"82,192","101,250","116,650","143,222",-,"107,000"
-Average Salary and Housing,"96,391","111,655","116,414","134,083","120,312","113,696"
-Average Benefits,"11,212","15,978","21,794","8,551","7,394","15,548"
-Average Pension,"7,791","11,065","8,712","5,230","11,256","15,902"
-Total Compensation Average,"115,394","138,700","146,921","147,865","138,963","145,147"
-Total Compensation 25th Percentile,"71,697","112,701","110,213","109,105",-,"100,534"
-Total Compensation Median,"90,153","118,249","145,088","144,877",-,"129,615"
-Total Compensation 75th Percentile,"128,698","171,469","153,624","164,266",-,"183,427"
+Average Salary,93569,109864,110260,134083,120312,113696
+Median Salary,82192,101250,116650,143222,-,107000
+Average Salary and Housing,96391,111655,116414,134083,120312,113696
+Average Benefits,11212,15978,21794,8551,7394,15548
+Average Pension,7791,11065,8712,5230,11256,15902
+Total Compensation Average,115394,138700,146921,147865,138963,145147
+Total Compensation 25th Percentile,71697,112701,110213,109105,-,100534
+Total Compensation Median,90153,118249,145088,144877,-,129615
+Total Compensation 75th Percentile,128698,171469,153624,164266,-,183427

@@ -1,37 +1,37 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-Canadian Baptist Theological Seminary,ACCRED,C,W,AB,CNBC,"2,562",7.9,6,9,43,29,"10,692"
-Canadian Reformed Theological Seminary,ACCRED,I,W,ON,CANREF,"1,721",0.0,5,5,28,37,"3,500"
-Candler School of Theology of Emory University,ACCRED,U,M,GA,UMC,"33,719",315.8,36,49,419,412,"26,442"
-Carey Theological College,ACCRED,I,N,BC,BAPTWC,"1,385",7.1,3,16,69,22,"9,315"
-Catholic International University Graduate School of Theology,ACCRED,U,W,WV,RC,"2,333",0.8,5,11,80,22,0
-Catholic Theological Union,ACCRED,I,W,IL,RC,"9,450",41.7,16,20,193,127,"26,862"
-Catholic University of America School of Theology and Religious Studies,ACCRED,U,W,DC,RC,"6,631",27.9,24,24,268,172,"34,180"
-Central Baptist Theological Seminary,ACCRED,I,V,KS,ABCUSA,"5,478",0.1,24,46,341,262,"7,360"
-Central Baptist Theological Seminary of Minneapolis,ACCRED,I,W,MN,INDBAP,"2,300",4.4,2,5,78,34,"9,370"
-Chapman Seminary of Oakland City University,ACCRED,U,W,IN,GENBAPT,534,0.8,2,2,5,2,"8,250"
-Chicago Theological Seminary,ACCRED,I,W,IL,UCC,"8,187",16.6,11,13,226,128,"26,448"
-China Evangelical Seminary North America,ACCRED,I,V,CA,NONDEN,"2,224",2.6,5,5,112,56,"9,915"
-Christ School of Theology of the Institute of Lutheran Theology,ASSOC,U,M,SD,INTER,758,0.5,5,8,103,42,"10,262"
-Christian Theological Seminary,ACCRED,I,W,IN,DISCPL,"9,841",155.7,15,16,139,98,"13,523"
-Christian Witness Theological Seminary,ACCRED,I,A,CA,INTER,"1,762",2.1,5,5,86,58,0
-Church Divinity School of the Pacific,ACCRED,I,W,CA,EPISC,"5,852",28.7,4,8,54,28,"18,010"
-Claremont School of Theology,ACCRED,I,A,CA,UMC,"9,925",16.4,20,24,180,96,"57,906"
-Colgate Rochester Crozer Divinity School,ACCRED,I,B,NY,ABCUSA,"2,455",19.3,4,6,65,41,"3,900"
-Columbia Biblical Seminary of Columbia International University,ACCRED,C,A,SC,INTER,"1,970",0.0,7,18,541,245,"14,950"
-Columbia Theological Seminary,ACCRED,I,B,GA,PCUSA,"18,175",268.8,18,22,206,140,"21,542"
-Concordia Lutheran Seminary (AB),ACCRED,I,W,AB,LUTHCA,"1,029",5.8,3,4,6,7,"15,410"
-Concordia Lutheran Theological Seminary (ON),ACCRED,I,W,ON,LUTHCA,939,5.2,3,5,12,9,"8,616"
-Concordia Seminary (MO),ACCRED,I,W,MO,LUTHMS,"32,328",201.1,24,33,612,252,"31,755"
-Concordia Theological Seminary (IN),ACCRED,I,W,IN,LUTHMS,"20,638",84.4,20,25,296,224,"35,200"
-Cornerstone Theological Seminary,ACCRED,C,W,MI,INTER,"1,478",4.8,6,7,122,51,"10,456"
-Covenant Theological Seminary,ACCRED,I,W,MO,PCA,"11,050",48.6,16,31,607,355,"20,255"
-Crown College Graduate School of Ministry,ASSOC,C,M,MN,CMA,480,0.0,0,19,115,54,"11,280"
-Dallas Theological Seminary,ACCRED,I,W,TX,NONDEN,"56,570",129.0,54,75,"2,651","1,400","6,275"
-Denver Seminary,ACCRED,I,W,CO,INTER,"17,589",51.0,26,44,837,431,"14,215"
-Dickerson-Green Theological Seminary of Allen University,ASSOC,U,B,SC,AME,"25,533",0.0,5,6,44,30,0
-Dominican House of Studies,ACCRED,I,W,DC,RC,"7,878",12.2,16,19,62,84,"18,232"
-Dominican School of Philosophy and Theology,ACCRED,I,W,CA,RC,"3,326",8.1,15,17,63,56,"21,630"
-Drew University Theological School,ACCRED,U,M,NJ,UMC,"16,041",37.7,25,30,362,304,0
-Duke University Divinity School,ACCRED,U,W,NC,UMC,"45,516",267.0,41,53,624,570,"29,600"
-Earlham School of Religion,ACCRED,C,W,IN,FRNDS,"2,413",33.5,6,7,56,62,"47,210"
+Canadian Baptist Theological Seminary,ACCRED,C,W,AB,CNBC,2562,7.9,6,9,43,29,10692
+Canadian Reformed Theological Seminary,ACCRED,I,W,ON,CANREF,1721,0.0,5,5,28,37,3500
+Candler School of Theology of Emory University,ACCRED,U,M,GA,UMC,33719,315.8,36,49,419,412,26442
+Carey Theological College,ACCRED,I,N,BC,BAPTWC,1385,7.1,3,16,69,22,9315
+Catholic International University Graduate School of Theology,ACCRED,U,W,WV,RC,2333,0.8,5,11,80,22,0
+Catholic Theological Union,ACCRED,I,W,IL,RC,9450,41.7,16,20,193,127,26862
+Catholic University of America School of Theology and Religious Studies,ACCRED,U,W,DC,RC,6631,27.9,24,24,268,172,34180
+Central Baptist Theological Seminary,ACCRED,I,V,KS,ABCUSA,5478,0.1,24,46,341,262,7360
+Central Baptist Theological Seminary of Minneapolis,ACCRED,I,W,MN,INDBAP,2300,4.4,2,5,78,34,9370
+Chapman Seminary of Oakland City University,ACCRED,U,W,IN,GENBAPT,534,0.8,2,2,5,2,8250
+Chicago Theological Seminary,ACCRED,I,W,IL,UCC,8187,16.6,11,13,226,128,26448
+China Evangelical Seminary North America,ACCRED,I,V,CA,NONDEN,2224,2.6,5,5,112,56,9915
+Christ School of Theology of the Institute of Lutheran Theology,ASSOC,U,M,SD,INTER,758,0.5,5,8,103,42,10262
+Christian Theological Seminary,ACCRED,I,W,IN,DISCPL,9841,155.7,15,16,139,98,13523
+Christian Witness Theological Seminary,ACCRED,I,A,CA,INTER,1762,2.1,5,5,86,58,0
+Church Divinity School of the Pacific,ACCRED,I,W,CA,EPISC,5852,28.7,4,8,54,28,18010
+Claremont School of Theology,ACCRED,I,A,CA,UMC,9925,16.4,20,24,180,96,57906
+Colgate Rochester Crozer Divinity School,ACCRED,I,B,NY,ABCUSA,2455,19.3,4,6,65,41,3900
+Columbia Biblical Seminary of Columbia International University,ACCRED,C,A,SC,INTER,1970,0.0,7,18,541,245,14950
+Columbia Theological Seminary,ACCRED,I,B,GA,PCUSA,18175,268.8,18,22,206,140,21542
+Concordia Lutheran Seminary (AB),ACCRED,I,W,AB,LUTHCA,1029,5.8,3,4,6,7,15410
+Concordia Lutheran Theological Seminary (ON),ACCRED,I,W,ON,LUTHCA,939,5.2,3,5,12,9,8616
+Concordia Seminary (MO),ACCRED,I,W,MO,LUTHMS,32328,201.1,24,33,612,252,31755
+Concordia Theological Seminary (IN),ACCRED,I,W,IN,LUTHMS,20638,84.4,20,25,296,224,35200
+Cornerstone Theological Seminary,ACCRED,C,W,MI,INTER,1478,4.8,6,7,122,51,10456
+Covenant Theological Seminary,ACCRED,I,W,MO,PCA,11050,48.6,16,31,607,355,20255
+Crown College Graduate School of Ministry,ASSOC,C,M,MN,CMA,480,0.0,0,19,115,54,11280
+Dallas Theological Seminary,ACCRED,I,W,TX,NONDEN,56570,129.0,54,75,2651,1400,6275
+Denver Seminary,ACCRED,I,W,CO,INTER,17589,51.0,26,44,837,431,14215
+Dickerson-Green Theological Seminary of Allen University,ASSOC,U,B,SC,AME,25533,0.0,5,6,44,30,0
+Dominican House of Studies,ACCRED,I,W,DC,RC,7878,12.2,16,19,62,84,18232
+Dominican School of Philosophy and Theology,ACCRED,I,W,CA,RC,3326,8.1,15,17,63,56,21630
+Drew University Theological School,ACCRED,U,M,NJ,UMC,16041,37.7,25,30,362,304,0
+Duke University Divinity School,ACCRED,U,W,NC,UMC,45516,267.0,41,53,624,570,29600
+Earlham School of Religion,ACCRED,C,W,IN,FRNDS,2413,33.5,6,7,56,62,47210

@@ -1,45 +1,45 @@
 col_0,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Financial Aid Officer,,,,,,
 Number,11,14,6,3,6,3
-Average Salary,"48,884","57,153","79,328",-,"74,151",-
-Median Salary,"47,544","54,000","75,837",-,"68,640",-
-Average Salary and Housing,"48,884","57,153","79,328",-,"74,151",-
-Average Benefits,"4,252","8,717","8,497",-,"9,945",-
-Average Pension,"3,101","4,040","5,059",-,"7,689",-
-Total Compensation Average,"56,237","69,910","92,885",-,"91,784",-
-Total Compensation 25th Percentile,"31,000","48,320","64,311",-,"69,479",-
-Total Compensation Median,"47,544","66,154","84,604",-,"96,213",-
-Total Compensation 75th Percentile,"71,385","90,560","122,920",-,"109,959",-
+Average Salary,48884,57153,79328,-,74151,-
+Median Salary,47544,54000,75837,-,68640,-
+Average Salary and Housing,48884,57153,79328,-,74151,-
+Average Benefits,4252,8717,8497,-,9945,-
+Average Pension,3101,4040,5059,-,7689,-
+Total Compensation Average,56237,69910,92885,-,91784,-
+Total Compensation 25th Percentile,31000,48320,64311,-,69479,-
+Total Compensation Median,47544,66154,84604,-,96213,-
+Total Compensation 75th Percentile,71385,90560,122920,-,109959,-
 HR Staff,,,,,,
 Number,4,7,3,3,5,-
-Average Salary,-,"79,750",-,-,"76,920",-
-Median Salary,-,"76,500",-,-,-,-
-Average Salary and Housing,-,"79,750",-,-,"76,920",-
-Average Benefits,-,"18,773",-,-,"4,721",-
-Average Pension,-,"9,060",-,-,"7,855",-
-Total Compensation Average,-,"107,583",-,-,"89,497",-
-Total Compensation 25th Percentile,-,"96,351",-,-,"61,705",-
-Total Compensation Median,-,"111,626",-,-,"94,044",-
-Total Compensation 75th Percentile,-,"113,607",-,-,"97,357",-
+Average Salary,-,79750,-,-,76920,-
+Median Salary,-,76500,-,-,-,-
+Average Salary and Housing,-,79750,-,-,76920,-
+Average Benefits,-,18773,-,-,4721,-
+Average Pension,-,9060,-,-,7855,-
+Total Compensation Average,-,107583,-,-,89497,-
+Total Compensation 25th Percentile,-,96351,-,-,61705,-
+Total Compensation Median,-,111626,-,-,94044,-
+Total Compensation 75th Percentile,-,113607,-,-,97357,-
 Developer,,,,,,
 Number,-,5,-,-,1,-
-Average Salary,-,"64,215",-,-,-,-
+Average Salary,-,64215,-,-,-,-
 Median Salary,-,-,-,-,-,-
-Average Salary and Housing,-,"66,432",-,-,-,-
-Average Benefits,-,"16,597",-,-,-,-
-Average Pension,-,"7,619",-,-,-,-
-Total Compensation Average,-,"90,648",-,-,-,-
-Total Compensation 25th Percentile,-,"71,279",-,-,-,-
-Total Compensation Median,-,"94,377",-,-,-,-
-Total Compensation 75th Percentile,-,"99,549",-,-,-,-
+Average Salary and Housing,-,66432,-,-,-,-
+Average Benefits,-,16597,-,-,-,-
+Average Pension,-,7619,-,-,-,-
+Total Compensation Average,-,90648,-,-,-,-
+Total Compensation 25th Percentile,-,71279,-,-,-,-
+Total Compensation Median,-,94377,-,-,-,-
+Total Compensation 75th Percentile,-,99549,-,-,-,-
 IT Help Desk Support,,,,,,
 Number,4,8,6,-,2,-
-Average Salary,-,"59,869","64,849",-,-,-
-Median Salary,-,"53,000","65,000",-,-,-
-Average Salary and Housing,-,"59,869","64,849",-,-,-
-Average Benefits,-,"17,362","9,819",-,-,-
-Average Pension,-,"7,724","4,529",-,-,-
-Total Compensation Average,-,"84,955","79,197",-,-,-
-Total Compensation 25th Percentile,-,"69,302","60,664",-,-,-
-Total Compensation Median,-,"84,180","79,559",-,-,-
-Total Compensation 75th Percentile,-,"97,381","92,625",-,-,-
+Average Salary,-,59869,64849,-,-,-
+Median Salary,-,53000,65000,-,-,-
+Average Salary and Housing,-,59869,64849,-,-,-
+Average Benefits,-,17362,9819,-,-,-
+Average Pension,-,7724,4529,-,-,-
+Total Compensation Average,-,84955,79197,-,-,-
+Total Compensation 25th Percentile,-,69302,60664,-,-,-
+Total Compensation Median,-,84180,79559,-,-,-
+Total Compensation 75th Percentile,-,97381,92625,-,-,-

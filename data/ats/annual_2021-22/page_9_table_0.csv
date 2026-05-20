@@ -1,37 +1,37 @@
 col_0,col_1,col_2,col_3,Prov/,Church/,Expenditures,LT Invest,Faculty,col_9,Enrollment,col_11,MDiv
 Name,Status,IUC,Race,State,Denom,$thousands,$millions,FT,FTE,HC,FTE,Tuition + Fees
-Emmanuel Christian Seminary,ACCRED,C,W,TN,CCHCHC,"2,759",10,8,12,111,85,"15,350"
-Emmanuel College,ACCRED,U,W,ON,UCCAN,"5,359",23,16,19,187,118,"8,104"
-Erskine Theological Seminary,ACCRED,C,W,SC,ARP,"2,131",8,8,11,166,91,560
-Evangelia University Graduate School of Theology,ASSOC,U,W,CA,KPCAK,616,0,11,15,128,100,"6,030"
-Evangelical Theological Seminary,ACCRED,I,W,PA,EVCONG,"2,046",3,6,11,139,119,"12,450"
-Franciscan School of Theology,ACCRED,I,N,CA,RC,"2,749",10,7,11,64,38,"22,552"
-Freed-Hardeman University Graduate School of Theology,ACCRED,U,W,TN,CHUCHR,922,1,4,4,51,20,"17,690"
-Fresno Pacific Biblical Seminary,ACCRED,U,W,CA,MBNA,"3,374",3,8,11,128,88,"8,730"
-Fuller Theological Seminary,ACCRED,I,W,CA,INTER,"56,315",182,29,72,"2,498","1,077","21,690"
-Garrett-Evangelical Theological Seminary,ACCRED,I,W,IL,UMC,"16,780",134,27,27,284,196,"23,005"
-Gateway Seminary,ACCRED,I,M,CA,SBC,"13,884",63,21,47,"1,585",747,"8,690"
-General Theological Seminary,ACCRED,I,W,NY,EPISC,"6,896",43,5,11,53,41,"15,400"
-George W. Truett Theological Seminary,ACCRED,U,W,TX,BAPBGCT,"11,711",104,19,30,349,244,"15,515"
-Georgia Central University School of Divinity,ACCRED,U,N,GA,NONDEN,"1,118",0,25,32,111,94,"8,360"
-Gordon-Conwell Theological Seminary,ACCRED,I,W,MA,INTER,"29,176",70,29,43,"1,380",633,"23,005"
-Grace Mission University Graduate School,ACCRED,U,A,CA,PCINT,"1,562",0,1,7,242,242,"3,920"
-Grace School of Theology,ACCRED,I,W,TX,INTER,"5,929",0,5,15,457,255,"4,900"
-Grace Theological Seminary,ACCRED,C,N,IN,FEGRACE,611,1,6,12,168,139,"15,000"
-"Graduate School of Theology and Ministry in Puerto Rico, St. Albert the Great",ACCRED,U,H,PR,RC,108,0,1,4,24,19,"6,350"
-Graduate Theological Union,ACCRED,I,W,CA,INTER,"11,358",59,10,14,194,167,0
-Grand Canyon Theological Seminary,ACCRED,U,B,AZ,INTER,"3,800",0,11,46,525,525,"11,084"
-Grand Rapids Theological Seminary,ACCRED,C,W,MI,INTER,"2,727",6,9,12,278,149,"14,827"
-Harding School of Theology,ACCRED,C,W,TN,CHUCHR,"2,110",18,3,6,93,30,"18,954"
-Hartford International University for Religion and Peace,ACCRED,I,W,CT,INTER,"5,390",73,3,12,112,77,0
-Harvard University Divinity School,ACCRED,U,W,MA,INTER,"38,715",845,31,45,339,336,"31,196"
-Hazelip School of Theology,ACCRED,U,W,TN,CHUCHR,879,0,7,11,88,38,"12,960"
-Henry Appenzeller University,ASSOC,I,A,CA,KMCA,224,0,0,4,16,11,"6,000"
-Heritage Theological Seminary,ACCRED,C,W,ON,FEVBAPT,"1,388",0,4,6,179,57,"11,100"
-HMS Richards Divinity School Division of Graduate Studies,ACCRED,U,W,CA,SDADV,633,0,8,14,27,22,"14,832"
-Holy Apostles College and Seminary,ACCRED,C,N,CT,RC,"5,856",10,9,42,416,126,"30,675"
-Holy Cross Greek Orthodox School of Theology,ACCRED,C,W,MA,GRORTH,"9,826",32,8,8,76,72,"21,940"
-Hood Theological Seminary,ACCRED,I,B,NC,AMEZ,"3,134",9,5,11,144,93,"19,230"
-Houston Graduate School of Theology,ACCRED,I,B,TX,INTER,"1,368",0,3,13,99,71,"13,150"
-Howard University School of Divinity,ACCRED,U,B,DC,NONDEN,"1,819",0,13,14,102,70,"20,780"
-Huron University College Faculty of Theology,ACCRED,U,N,ON,ANGL,"1,968",0,8,13,48,31,"8,030"
+Emmanuel Christian Seminary,ACCRED,C,W,TN,CCHCHC,2759,10,8,12,111,85,15350
+Emmanuel College,ACCRED,U,W,ON,UCCAN,5359,23,16,19,187,118,8104
+Erskine Theological Seminary,ACCRED,C,W,SC,ARP,2131,8,8,11,166,91,560
+Evangelia University Graduate School of Theology,ASSOC,U,W,CA,KPCAK,616,0,11,15,128,100,6030
+Evangelical Theological Seminary,ACCRED,I,W,PA,EVCONG,2046,3,6,11,139,119,12450
+Franciscan School of Theology,ACCRED,I,N,CA,RC,2749,10,7,11,64,38,22552
+Freed-Hardeman University Graduate School of Theology,ACCRED,U,W,TN,CHUCHR,922,1,4,4,51,20,17690
+Fresno Pacific Biblical Seminary,ACCRED,U,W,CA,MBNA,3374,3,8,11,128,88,8730
+Fuller Theological Seminary,ACCRED,I,W,CA,INTER,56315,182,29,72,2498,1077,21690
+Garrett-Evangelical Theological Seminary,ACCRED,I,W,IL,UMC,16780,134,27,27,284,196,23005
+Gateway Seminary,ACCRED,I,M,CA,SBC,13884,63,21,47,1585,747,8690
+General Theological Seminary,ACCRED,I,W,NY,EPISC,6896,43,5,11,53,41,15400
+George W. Truett Theological Seminary,ACCRED,U,W,TX,BAPBGCT,11711,104,19,30,349,244,15515
+Georgia Central University School of Divinity,ACCRED,U,N,GA,NONDEN,1118,0,25,32,111,94,8360
+Gordon-Conwell Theological Seminary,ACCRED,I,W,MA,INTER,29176,70,29,43,1380,633,23005
+Grace Mission University Graduate School,ACCRED,U,A,CA,PCINT,1562,0,1,7,242,242,3920
+Grace School of Theology,ACCRED,I,W,TX,INTER,5929,0,5,15,457,255,4900
+Grace Theological Seminary,ACCRED,C,N,IN,FEGRACE,611,1,6,12,168,139,15000
+"Graduate School of Theology and Ministry in Puerto Rico, St. Albert the Great",ACCRED,U,H,PR,RC,108,0,1,4,24,19,6350
+Graduate Theological Union,ACCRED,I,W,CA,INTER,11358,59,10,14,194,167,0
+Grand Canyon Theological Seminary,ACCRED,U,B,AZ,INTER,3800,0,11,46,525,525,11084
+Grand Rapids Theological Seminary,ACCRED,C,W,MI,INTER,2727,6,9,12,278,149,14827
+Harding School of Theology,ACCRED,C,W,TN,CHUCHR,2110,18,3,6,93,30,18954
+Hartford International University for Religion and Peace,ACCRED,I,W,CT,INTER,5390,73,3,12,112,77,0
+Harvard University Divinity School,ACCRED,U,W,MA,INTER,38715,845,31,45,339,336,31196
+Hazelip School of Theology,ACCRED,U,W,TN,CHUCHR,879,0,7,11,88,38,12960
+Henry Appenzeller University,ASSOC,I,A,CA,KMCA,224,0,0,4,16,11,6000
+Heritage Theological Seminary,ACCRED,C,W,ON,FEVBAPT,1388,0,4,6,179,57,11100
+HMS Richards Divinity School Division of Graduate Studies,ACCRED,U,W,CA,SDADV,633,0,8,14,27,22,14832
+Holy Apostles College and Seminary,ACCRED,C,N,CT,RC,5856,10,9,42,416,126,30675
+Holy Cross Greek Orthodox School of Theology,ACCRED,C,W,MA,GRORTH,9826,32,8,8,76,72,21940
+Hood Theological Seminary,ACCRED,I,B,NC,AMEZ,3134,9,5,11,144,93,19230
+Houston Graduate School of Theology,ACCRED,I,B,TX,INTER,1368,0,3,13,99,71,13150
+Howard University School of Divinity,ACCRED,U,B,DC,NONDEN,1819,0,13,14,102,70,20780
+Huron University College Faculty of Theology,ACCRED,U,N,ON,ANGL,1968,0,8,13,48,31,8030

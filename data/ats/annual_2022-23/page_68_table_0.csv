@@ -2,23 +2,23 @@ All Member Schools,col_1,col_2,col_3,col_4,col_5,col_6
 ,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Registrar,,,,,,
 Number,70,61,27,17,5,5
-Average Salary,"62,390","63,106","64,643","69,504","68,392","70,669"
-Median Salary,"63,728","61,763","65,000","61,990","71,400","72,871"
-Average Salary and Housing,"64,027","63,303","65,473","69,504","68,392","70,669"
-Average Benefits,"8,517","7,860","11,241","16,386","12,636","10,299"
-Average Pension,"4,590","4,919","5,329","4,919","18,329","5,909"
-Total Compensation Average,"77,135","76,083","82,044","90,810","99,358","86,878"
-Total Compensation 25th Percentile,"56,919","59,338","71,710","57,797","65,400","67,130"
-Total Compensation Median,"79,621","73,318","81,345","78,655","86,320","85,583"
-Total Compensation 75th Percentile,"97,634","90,363","97,000","103,844","107,300","105,814"
+Average Salary,62390,63106,64643,69504,68392,70669
+Median Salary,63728,61763,65000,61990,71400,72871
+Average Salary and Housing,64027,63303,65473,69504,68392,70669
+Average Benefits,8517,7860,11241,16386,12636,10299
+Average Pension,4590,4919,5329,4919,18329,5909
+Total Compensation Average,77135,76083,82044,90810,99358,86878
+Total Compensation 25th Percentile,56919,59338,71710,57797,65400,67130
+Total Compensation Median,79621,73318,81345,78655,86320,85583
+Total Compensation 75th Percentile,97634,90363,97000,103844,107300,105814
 Alumni Officer,,,,,,
 Number,11,16,18,8,3,6
-Average Salary,"74,622","68,641","72,472","76,784","82,739","72,278"
-Median Salary,"70,000","61,918","71,970","77,500",-,"70,000"
-Average Salary and Housing,"76,459","70,123","75,766","76,784","82,739","75,339"
-Average Benefits,"11,945","10,711","10,990","9,876","16,796","4,341"
-Average Pension,"6,816","4,434","5,193","6,172","6,759","6,884"
-Total Compensation Average,"95,221","85,269","91,950","92,833","106,295","86,565"
-Total Compensation 25th Percentile,"75,580","64,579","72,000","61,256",-,"71,313"
-Total Compensation Median,"95,257","79,939","87,904","92,250",-,"82,962"
-Total Compensation 75th Percentile,"117,185","108,000","121,191","109,549",-,"101,822"
+Average Salary,74622,68641,72472,76784,82739,72278
+Median Salary,70000,61918,71970,77500,-,70000
+Average Salary and Housing,76459,70123,75766,76784,82739,75339
+Average Benefits,11945,10711,10990,9876,16796,4341
+Average Pension,6816,4434,5193,6172,6759,6884
+Total Compensation Average,95221,85269,91950,92833,106295,86565
+Total Compensation 25th Percentile,75580,64579,72000,61256,-,71313
+Total Compensation Median,95257,79939,87904,92250,-,82962
+Total Compensation 75th Percentile,117185,108000,121191,109549,-,101822

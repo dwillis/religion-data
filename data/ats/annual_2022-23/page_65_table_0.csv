@@ -2,45 +2,45 @@ All Member Schools,col_1,col_2,col_3,col_4,col_5,col_6
 ,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Dean of Students,,,,,,
 Number,29,41,28,12,8,7
-Average Salary,"65,476","77,299","85,823","106,714","106,621","89,368"
-Median Salary,"59,175","77,790","85,000","87,759","98,640","80,000"
-Average Salary and Housing,"74,880","83,617","87,981","109,214","106,621","95,360"
-Average Benefits,"12,643","11,818","23,998","12,241","15,012","12,536"
-Average Pension,"3,209","7,986","7,394","7,517","7,267","9,084"
-Total Compensation Average,"90,733","103,421","119,374","128,973","128,901","116,981"
-Total Compensation 25th Percentile,"60,724","86,148","92,319","100,862","80,934","86,856"
-Total Compensation Median,"85,405","105,958","107,671","107,445","125,749","115,214"
-Total Compensation 75th Percentile,"112,338","121,300","136,060","150,908","139,477","123,921"
+Average Salary,65476,77299,85823,106714,106621,89368
+Median Salary,59175,77790,85000,87759,98640,80000
+Average Salary and Housing,74880,83617,87981,109214,106621,95360
+Average Benefits,12643,11818,23998,12241,15012,12536
+Average Pension,3209,7986,7394,7517,7267,9084
+Total Compensation Average,90733,103421,119374,128973,128901,116981
+Total Compensation 25th Percentile,60724,86148,92319,100862,80934,86856
+Total Compensation Median,85405,105958,107671,107445,125749,115214
+Total Compensation 75th Percentile,112338,121300,136060,150908,139477,123921
 Director of Student Services,,,,,,
 Number,31,25,14,9,3,4
-Average Salary,"64,135","60,741","60,370","77,803","66,166","71,195"
-Median Salary,"56,732","60,000","55,100","67,543",-,"67,000"
-Average Salary and Housing,"65,716","64,101","61,805","77,803","66,166","78,946"
-Average Benefits,"7,002","11,810","8,250","9,938","16,305","8,465"
-Average Pension,"5,003","4,150","3,612","5,175","25,045","7,758"
-Total Compensation Average,"77,722","80,062","73,667","92,917","107,517","95,169"
-Total Compensation 25th Percentile,"60,045","52,053","52,615","73,580",-,"79,805"
-Total Compensation Median,"70,713","80,654","69,472","89,697",-,"84,319"
-Total Compensation 75th Percentile,"91,244","102,035","83,276","105,308",-,"102,896"
+Average Salary,64135,60741,60370,77803,66166,71195
+Median Salary,56732,60000,55100,67543,-,67000
+Average Salary and Housing,65716,64101,61805,77803,66166,78946
+Average Benefits,7002,11810,8250,9938,16305,8465
+Average Pension,5003,4150,3612,5175,25045,7758
+Total Compensation Average,77722,80062,73667,92917,107517,95169
+Total Compensation 25th Percentile,60045,52053,52615,73580,-,79805
+Total Compensation Median,70713,80654,69472,89697,-,84319
+Total Compensation 75th Percentile,91244,102035,83276,105308,-,102896
 Director of Graduate Studies,,,,,,
 Number,13,26,16,7,4,8
-Average Salary,"58,576","80,725","87,821","80,126","93,729","55,745"
-Median Salary,"66,043","74,727","85,000","87,000","82,000","46,818"
-Average Salary and Housing,"61,345","85,332","90,974","84,412","94,629","67,110"
-Average Benefits,"8,063","11,442","16,488","11,239","19,383","13,179"
-Average Pension,"2,463","6,358","5,227","6,120","4,501","5,788"
-Total Compensation Average,"71,872","103,133","112,689","101,771","118,513","86,079"
-Total Compensation 25th Percentile,"45,622","91,079","85,800","78,069","105,760","58,898"
-Total Compensation Median,"67,892","100,764","104,002","111,436","105,776","92,318"
-Total Compensation 75th Percentile,"88,134","116,234","130,393","115,536","115,023","100,673"
+Average Salary,58576,80725,87821,80126,93729,55745
+Median Salary,66043,74727,85000,87000,82000,46818
+Average Salary and Housing,61345,85332,90974,84412,94629,67110
+Average Benefits,8063,11442,16488,11239,19383,13179
+Average Pension,2463,6358,5227,6120,4501,5788
+Total Compensation Average,71872,103133,112689,101771,118513,86079
+Total Compensation 25th Percentile,45622,91079,85800,78069,105760,58898
+Total Compensation Median,67892,100764,104002,111436,105776,92318
+Total Compensation 75th Percentile,88134,116234,130393,115536,115023,100673
 Director of Doctor of Ministry,,,,,,
 Number,29,31,27,8,9,5
-Average Salary,"67,876","74,849","82,339","81,907","99,013","88,384"
-Median Salary,"73,947","77,000","84,897","81,438","88,847","85,000"
-Average Salary and Housing,"69,766","76,105","85,094","81,907","99,413","88,384"
-Average Benefits,"9,289","12,384","11,739","9,365","22,546","16,578"
-Average Pension,"4,489","6,036","5,174","6,283","7,003","6,339"
-Total Compensation Average,"83,544","94,525","102,008","97,557","128,964","111,301"
-Total Compensation 25th Percentile,"47,320","64,515","82,262","75,853","109,119","94,146"
-Total Compensation Median,"94,134","89,435","95,625","99,039","124,023","111,296"
-Total Compensation 75th Percentile,"112,258","111,962","120,577","111,552","131,801","124,844"
+Average Salary,67876,74849,82339,81907,99013,88384
+Median Salary,73947,77000,84897,81438,88847,85000
+Average Salary and Housing,69766,76105,85094,81907,99413,88384
+Average Benefits,9289,12384,11739,9365,22546,16578
+Average Pension,4489,6036,5174,6283,7003,6339
+Total Compensation Average,83544,94525,102008,97557,128964,111301
+Total Compensation 25th Percentile,47320,64515,82262,75853,109119,94146
+Total Compensation Median,94134,89435,95625,99039,124023,111296
+Total Compensation 75th Percentile,112258,111962,120577,111552,131801,124844

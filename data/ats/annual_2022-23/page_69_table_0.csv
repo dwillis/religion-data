@@ -2,45 +2,45 @@ All Member Schools,col_1,col_2,col_3,col_4,col_5,col_6
 ,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 Professor,,,,,,
 Number,287,319,274,165,130,143
-Average Salary,"81,633","86,180","109,759","118,132","99,394","85,561"
-Median Salary,"80,777","86,482","96,736","103,976","85,949","82,752"
-Average Salary and Housing,"85,347","90,652","113,966","122,444","100,366","89,156"
-Average Benefits,"11,182","10,815","13,593","14,557","19,054","14,467"
-Average Pension,"5,255","6,359","5,856","10,795","9,610","8,086"
-Total Compensation Average,"101,786","107,827","133,416","147,796","129,031","111,710"
-Total Compensation 25th Percentile,"76,407","81,135","101,375","103,767","102,836","99,473"
-Total Compensation Median,"97,867","109,269","122,846","133,838","117,364","106,170"
-Total Compensation 75th Percentile,"123,490","129,713","159,625","174,339","139,477","121,339"
+Average Salary,81633,86180,109759,118132,99394,85561
+Median Salary,80777,86482,96736,103976,85949,82752
+Average Salary and Housing,85347,90652,113966,122444,100366,89156
+Average Benefits,11182,10815,13593,14557,19054,14467
+Average Pension,5255,6359,5856,10795,9610,8086
+Total Compensation Average,101786,107827,133416,147796,129031,111710
+Total Compensation 25th Percentile,76407,81135,101375,103767,102836,99473
+Total Compensation Median,97867,109269,122846,133838,117364,106170
+Total Compensation 75th Percentile,123490,129713,159625,174339,139477,121339
 Associate Professor,,,,,,
 Number,213,208,187,95,78,83
-Average Salary,"76,261","77,666","85,054","93,317","92,667","75,821"
-Median Salary,"74,222","78,000","80,666","92,130","88,847","77,111"
-Average Salary and Housing,"78,403","82,389","87,141","99,561","92,914","79,078"
-Average Benefits,"10,995","11,438","11,693","11,002","20,306","13,539"
-Average Pension,"4,620","6,389","4,593","8,653","7,105","6,779"
-Total Compensation Average,"94,019","100,218","103,429","119,216","120,326","99,397"
-Total Compensation 25th Percentile,"73,426","83,581","88,632","95,908","99,062","90,838"
-Total Compensation Median,"90,455","98,736","101,071","125,350","110,142","98,393"
-Total Compensation 75th Percentile,"109,357","114,824","120,000","136,269","124,023","108,460"
+Average Salary,76261,77666,85054,93317,92667,75821
+Median Salary,74222,78000,80666,92130,88847,77111
+Average Salary and Housing,78403,82389,87141,99561,92914,79078
+Average Benefits,10995,11438,11693,11002,20306,13539
+Average Pension,4620,6389,4593,8653,7105,6779
+Total Compensation Average,94019,100218,103429,119216,120326,99397
+Total Compensation 25th Percentile,73426,83581,88632,95908,99062,90838
+Total Compensation Median,90455,98736,101071,125350,110142,98393
+Total Compensation 75th Percentile,109357,114824,120000,136269,124023,108460
 Assistant Professor,,,,,,
 Number,191,239,102,80,38,59
-Average Salary,"61,208","66,974","70,972","75,369","77,416","69,256"
-Median Salary,"61,000","67,423","69,000","72,100","72,990","69,369"
-Average Salary and Housing,"63,279","69,649","72,008","78,006","77,466","71,098"
-Average Benefits,"8,346","9,779","11,785","8,992","18,089","15,625"
-Average Pension,"4,175","6,275","3,815","5,022","6,046","4,451"
-Total Compensation Average,"75,801","85,703","87,608","92,021","101,603","91,175"
-Total Compensation 25th Percentile,"57,919","67,108","72,713","71,249","80,929","78,204"
-Total Compensation Median,"73,964","84,969","89,655","88,513","95,531","87,443"
-Total Compensation 75th Percentile,"95,430","99,249","104,336","112,500","112,050","103,703"
+Average Salary,61208,66974,70972,75369,77416,69256
+Median Salary,61000,67423,69000,72100,72990,69369
+Average Salary and Housing,63279,69649,72008,78006,77466,71098
+Average Benefits,8346,9779,11785,8992,18089,15625
+Average Pension,4175,6275,3815,5022,6046,4451
+Total Compensation Average,75801,85703,87608,92021,101603,91175
+Total Compensation 25th Percentile,57919,67108,72713,71249,80929,78204
+Total Compensation Median,73964,84969,89655,88513,95531,87443
+Total Compensation 75th Percentile,95430,99249,104336,112500,112050,103703
 Non-Ranked Faculty,,,,,,
 Number,17,21,30,3,-,-
-Average Salary,"53,306","65,598","70,286","104,456",-,-
-Median Salary,"57,230","70,000","66,439",-,-,-
-Average Salary and Housing,"54,153","67,726","74,201","104,456",-,-
-Average Benefits,"4,030","9,132","7,479","14,292",-,-
-Average Pension,"1,436","6,856","3,154","8,602",-,-
-Total Compensation Average,"59,620","83,716","84,835","127,350",-,-
-Total Compensation 25th Percentile,"43,050","59,340","55,471",-,-,-
-Total Compensation Median,"69,788","78,022","75,168",-,-,-
-Total Compensation 75th Percentile,"79,188","101,016","115,742",-,-,-
+Average Salary,53306,65598,70286,104456,-,-
+Median Salary,57230,70000,66439,-,-,-
+Average Salary and Housing,54153,67726,74201,104456,-,-
+Average Benefits,4030,9132,7479,14292,-,-
+Average Pension,1436,6856,3154,8602,-,-
+Total Compensation Average,59620,83716,84835,127350,-,-
+Total Compensation 25th Percentile,43050,59340,55471,-,-,-
+Total Compensation Median,69788,78022,75168,-,-,-
+Total Compensation 75th Percentile,79188,101016,115742,-,-,-

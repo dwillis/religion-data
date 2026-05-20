@@ -1,45 +1,45 @@
 col_0,< 75,75 - 150,151 - 300,301 - 500,501 - 1000,> 1000
 VP/Director-HR,,,,,,
 Number,3,6,13,3,5,4
-Average Salary,-,"90,721","136,497",-,"95,546",-
-Median Salary,-,"89,729","125,000",-,-,-
-Average Salary and Housing,-,"90,721","138,805",-,"95,546",-
-Average Benefits,-,"16,708","14,951",-,"9,963",-
-Average Pension,-,"4,672","13,615",-,"11,075",-
-Total Compensation Average,-,"112,102","167,371",-,"116,584",-
-Total Compensation 25th Percentile,-,"89,197","115,260",-,"80,214",-
-Total Compensation Median,-,"101,931","153,635",-,"109,162",-
-Total Compensation 75th Percentile,-,"129,464","215,257",-,"113,684",-
+Average Salary,-,90721,136497,-,95546,-
+Median Salary,-,89729,125000,-,-,-
+Average Salary and Housing,-,90721,138805,-,95546,-
+Average Benefits,-,16708,14951,-,9963,-
+Average Pension,-,4672,13615,-,11075,-
+Total Compensation Average,-,112102,167371,-,116584,-
+Total Compensation 25th Percentile,-,89197,115260,-,80214,-
+Total Compensation Median,-,101931,153635,-,109162,-
+Total Compensation 75th Percentile,-,129464,215257,-,113684,-
 Chief Development Officer,,,,,,
 Number,26,24,18,4,9,4
-Average Salary,"106,724","117,378","157,216",-,"141,782",-
-Median Salary,"100,000","119,426","154,350",-,"142,015",-
-Average Salary and Housing,"108,617","117,378","163,455",-,"141,782",-
-Average Benefits,"10,002","18,392","14,595",-,"12,703",-
-Average Pension,"7,752","9,210","14,564",-,"15,027",-
-Total Compensation Average,"126,371","144,979","192,613",-,"169,512",-
-Total Compensation 25th Percentile,"86,675","94,694","166,639",-,"116,450",-
-Total Compensation Median,"120,000","136,920","197,007",-,"164,445",-
-Total Compensation 75th Percentile,"162,478","181,430","230,288",-,"178,426",-
+Average Salary,106724,117378,157216,-,141782,-
+Median Salary,100000,119426,154350,-,142015,-
+Average Salary and Housing,108617,117378,163455,-,141782,-
+Average Benefits,10002,18392,14595,-,12703,-
+Average Pension,7752,9210,14564,-,15027,-
+Total Compensation Average,126371,144979,192613,-,169512,-
+Total Compensation 25th Percentile,86675,94694,166639,-,116450,-
+Total Compensation Median,120000,136920,197007,-,164445,-
+Total Compensation 75th Percentile,162478,181430,230288,-,178426,-
 VP-Finance (CFO),,,,,,
 Number,35,44,23,5,12,4
-Average Salary,"110,826","138,930","159,193","146,878","151,299",-
-Median Salary,"101,198","130,000","170,000",-,"142,015",-
-Average Salary and Housing,"110,826","140,203","162,875","146,878","151,299",-
-Average Benefits,"7,302","14,373","15,341","16,383","17,477",-
-Average Pension,"7,199","11,255","12,331","13,824","16,324",-
-Total Compensation Average,"125,328","165,830","190,547","177,085","185,100",-
-Total Compensation 25th Percentile,"87,696","113,947","137,987","91,219","162,800",-
-Total Compensation Median,"112,059","152,957","199,441","170,000","177,384",-
-Total Compensation 75th Percentile,"162,921","207,302","223,178","197,250","207,747",-
+Average Salary,110826,138930,159193,146878,151299,-
+Median Salary,101198,130000,170000,-,142015,-
+Average Salary and Housing,110826,140203,162875,146878,151299,-
+Average Benefits,7302,14373,15341,16383,17477,-
+Average Pension,7199,11255,12331,13824,16324,-
+Total Compensation Average,125328,165830,190547,177085,185100,-
+Total Compensation 25th Percentile,87696,113947,137987,91219,162800,-
+Total Compensation Median,112059,152957,199441,170000,177384,-
+Total Compensation 75th Percentile,162921,207302,223178,197250,207747,-
 VP-Operations/Facilities (COO),,,,,,
 Number,9,10,2,2,2,3
-Average Salary,"96,135","121,665",-,-,-,-
-Median Salary,"88,174","106,127",-,-,-,-
-Average Salary and Housing,"97,192","122,665",-,-,-,-
-Average Benefits,"12,666","13,615",-,-,-,-
-Average Pension,"4,359","10,852",-,-,-,-
-Total Compensation Average,"114,218","147,132",-,-,-,-
-Total Compensation 25th Percentile,"83,711","120,454",-,-,-,-
-Total Compensation Median,"93,174","134,190",-,-,-,-
-Total Compensation 75th Percentile,"143,800","181,547",-,-,-,-
+Average Salary,96135,121665,-,-,-,-
+Median Salary,88174,106127,-,-,-,-
+Average Salary and Housing,97192,122665,-,-,-,-
+Average Benefits,12666,13615,-,-,-,-
+Average Pension,4359,10852,-,-,-,-
+Total Compensation Average,114218,147132,-,-,-,-
+Total Compensation 25th Percentile,83711,120454,-,-,-,-
+Total Compensation Median,93174,134190,-,-,-,-
+Total Compensation 75th Percentile,143800,181547,-,-,-,-

@@ -1,53 +1,53 @@
 col_0,col_1,col_2,col_3,col_4,col_5,Expenditures,col_7,LT,col_9,col_10,Library,col_12,col_13,col_14,col_15
 ,,,,Prov./,,E&G,Total,Invest,Faculty,,Volumes,Enrollment,,MDiv,
 Name,Status,IUC,Race,State,Denom,$thousands,,$millions,FT,FTE,(000),HC,FTE,Tuition,Fees
-Hazelip School of Theology,ACCRED,U,W,TN,CHUCHR,"1,094","1,162",0,6,8,200,120,61,"13,125",0
-Heritage Theological Seminary,CAND,I,W,ON,FEVBAPT,989,"1,138",0,5,6,43,169,55,"9,870",0
-HMS Richards Divinity School Division of Graduate Studies,ACCRED,U,W,CA,SDADV,685,685,0,10,17,256,63,35,"13,682",0
-Holy Apostles College and Seminary,ACCRED,I,N,CT,RC,"3,307","3,360",9,14,49,62,296,158,"14,800",370
-Holy Cross Greek Orthodox School of Theology,ACCRED,I,W,MA,GRORTH,"11,949","13,096",24,12,17,80,95,87,"21,940",550
-Hood Theological Seminary,ACCRED,I,B,NC,AMEZ,"2,967","2,967",6,10,16,41,140,92,"10,500",650
-Houston Graduate School of Theology,ACCRED,I,B,TX,INTER,"1,553","1,553",0,5,8,27,145,99,"12,480",530
-Howard University School of Divinity,ACCRED,U,B,DC,NONDEN,145,145,0,15,18,132,80,51,"18,990","1,575"
-Huron University College Faculty of Theology,ACCRED,C,N,ON,ANGL,"1,746","1,746",0,9,12,142,41,28,"6,528","1,823"
-Iliff School of Theology,ACCRED,I,W,CO,UMC,"8,597","8,656",33,18,19,221,275,251,"19,824",345
-Immaculate Conception Seminary,ACCRED,U,V,NJ,RC,"5,061","5,354",15,16,22,83,272,206,"18,180",652
-Institut de Formation Theologique de Montreal,ASSOC,I,W,QC,RC,793,793,0,3,3,161,7,1,"3,904",0
-Inter-American Adventist Theological Seminary,ACCRED,I,M,PR,SDADV,"1,138","1,138",0,11,16,275,517,465,0,0
-Interdenominational Theological Center,ACCRED,I,B,GA,INTER,"8,729","8,784",8,12,12,358,293,175,"13,500","1,000"
-International Theological Seminary,ACCRED,I,V,CA,NONDEN,837,837,0,5,12,46,68,32,"10,500",267
-James and Carolyn McAfee School of Theology,ACCRED,U,W,GA,CBF,"2,733","2,733",20,12,15,71,157,101,"11,550",0
-Jesuit School of Theology of Santa Clara University,ACCRED,U,W,CA,RC,"6,944","7,806",33,15,20,0,148,135,"17,618",100
-John Leland Center for Theological Studies,ACCRED,I,M,VA,BGAV,993,993,0,4,8,26,51,27,"10,000",0
+Hazelip School of Theology,ACCRED,U,W,TN,CHUCHR,1094,1162,0,6,8,200,120,61,13125,0
+Heritage Theological Seminary,CAND,I,W,ON,FEVBAPT,989,1138,0,5,6,43,169,55,9870,0
+HMS Richards Divinity School Division of Graduate Studies,ACCRED,U,W,CA,SDADV,685,685,0,10,17,256,63,35,13682,0
+Holy Apostles College and Seminary,ACCRED,I,N,CT,RC,3307,3360,9,14,49,62,296,158,14800,370
+Holy Cross Greek Orthodox School of Theology,ACCRED,I,W,MA,GRORTH,11949,13096,24,12,17,80,95,87,21940,550
+Hood Theological Seminary,ACCRED,I,B,NC,AMEZ,2967,2967,6,10,16,41,140,92,10500,650
+Houston Graduate School of Theology,ACCRED,I,B,TX,INTER,1553,1553,0,5,8,27,145,99,12480,530
+Howard University School of Divinity,ACCRED,U,B,DC,NONDEN,145,145,0,15,18,132,80,51,18990,1575
+Huron University College Faculty of Theology,ACCRED,C,N,ON,ANGL,1746,1746,0,9,12,142,41,28,6528,1823
+Iliff School of Theology,ACCRED,I,W,CO,UMC,8597,8656,33,18,19,221,275,251,19824,345
+Immaculate Conception Seminary,ACCRED,U,V,NJ,RC,5061,5354,15,16,22,83,272,206,18180,652
+Institut de Formation Theologique de Montreal,ASSOC,I,W,QC,RC,793,793,0,3,3,161,7,1,3904,0
+Inter-American Adventist Theological Seminary,ACCRED,I,M,PR,SDADV,1138,1138,0,11,16,275,517,465,0,0
+Interdenominational Theological Center,ACCRED,I,B,GA,INTER,8729,8784,8,12,12,358,293,175,13500,1000
+International Theological Seminary,ACCRED,I,V,CA,NONDEN,837,837,0,5,12,46,68,32,10500,267
+James and Carolyn McAfee School of Theology,ACCRED,U,W,GA,CBF,2733,2733,20,12,15,71,157,101,11550,0
+Jesuit School of Theology of Santa Clara University,ACCRED,U,W,CA,RC,6944,7806,33,15,20,0,148,135,17618,100
+John Leland Center for Theological Studies,ACCRED,I,M,VA,BGAV,993,993,0,4,8,26,51,27,10000,0
 Kearley Graduate School of Theology,CAND,U,W,AL,CHUCHR,443,443,0,6,7,384,44,41,0,0
-Kenrick-Glennon Seminary,ACCRED,I,W,MO,RC,"8,773","9,361",23,16,19,96,78,78,"25,240","12,420"
-Knox College,ACCRED,I,A,ON,PCC,"4,146","4,541",24,5,9,79,116,72,"6,500","1,914"
-Knox Theological Seminary,ACCRED,I,W,FL,NONDEN,"2,306","2,306",0,2,16,36,191,67,"10,320",380
-Lancaster Theological Seminary,ACCRED,I,W,PA,UCC,"3,524","3,564",18,4,11,149,101,76,"17,125",160
-Lexington Theological Seminary,ACCRED,I,W,KY,DISCPL,"2,801","2,801",39,4,8,100,65,28,"9,120",300
-Lincoln Christian Seminary,ACCRED,C,N,IL,CCHCHC,"1,984","2,117",1,11,15,105,224,154,"7,812",0
-Logos Evangelical Seminary,ACCRED,I,A,CA,EVFORM,"4,147","4,362",0,13,17,59,189,99,"10,464",200
-Logsdon Seminary of Logsdon School of Theology,ACCRED,U,W,TX,BAPBGCT,"2,310","2,310",17,8,13,57,160,82,"10,523","1,200"
-Louisville Presbyterian Theological Seminary,ACCRED,I,W,KY,PCUSA,"8,934","10,171",82,11,14,189,150,110,"11,400",286
-Loyola Marymount University Department of Theological Studies,ACCRED,U,W,CA,RC,"1,415","1,415",0,28,35,679,98,84,0,0
-Loyola University Chicago,CAND,U,W,IL,RC,"3,672","3,672",3,10,13,"1,186",250,140,"14,184","3,482"
-Lubbock Christian University Graduate School of Theology,CAND,U,W,TX,CHUCHR,56,56,0,7,8,128,14,9,"7,368",800
-Luther Seminary,ACCRED,I,W,MN,ELCA,"17,958","18,680",98,25,28,256,489,291,"17,000",170
-Lutheran School of Theology at Chicago,ACCRED,I,W,IL,ELCA,"12,068","12,945",43,13,17,289,201,145,"16,830",220
-Lutheran Theological Seminary (SK),ACCRED,I,A,SK,ELCC,"1,318","1,574",7,3,4,51,14,9,"7,350",350
-Lutheran Theological Southern Seminary,ACCRED,U,W,SC,ELCA,"5,367","5,601",27,6,7,121,68,43,"17,735",0
-M. Christopher White School of Divinity,ACCRED,C,W,NC,BAPTNC,"3,561","3,561",0,10,10,40,158,90,"11,057",230
-Marylhurst University Religious Studies Graduate Department,ASSOC,U,W,OR,RC,167,167,0,2,5,99,13,10,"27,192",150
-McCormick Theological Seminary,ACCRED,I,B,IL,PCUSA,"8,669","9,206",84,8,21,289,215,107,"8,640",630
-McGill University School of Religious Studies,ACCRED,U,N,QC,INTER,806,806,14,17,22,"21,061",82,59,"2,391","1,760"
-McMaster Divinity College,ACCRED,I,W,ON,BAPTOQ,"3,195","3,195",30,9,12,"1,506",166,136,"5,936",121
-Meadville Lombard Theological School,ACCRED,I,W,IL,UUA,"4,172","4,172",25,3,10,25,87,74,"23,910","1,045"
-Memphis Theological Seminary,ACCRED,I,B,TN,PCCUM,"4,887","4,887",11,14,14,90,229,153,"9,360",300
-Methodist Theological School in Ohio,ACCRED,I,W,OH,UMC,"6,909","7,912",42,18,23,145,137,110,"20,020",230
-Mid-America Reformed Seminary,ACCRED,I,W,IN,INTER,"2,032","2,032",0,6,6,42,26,26,"9,180",100
-Midwest University Graduate School of Theology,ASSOC,U,A,MO,NONDEN,"1,180","1,193",0,3,8,25,38,20,"7,200",270
-Midwestern Baptist Theological Seminary,ACCRED,I,W,MO,SBC,"14,193","15,078",8,25,26,132,"1,814","1,120","5,390",220
-Montreal School of Theology,ACCRED,I,N,QC,INTER,59,59,0,2,4,0,48,32,"4,450","1,800"
-Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,"8,259","8,469",4,15,21,250,676,503,"12,600",628
-Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,"2,531","2,638",24,7,12,256,82,45,"17,100",215
-Mount Angel Seminary,ACCRED,I,W,OR,RC,"4,941","5,629",0,16,22,241,117,85,"15,030","6,374"
+Kenrick-Glennon Seminary,ACCRED,I,W,MO,RC,8773,9361,23,16,19,96,78,78,25240,12420
+Knox College,ACCRED,I,A,ON,PCC,4146,4541,24,5,9,79,116,72,6500,1914
+Knox Theological Seminary,ACCRED,I,W,FL,NONDEN,2306,2306,0,2,16,36,191,67,10320,380
+Lancaster Theological Seminary,ACCRED,I,W,PA,UCC,3524,3564,18,4,11,149,101,76,17125,160
+Lexington Theological Seminary,ACCRED,I,W,KY,DISCPL,2801,2801,39,4,8,100,65,28,9120,300
+Lincoln Christian Seminary,ACCRED,C,N,IL,CCHCHC,1984,2117,1,11,15,105,224,154,7812,0
+Logos Evangelical Seminary,ACCRED,I,A,CA,EVFORM,4147,4362,0,13,17,59,189,99,10464,200
+Logsdon Seminary of Logsdon School of Theology,ACCRED,U,W,TX,BAPBGCT,2310,2310,17,8,13,57,160,82,10523,1200
+Louisville Presbyterian Theological Seminary,ACCRED,I,W,KY,PCUSA,8934,10171,82,11,14,189,150,110,11400,286
+Loyola Marymount University Department of Theological Studies,ACCRED,U,W,CA,RC,1415,1415,0,28,35,679,98,84,0,0
+Loyola University Chicago,CAND,U,W,IL,RC,3672,3672,3,10,13,1186,250,140,14184,3482
+Lubbock Christian University Graduate School of Theology,CAND,U,W,TX,CHUCHR,56,56,0,7,8,128,14,9,7368,800
+Luther Seminary,ACCRED,I,W,MN,ELCA,17958,18680,98,25,28,256,489,291,17000,170
+Lutheran School of Theology at Chicago,ACCRED,I,W,IL,ELCA,12068,12945,43,13,17,289,201,145,16830,220
+Lutheran Theological Seminary (SK),ACCRED,I,A,SK,ELCC,1318,1574,7,3,4,51,14,9,7350,350
+Lutheran Theological Southern Seminary,ACCRED,U,W,SC,ELCA,5367,5601,27,6,7,121,68,43,17735,0
+M. Christopher White School of Divinity,ACCRED,C,W,NC,BAPTNC,3561,3561,0,10,10,40,158,90,11057,230
+Marylhurst University Religious Studies Graduate Department,ASSOC,U,W,OR,RC,167,167,0,2,5,99,13,10,27192,150
+McCormick Theological Seminary,ACCRED,I,B,IL,PCUSA,8669,9206,84,8,21,289,215,107,8640,630
+McGill University School of Religious Studies,ACCRED,U,N,QC,INTER,806,806,14,17,22,21061,82,59,2391,1760
+McMaster Divinity College,ACCRED,I,W,ON,BAPTOQ,3195,3195,30,9,12,1506,166,136,5936,121
+Meadville Lombard Theological School,ACCRED,I,W,IL,UUA,4172,4172,25,3,10,25,87,74,23910,1045
+Memphis Theological Seminary,ACCRED,I,B,TN,PCCUM,4887,4887,11,14,14,90,229,153,9360,300
+Methodist Theological School in Ohio,ACCRED,I,W,OH,UMC,6909,7912,42,18,23,145,137,110,20020,230
+Mid-America Reformed Seminary,ACCRED,I,W,IN,INTER,2032,2032,0,6,6,42,26,26,9180,100
+Midwest University Graduate School of Theology,ASSOC,U,A,MO,NONDEN,1180,1193,0,3,8,25,38,20,7200,270
+Midwestern Baptist Theological Seminary,ACCRED,I,W,MO,SBC,14193,15078,8,25,26,132,1814,1120,5390,220
+Montreal School of Theology,ACCRED,I,N,QC,INTER,59,59,0,2,4,0,48,32,4450,1800
+Moody Theological Seminary,ACCRED,C,N,IL,NONDEN,8259,8469,4,15,21,250,676,503,12600,628
+Moravian Theological Seminary,ACCRED,C,W,PA,MORAVV,2531,2638,24,7,12,256,82,45,17100,215
+Mount Angel Seminary,ACCRED,I,W,OR,RC,4941,5629,0,16,22,241,117,85,15030,6374
