@@ -1,11 +1,12 @@
-import sqlite3
+import os
+import re
 import time
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
 INDEX_URL = "http://pbuuc.org/worship/past-worship-services/archival-sermons/"
-DB_PATH = "sermons.db"
+OUTPUT_DIR = "paint_branch_uu_text"
 CHURCH = "Paint Branch Unitarian Universalist Church"
 
 
@@ -95,60 +96,66 @@ def scrape_sermon(url):
     }
 
 
-def init_db(conn):
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS sermons (
-            id        INTEGER PRIMARY KEY AUTOINCREMENT,
-            church    TEXT,
-            title     TEXT,
-            date      DATE,
-            scripture TEXT,
-            speaker   TEXT,
-            full_text TEXT,
-            url       TEXT UNIQUE
-        )
-    """)
-    conn.commit()
+def make_filename(data):
+    date = data.get("date", "unknown")
+    title = data.get("title", "untitled")
+    slug = re.sub(r'[^\w\s-]', '', title).strip()
+    slug = re.sub(r'[\s]+', '_', slug)
+    return f"{date}_{slug}.txt"
 
 
-def already_scraped(conn, url):
-    return conn.execute("SELECT 1 FROM sermons WHERE url = ?", (url,)).fetchone() is not None
+INDEX_FILE = os.path.join(OUTPUT_DIR, "_scraped_urls.txt")
 
 
-def save_sermon(conn, data):
-    conn.execute(
-        """INSERT OR IGNORE INTO sermons
-           (church, title, date, scripture, speaker, full_text, url)
-           VALUES (:church, :title, :date, :scripture, :speaker, :full_text, :url)""",
-        data,
-    )
-    conn.commit()
+def load_scraped_urls():
+    if not os.path.exists(INDEX_FILE):
+        return set()
+    with open(INDEX_FILE, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def mark_scraped(url):
+    with open(INDEX_FILE, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
+
+
+def save_sermon(data, filename):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filepath = os.path.join(OUTPUT_DIR, filename)
+    if os.path.exists(filepath):
+        return False
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(data.get("full_text", ""))
+    return True
 
 
 def main():
-    conn = sqlite3.connect(DB_PATH)
-    init_db(conn)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    scraped_urls = load_scraped_urls()
 
     print(f"Fetching index: {INDEX_URL}")
     urls = get_sermon_urls(INDEX_URL)
     print(f"Found {len(urls)} sermon URLs\n")
 
     for i, url in enumerate(urls, 1):
-        if already_scraped(conn, url):
+        if url in scraped_urls:
             print(f"  [{i}/{len(urls)}] Already saved: {url}")
             continue
         print(f"  [{i}/{len(urls)}] Scraping: {url}")
         try:
             data = scrape_sermon(url)
             if data:
-                save_sermon(conn, data)
+                filename = make_filename(data)
+                written = save_sermon(data, filename)
+                if not written:
+                    print(f"  [{i}/{len(urls)}] File exists, skipping: {filename}")
+                mark_scraped(url)
             time.sleep(0.75)
         except Exception as e:
             print(f"    ERROR: {e}")
 
-    conn.close()
-    total = conn.execute("SELECT COUNT(*) FROM sermons WHERE church = ?", (CHURCH,)).fetchone()
-    print(f"\nDone. {total[0] if total else '?'} Paint Branch sermons in database.")
+    total = len([f for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt") and not f.startswith("_")])
+    print(f"\nDone. {total} sermons saved to {OUTPUT_DIR}/")
 
 
 if __name__ == "__main__":

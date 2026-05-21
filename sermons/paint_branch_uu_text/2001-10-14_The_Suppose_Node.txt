@@ -1,0 +1,101 @@
+a sermon by Jaco B. ten Hove, co-minister Paint Branch Unitarian Universalist Church – October 14, 2001 –
+
+It’s Young Adult/Campus Ministry Sunday all over the district, and I’ve created a sermon about the World Wide Web, by request of Mike & Kim Stark and Patti Daukantis who purchased, at last year’s church auction, the right to provide such a theme. But I have to acknowledge right up front that it’s been hard for me to focus on anything other than the anxious state of our world right now.
+
+So much is moving in all of us in response to global energies and activities, that many ministers are scraping scheduled themes and going right after it, sometimes week after week. This is an impetuous moment in history and Sunday worship is one venue that can, at times, be valuable in making meaning out of such dynamics.
+
+But not today, any more than I’ve already acknowledged it. However, Barbara and I and Jennifer–your ministers–will soon be offering more direct sermonic attention to world matters and how they may be affecting our lives. We have changed our plans for sermon topics beginning Oct. 28 and we’ll take turns addressing different angles that we hope may be of some help in a very trying era.
+
+Today, meanwhile, I get to tell you some of how the World Wide Web came to be, which is a happy task, in part because of the way Unitarian Universalism fits into this evolving picture. I expect there are some of you who have managed to resist the invitations of the Internet and World Wide Web, and perhaps more who, like me, are only modest surfers. But its electronic presence is now so pervasive that it starts to resemble the water fish swim in, or the air we breathe. It is everywhere. So, take a deep breath and come along with me on this exploration of a modern marvel.
+
+Now, Al Gore may have invented the Internet, but the Web’s true author is Tim Berners-Lee, who also wrote a very readable book about his creative process, called, Weaving the Web , humbly subtitled: “The Original Design and Ultimate Destiny of the World Wide Web by Its Inventor” [1999, HarpersCollins]. Because of this design work, Tim Berners-Lee was included in Time Magazine’s list of the 100 greatest minds of the 20 th century. He is also a Unitarian Universalist.
+
+Usually when an author concludes a book about history such as this, the ending pages are a restatement or emphasis of what is most compelling about the case the author really wants to make. In Weaving the Web , seven of the last nine paragraphs are straightforward descriptions of how coherent the World Wide the Web is with Unitarian Universalism.
+
+In truth, Berners-Lee, an Englishman, only discovered UUism in 1995, when he and his family had moved to Cambridge, MA, after he had done the bulk of his Web inventing in Europe. But he wrote the book, and its title, since becoming a UU. And listen to his own words about how his religious evolution merged with his invention:
+
+Walking into a Unitarian Universalist church more or less by chance felt like a breath of fresh air. Some of the association’s basic philosophies very much match what I had been brought up to believe, and the objective I had in creating the Web…I did indeed create the Web around universalist (with a lower case u) principles.… ? [pg. 207-8]
+
+Walking into a Unitarian Universalist church more or less by chance felt like a breath of fresh air. Some of the association’s basic philosophies very much match what I had been brought up to believe, and the objective I had in creating the Web…I did indeed create the Web around universalist (with a lower case u) principles.… ? [pg. 207-8]
+
+He then goes on to compare the two particular brands of technology and religion:
+
+There’s a freedom about the Internet: As long as we accept the rules of sending packets [of information] around, we can send packets containing anything to anywhere. In Unitarian Universalism, if one accepts the basic tenet of mutual respect in working together toward some greater vision, then one finds a huge freedom in choosing one’s one words that capture that vision, one’s own rituals to help focus the mind, one’s own metaphors for faith and hope. ? [pg. 208]
+
+There’s a freedom about the Internet: As long as we accept the rules of sending packets [of information] around, we can send packets containing anything to anywhere. In Unitarian Universalism, if one accepts the basic tenet of mutual respect in working together toward some greater vision, then one finds a huge freedom in choosing one’s one words that capture that vision, one’s own rituals to help focus the mind, one’s own metaphors for faith and hope. ? [pg. 208]
+
+With this gratifying acknowledgement in hand, let me back up in the book and take a crack at portraying the emergence of the WWW. I did notice that one particular angle keep appearing in Berners-Lee’s own telling of the story. That angle gave me my title: The “Suppose…” Node, and it also helps me link this story to young adults.
+
+It’s clear that the WWW came to be because of a lot of intuitive brainstorming, wherein creative types communicated with each other using opening phrases like, “Suppose we [did this or that]” or “Suppose there were [x, y or z].” This open-ended suggesting was a key process feature.
+
+Other versions of the same posture include, “What if [blank]” and “Imagine [whatever].” Suppose… What if… Imagine… These are all exploratory phrases that I can also associate with being a young adult–though not exclusively, of course. Anyone at any age can take such creative angles on life, but I believe that young adults are developmentally hardwired to think about possibilities , the way things might be if …
+
+Young adults–now and when any of us elders were that age–live very much out of what I’m calling our “Suppose…” Node, the place from which we can envision a better way. A “node,” by the way, is a central point of concentration, or, in modern Web parlance, a place that can be joined by links. Our “Suppose” Node helps make fruitful connections for us, and young adults are usually very interested in making connections.
+
+There’s also often a lot of struggle that comes with the uncertainty of young adulthood, mentioned in the earlier testimonial as “a constant state of flux.” But this is also part of what usually keeps young adults more open to new thought, new ideas, new ways of approaching things, whereas many of us elders can get so stable and comfortable that we often aren’t alert enough to notice or embrace, let alone create innovation. Again, there are certainly exceptions, but generally it is the younger folks among us (and the young in spirit) who push the boundaries of the possible, who really live out of their “Suppose…” Node.
+
+Many historically significant discoveries or inventions have been made in a person’s young adulthood. I’m not sure precisely of Tim Berners-Lee’s age, but I’ve interpolated that the Web took shape during the first 15 years after he graduated from college. And he gives plenty of credit to the students with whom he collaborated.
+
+Let me just outline the flow of his creative juices and mention a few of the “Suppose…” propositions that urged him into a formative future.
+
+One day when he was in high school, Berners-Lee found his father intently reading books about the brain, looking for a clue about how to make computers function more intuitively, like a brain does. Young Tim was also intrigued by this challenge, one which stayed with him through college in the mid-1970s and into his early work environments. He realized that “the brain has no knowledge until connections are made between neurons.” And in a similar way, “information is really only defined by what it’s related to, and how it’s related” [pg. 12].
+
+“Suppose,” thought Berners-Lee, “all the information stored on computers everywhere were linked. Suppose I could program my computer to create a space in which anything could be linked to anything.” [pg. 4].
+
+This vision carried him into the 1980s, along with his desire to harness the power of ideas arranged “in an unconstrained, weblike way” [pg. 3]. This would be a big leap from the standing order of computers and the nascent Internet as it existed then, which was that people would go and get information, like from a library system, but they didn’t interact with other computers.
+
+Suppose , he thought, that once someone somewhere made available a document, database, graphic, etc., it would then “be accessible (subject to authorization, of course) by anyone, with any type of computer, in any country” [pg. 37].
+
+It’s already hard for some of us to recall that there was, in fact, a time when such accessibility wasn’t the case, but remember that these notions were offered in a vacuum of examples. The Internet was around, but it was not user-friendly enough to accommodate such a vision and was only narrowly used by relatively few parties. Berners-Lee was turned away again and again by people who couldn’t catch his vision or see the possibilities that he saw. But his “Suppose…” Node didn’t quit or dry up.
+
+I bet not too many folks were able to keep up with Albert Einstein, either, as he was entering unknown arenas of thought. The stimulating quote of his at the top of your OOS shows him functioning from the center of his Suppose Node: “What would the universe look like if I were riding on the end of a light beam at the speed of light?” That image took him to the Theory of Relativity and Beyond.
+
+In 1989, Berners-Lee finally wrote a proposal to gain support for his emerging Web project. It included a graphic suggestion that I think is akin to Einstein’s brilliant image.
+
+Imagine making a large three-dimensional model, with people represented by little spheres, and strings between people who have something in common at work. Now imagine picking up the structure and shaking it, until you make some sense of the tangle: Perhaps you see tightly knit groups in some places, and in some places weak areas of communication spanned by only a few people.
+
+Imagine making a large three-dimensional model, with people represented by little spheres, and strings between people who have something in common at work. Now imagine picking up the structure and shaking it, until you make some sense of the tangle: Perhaps you see tightly knit groups in some places, and in some places weak areas of communication spanned by only a few people.
+
+This untangling, then, is what Berners-Lee wanted to work on, to develop the methods by which it could all be sorted out and utilized universally–”by anyone, with any type of computer, in any country.”
+
+One way he was able to slowly introduce his radical concept to the more skeptical work environment was to approach colleagues and say something unthreatening like, “ Suppose I could show you a way to expand your current documentation system.” They would bite because this would be tangible progress, and he had a foot in the door, then gradually showing what his application could really do.
+
+When he plugged into the critical academic community, he encouraged responses that took the shape of “Wouldn’t it be nice if…” And momentum grew, as more and more creative thinkers started exploring the intuitive space he was opening up. But they weren’t just exploring, they were also creating.
+
+Berners-Lee was steadily guided by an ethic that the best Web would be the most universal, the most unlimited and unlimitable , the most creatively diverse, with active, not passive users. This way, it would most approximate the intuitive workings of the brain, and eventually allow a processing of information beyond what we now know.
+
+He likened the launch of the Web idea to the start of a bobsled down a hill: team members have to push for a while, but then they can all jump on as the vehicle gains its own momentum. The first WWW conference was held in May, 1994, in Switzerland and the atmosphere was electric. It became known as the “Woodstock of the Web.” Things really picked up speed after that event, and soon he was working in the US.
+
+Another guiding ethic that sets Berners-Lee apart, and confounds many of his associates, is that he has very intentionally refused to be in it for the money. In fact, what distresses him is how important this aspect seems to be to people, especially in America. He believes–rightly, I’d say–that equating human value with financial success disrespects research and other very fulfilling aspects of life that don’t always provide a monetary return. “To use net worth as a criterion by which to judge people,” he suggests, “is to set our children’s sights on cash rather than on things that will actually make them happy.”
+
+Since he came to the Boston area in 1994, Berners-Lee has presided over the WWW Consortium, which also seeks less to profit from than promote the continued development of the Web. The goal is, in his words, simply “to support and improve our weblike existence in the world.” He sees the Web as more a social than technical construction–”to help people work together” [pg. 123], improving the odds for a thriving richness and diversity.
+
+The Consortium operates on many of the same collaborative principles that got him this far. For instance, they have a procedure called LEAD, an acronym for “Live Early Adoption and Demonstration.” This group mechanism encourages risk-taking and testing out new ideas among the colleagues. And lest you think Berners-Lee is resting on his supposed laurels, let me mention some of the newer proposals he’s exploring (although since this book came out in 1999, who knows what’s really going on up there).
+
+Suppose informational space was available to all, not just to browse, but also to create interactively. He likes to combine those two words into the term intercreativity, to point to the essential human urge to collaborate and make meaning together. His overarching philosophy is “What matters is in the connections” [pg.13]. And there is a whole body of theological work to support this thesis, by the way.
+
+Suppose machines are there for us, not the other way around. If so, he concludes, they should be faster and more convenient to use, “more like getting out a pen than getting out a lawnmower” [pg. 159]. Plus, computers should be available for all people everywhere. Unfortunately, so far, the WWW is “at once the great equalizer and the great divider” [pg. 174], highlighting disparities between Haves and Have-nots around the globe. He calls this an “urgent debate.”
+
+Imagine the WWW as a completely trustworthy experience with effective and fair securities built in. “ Imagine ,” he suggests, “an Oh Yeah? Button on a browser. There I am, looking at a fantastic deal that can be mine just for the entry of a credit-card number and the click of a button. I press the Oh Yeah? Button [and] My browser challenges the server to provide some credentials” [pg. 154].
+
+There are lots more such imaginings in the latter part of the book, giving an inkling of the Web’s “ultimate destiny” as envisioned by its inventor. I’ll stop with one more biggie, which has to do with intuition, and it’s a stretch for me to picture the technical development Berners-Lee envisions here, but let’s see if I can express it fairly. Stay with me.
+
+Intuition fosters the ability to solve problems and address issues without using a well-defined, logical method. Intuition can encourage answers and innovative ideas to emerge when people are allowed to explore where spontaneous connections might lead. This has, in fact, been the engine of activity that created the Web, as well as many other inventions.
+
+But, Berners-Lee points out, when a company or group grows in size, the degree of human intuition does not scale up with the structure. It is still a person-to-person endeavor. And when a system becomes so large and compartmentalized that the ones with the questions aren’t talking to the ones who might have the answers, then the system is in jeopardy of failure, because there’s a break in the process of intuitive collaboration.
+
+Well , suppose the WWW can facilitate intuitive collaboration on a larger scale–”by anyone, with any type of computer, in any country.” We’re back to Berners-Lee and his father trying to figure out how computers can mimic the brain, only now he’s farther along than his father might have ever suspected was possible.
+
+He calls it the Semantic Web, after semantics, the study of meaning in language. It’s still a vision, but one that would “become capable of analyzing all the data on the Web–the content, links, and transactions between people and computers” [pg. 157]. Imagine that the computer itself might be able to shift from being just a tool to also being a collaborator. Whew.
+
+Well, all this supposing and imagining wears me out! But researchers and techno-designers–perhaps some of you–are really into it. As Tim Berners-Lee says, they like to “get as much in their heads as possible, then go to sleep and hope to wake up in the middle of the night with a brilliant idea” [pg. 201].
+
+And in my small study of this subject, I’ve come to a heightened appreciation for this very human process of imaginative, intuitive, collaborative creation, which we all do to some degree or another, at various points in our lives–maybe especially when we’re young adults.
+
+I think we can indeed intentionally cultivate the ability to work from our own “Suppose…” Node. Intuition is always lurking within us, awaiting the right stimulation, which often comes from relationships that enable “intercreativity.” It may take a concerted effort to tap into our innate sense of possibility, when so much of our culture invites us instead to become numb or dull with escapist pursuits or superficial dramas. But I look to the young adults I know for inspiration, as I try to stay young in spirit and open to intercreativity.
+
+In fact, we all may have to be very creative in the months and years ahead, to sort through some very tangled webs of reality facing us in this new, complicated century. It’s complicated mostly by our own hand, so we can also untangle it. I suspect that our intuition, channeled with whatever tools and collaborations we can muster, will be a significant factor on this journey into the future.
+
+But one of the main lessons of this piece of modern history is that it takes two–or more–to tango. The WWW emerged because a bunch of folks worked it out together. Tim Berners-Lee, a Unitarian Universalist who spearheaded that innovative community, puts his hope and faith in “the repeatedly proven observation that people seem to be naturally built to interact with others as part of a greater system… It seems a person’s happiness depends on having a balance of connections at different levels.”
+
+So may it be for you.
