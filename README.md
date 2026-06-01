@@ -11,12 +11,14 @@ data/
   cces24/        # Cooperative Congressional Election Study 2024 data
   clergy/        # Clergy contribution and occupation data
   mega/          # Megachurch data
+  uua/           # UUA Certification Report data (organized by year)
 
 scrapers/
   ats/           # ATS Annual Data Tables PDF scraper
   bulletins/     # Catholic bulletin scraper
   bwc/           # Baltimore-Washington Conference appointment scrapers (R)
   mega/          # Megachurch scraper
+  uua/           # UUA Certification Report scraper
 
 analysis/
   cces24/        # CCES analysis scripts (R)
@@ -64,6 +66,79 @@ data/ats/
 ```
 
 Each CSV uses the first extracted row as a header. Numeric values have thousands-separator commas removed (e.g. `1012` not `1,012`). Chart pseudo-tables and image-only pages are automatically filtered out.
+
+## UUA Certification Report Scraper
+
+Extracts data tables from the [UUA (Unitarian Universalist Association) Certification Report](https://secure.uua.org/certification-report/2025/). The report contains data on congregation counts, staffing, finances, membership, diversity, and questionnaire responses, rendered as Google Charts from JavaScript data arrays embedded in the page HTML.
+
+### Usage
+
+```bash
+# Scrape the 2025 report (default)
+uv run scrapers/uua/scraper.py
+
+# Scrape a specific year
+uv run scrapers/uua/scraper.py 2024
+
+# Scrape multiple years
+uv run scrapers/uua/scraper.py 2024 2025
+```
+
+### Output Structure
+
+```
+data/uua/
+  2024/
+    us_member_congs.csv
+    staff_and_ministers_count.csv
+    diversity_and_demographics.csv
+    ...
+  2025/
+    us_member_congs.csv
+    staff_and_ministers_count.csv
+    diversity_and_demographics.csv
+    ...
+```
+
+Each CSV includes a `report_year` column indicating which year's report the data was scraped from. Table contents vary by year as the report format evolves (e.g., 2025 added congregation size breakdowns not present in 2024).
+
+## Catholic Bulletin Scraper
+
+Downloads weekly PDF bulletins from five Catholic parishes in Maryland using Playwright for browser automation.
+
+### Usage
+
+```bash
+uv run scrapers/bulletins/catholic_bulletins.py
+```
+
+PDFs are saved to `bulletins/` organized by parish (e.g., `bulletins/stjames_mr/`, `bulletins/holy_family/`). Already-downloaded files are skipped on subsequent runs.
+
+**Parishes covered:** St. James (Mt. Rainier), St. Matthias, St. Columba, Ascension (Bowie), Holy Family.
+
+## BWC Appointments Scraper
+
+R scripts that scrape clergy appointment data from the [Baltimore-Washington Conference of the United Methodist Church](https://www.bwcumc.org/).
+
+### Usage
+
+```bash
+Rscript scrapers/bwc/bwc_appointments.R
+```
+
+Output is written to `data/appointments/`.
+
+## Megachurch Scraper
+
+Scrapes the full list of megachurches from the [Hartford Institute's Megachurch Database](https://hirr.hartfordinternational.edu/research/megachurch-database/full-list-of-megachurches/), including church name, city, state, denomination, size, and website URL.
+
+### Usage
+
+```bash
+uv run scrapers/mega/scraper.py
+```
+
+Output is written to `data/mega/megachurches.csv`.
 
 ## UMData Scrapers
 
