@@ -1,0 +1,72 @@
+# Lexicons for S09 (rhetoric).  Word lists are matched case-insensitively as
+# whole words/phrases.  These are deliberately small, transparent seed lists --
+# extend them as the corpus reveals new patterns.
+
+# Hedging / tentativeness markers (uncertainty, qualification)
+hedges:
+  - perhaps
+  - maybe
+  - might
+  - possibly
+  - probably
+  - seems
+  - seem
+  - somewhat
+  - apparently
+  - i think
+  - i suppose
+  - i guess
+  - sort of
+  - kind of
+  - more or less
+  - to some extent
+  - in a sense
+
+# Boosters / intensifiers (certainty, emphasis)
+boosters:
+  - certainly
+  - clearly
+  - obviously
+  - undoubtedly
+  - definitely
+  - absolutely
+  - surely
+  - of course
+  - without a doubt
+  - indeed
+  - truly
+  - in fact
+  - the fact is
+  - no doubt
+  - assuredly
+  - verily
+
+# Exhortation / hortatory markers (calls to action, imperative framing)
+exhortation:
+  - let us
+  - we must
+  - we ought
+  - we need to
+  - you must
+  - you need to
+  - you should
+  - i urge you
+  - i beg you
+  - i plead
+  - i exhort
+  - consider
+  - remember
+  - beware
+  - repent
+  - turn to
+  - come to
+  - do not
+  - don't
+
+# First-person plural inclusivity (community / identification with audience)
+inclusive:
+  - we
+  - us
+  - our
+  - ourselves
+  - let us

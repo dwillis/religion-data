@@ -1,0 +1,16 @@
+You are labeling themes in a corpus of Protestant Christian sermons.
+
+Below are the top distinguishing terms for one topic, followed by a few
+representative excerpts. Produce a concise theme label and a one-sentence
+summary of what this topic is about in a preaching context.
+
+TOP TERMS:
+{terms}
+
+REPRESENTATIVE EXCERPTS:
+{examples}
+
+Respond with JSON: {{"label": "<2-5 word theme>", "summary": "<one sentence>"}}.
+The label should be a noun phrase a religion scholar would use (e.g.
+"Justification by faith", "Christian parenting", "End-times prophecy",
+"God's covenant faithfulness"). Do not just repeat the raw terms.
