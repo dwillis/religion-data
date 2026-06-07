@@ -95,41 +95,46 @@ def flatten_sermon(item: dict, broadcaster_id: str, broadcaster_name: str) -> di
     speaker = item.get("speaker") or {}
     broadcaster = item.get("broadcaster") or {}
     series = item.get("series") or {}
-    media = item.get("media") or {}
 
-    audio = media.get("audio") or []
-    duration = None
-    if audio and isinstance(audio, list):
-        duration = audio[0].get("duration") if audio[0] else None
-    if duration is None:
-        duration = media.get("audioDuration") or item.get("mp3Duration")
+    series_title = series.get("title", "") if isinstance(series, dict) else str(series)
+    series_id = series.get("seriesID", "") if isinstance(series, dict) else ""
+
+    duration = item.get("audioDurationSeconds") or item.get("videoDurationSeconds") or ""
 
     return {
         "sermon_id": item.get("sermonID", ""),
-        "title": item.get("fullTitle") or item.get("displayTitle") or item.get("title") or "",
-        "subtitle": item.get("subtitle") or item.get("subTitle") or "",
-        "speaker": speaker.get("displayName") or speaker.get("actualName") or item.get("speaker", ""),
+        "title": item.get("fullTitle") or item.get("displayTitle") or "",
+        "subtitle": item.get("subtitle") or "",
+        "speaker": speaker.get("displayName") or "",
         "speaker_id": speaker.get("speakerID") or "",
-        "date": item.get("preachDate") or item.get("datePreached") or "",
+        "date": item.get("preachDate") or "",
+        "publish_date": item.get("publishDate") or "",
         "bible_text": item.get("bibleText") or "",
         "event_type": item.get("eventType") or "",
-        "series": series.get("title") or series if isinstance(series, str) else "",
-        "series_id": series.get("seriesID") or "" if isinstance(series, dict) else "",
-        "duration": duration or "",
+        "series": series_title,
+        "series_id": series_id,
+        "duration_seconds": duration,
         "download_count": item.get("downloadCount") or "",
-        "language": item.get("languageCode") or item.get("language") or "",
+        "more_info": item.get("moreInfoText") or "",
+        "language": item.get("languageCode") or "",
         "keywords": item.get("keywords") or "",
+        "has_audio": item.get("hasAudio", ""),
+        "has_video": item.get("hasVideo", ""),
         "broadcaster_id": broadcaster.get("broadcasterID") or broadcaster_id,
         "broadcaster_name": broadcaster.get("displayName") or broadcaster_name,
         "broadcaster_location": broadcaster.get("location") or "",
+        "broadcaster_denomination": broadcaster.get("denomination") or "",
+        "broadcaster_minister": broadcaster.get("minister") or "",
     }
 
 
 CSV_FIELDS = [
     "sermon_id", "title", "subtitle", "speaker", "speaker_id", "date",
-    "bible_text", "event_type", "series", "series_id", "duration",
-    "download_count", "language", "keywords",
+    "publish_date", "bible_text", "event_type", "series", "series_id",
+    "duration_seconds", "download_count", "more_info", "language", "keywords",
+    "has_audio", "has_video",
     "broadcaster_id", "broadcaster_name", "broadcaster_location",
+    "broadcaster_denomination", "broadcaster_minister",
 ]
 
 
