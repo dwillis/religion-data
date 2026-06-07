@@ -32,7 +32,9 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.sermonaudio.com"
-API_URL = "https://api.sermonaudio.com/v2/node/sermons"
+API_BASE = "https://api.sermonaudio.com/v2"
+API_SERMONS = f"{API_BASE}/node/sermons"
+API_BROADCASTERS = f"{API_BASE}/node/broadcasters"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; SA-Metadata/1.0)"}
 
 session = requests.Session()
@@ -155,7 +157,7 @@ def collect_sermons(broadcaster_id: str, page_size: int = 100,
             "requireAudio": "false",
         }
         try:
-            resp = session.get(API_URL, params=params, timeout=30)
+            resp = session.get(API_SERMONS, params=params, timeout=30)
             if resp.status_code != 200:
                 print(f"  HTTP {resp.status_code} on page {page}, stopping.", file=sys.stderr)
                 break
@@ -187,36 +189,63 @@ def collect_sermons(broadcaster_id: str, page_size: int = 100,
     return all_items
 
 
-# -- State-level: discover all broadcasters --
+# -- State-level: discover all broadcasters via API --
 
 def collect_state_broadcaster_ids(state: str) -> list[tuple[str, str]]:
-    url = f"{BASE_URL}/broadcasters/state/{state}"
-    print(f"Fetching broadcaster list for state '{state}'...", file=sys.stderr)
-    try:
-        resp = session.get(url, timeout=30)
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"Error fetching state page: {e}", file=sys.stderr)
-        return []
+    ensure_api_key()
+    print(f"Fetching broadcaster list for state '{state}' via API...", file=sys.stderr)
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-    results = []
-    for a in soup.find_all("a", href=re.compile(r"/broadcasters/[^/]+/?$")):
-        m = re.search(r"/broadcasters/([^/]+)", a["href"])
-        if m:
-            bid = m.group(1)
-            if bid not in ("state",):
-                name = a.get_text(strip=True) or bid
-                results.append((bid, name))
+    all_broadcasters: list[tuple[str, str]] = []
+    seen: set[str] = set()
 
-    seen = set()
-    deduped = []
-    for bid, name in results:
-        if bid not in seen:
-            seen.add(bid)
-            deduped.append((bid, name))
-    print(f"Found {len(deduped)} broadcasters in {state}.", file=sys.stderr)
-    return deduped
+    for page in range(1, 100):
+        params = {
+            "state": state,
+            "pageSize": "100",
+            "page": str(page),
+            "sortBy": "sermoncount",
+        }
+        try:
+            resp = session.get(API_BROADCASTERS, params=params, timeout=30)
+            if resp.status_code != 200:
+                print(f"  HTTP {resp.status_code} on page {page}, stopping.", file=sys.stderr)
+                break
+            data = resp.json()
+        except Exception as e:
+            print(f"  Error on page {page}: {e}", file=sys.stderr)
+            break
+
+        results = data.get("results") or []
+        if not results:
+            break
+
+        for b in results:
+            bid = b.get("broadcasterID", "")
+            name = b.get("displayName") or b.get("shortName") or bid
+            if bid and bid not in seen:
+                seen.add(bid)
+                all_broadcasters.append((bid, name))
+
+        total = data.get("totalCount") or "?"
+        print(f"  page {page}: {len(results)} broadcasters (total {len(all_broadcasters)}/{total})",
+              file=sys.stderr)
+
+        if len(results) < 100:
+            break
+        time.sleep(0.35)
+
+    print(f"Found {len(all_broadcasters)} broadcasters in {state}.", file=sys.stderr)
+    return all_broadcasters
+
+
+def load_broadcaster_ids(path: str) -> list[str]:
+    ids = []
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                ids.append(extract_broadcaster_id(line))
+    return ids
 
 
 def main():
@@ -225,7 +254,9 @@ def main():
     parser.add_argument("broadcaster", nargs="?",
                         help="Broadcaster URL or ID (e.g. ghbc)")
     parser.add_argument("--state",
-                        help="Scrape all broadcasters in a US state (e.g. MD)")
+                        help="Fetch all broadcasters in a US state via API (e.g. MD)")
+    parser.add_argument("--broadcasters-file",
+                        help="File with one broadcaster ID/URL per line")
     parser.add_argument("--raw", action="store_true",
                         help="Dump raw JSON instead of CSV (for field discovery)")
     parser.add_argument("--out-dir", default=".",
@@ -233,16 +264,24 @@ def main():
     parser.add_argument("--page-size", type=int, default=100)
     args = parser.parse_args()
 
-    if not args.broadcaster and not args.state:
-        parser.error("Provide a broadcaster ID/URL or --state")
+    if not args.broadcaster and not args.state and not args.broadcasters_file:
+        parser.error("Provide a broadcaster ID/URL, --state, or --broadcasters-file")
 
     os.makedirs(args.out_dir, exist_ok=True)
 
-    if args.state:
-        broadcasters = collect_state_broadcaster_ids(args.state)
+    # Multi-broadcaster mode: --state or --broadcasters-file
+    if args.state or args.broadcasters_file:
+        if args.state:
+            broadcasters = collect_state_broadcaster_ids(args.state)
+        else:
+            bids = load_broadcaster_ids(args.broadcasters_file)
+            broadcasters = [(bid, bid) for bid in bids]
+
         if not broadcasters:
+            print("No broadcasters found.", file=sys.stderr)
             return 1
 
+        label = args.state or "multi"
         all_rows: list[dict] = []
         for i, (bid, bname) in enumerate(broadcasters, 1):
             print(f"\n[{i}/{len(broadcasters)}] {bname} ({bid})", file=sys.stderr)
@@ -258,7 +297,7 @@ def main():
                     all_rows.append(flatten_sermon(item, bid, bname))
 
         if not args.raw:
-            out_path = os.path.join(args.out_dir, f"sermonaudio_{args.state}_metadata.csv")
+            out_path = os.path.join(args.out_dir, f"sermonaudio_{label}_metadata.csv")
             with open(out_path, "w", newline="") as f:
                 writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
                 writer.writeheader()
