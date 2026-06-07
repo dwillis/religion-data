@@ -142,20 +142,23 @@ CSV_FIELDS = [
 
 # -- Pagination --
 
-def collect_sermons(broadcaster_id: str, page_size: int = 100,
-                    max_pages: int = 200) -> list[dict]:
+def collect_sermons(broadcaster_id: Optional[str] = None, page_size: int = 100,
+                    max_pages: int = 1000, state: Optional[str] = None) -> list[dict]:
     ensure_api_key()
     all_items: list[dict] = []
     seen: set[str] = set()
 
     for page in range(1, max_pages + 1):
         params = {
-            "broadcasterID": broadcaster_id,
             "pageSize": str(page_size),
             "page": str(page),
             "sortBy": "newest",
             "requireAudio": "false",
         }
+        if broadcaster_id:
+            params["broadcasterID"] = broadcaster_id
+        if state:
+            params["state"] = state
         try:
             resp = session.get(API_SERMONS, params=params, timeout=30)
             if resp.status_code != 200:
@@ -187,55 +190,6 @@ def collect_sermons(broadcaster_id: str, page_size: int = 100,
         time.sleep(0.35)
 
     return all_items
-
-
-# -- State-level: discover all broadcasters via API --
-
-def collect_state_broadcaster_ids(state: str) -> list[tuple[str, str]]:
-    ensure_api_key()
-    print(f"Fetching broadcaster list for state '{state}' via API...", file=sys.stderr)
-
-    all_broadcasters: list[tuple[str, str]] = []
-    seen: set[str] = set()
-
-    for page in range(1, 100):
-        params = {
-            "state": state,
-            "pageSize": "100",
-            "page": str(page),
-            "sortBy": "sermoncount",
-        }
-        try:
-            resp = session.get(API_BROADCASTERS, params=params, timeout=30)
-            if resp.status_code != 200:
-                print(f"  HTTP {resp.status_code} on page {page}, stopping.", file=sys.stderr)
-                break
-            data = resp.json()
-        except Exception as e:
-            print(f"  Error on page {page}: {e}", file=sys.stderr)
-            break
-
-        results = data.get("results") or []
-        if not results:
-            break
-
-        for b in results:
-            bid = b.get("broadcasterID", "")
-            name = b.get("displayName") or b.get("shortName") or bid
-            if bid and bid not in seen:
-                seen.add(bid)
-                all_broadcasters.append((bid, name))
-
-        total = data.get("totalCount") or "?"
-        print(f"  page {page}: {len(results)} broadcasters (total {len(all_broadcasters)}/{total})",
-              file=sys.stderr)
-
-        if len(results) < 100:
-            break
-        time.sleep(0.35)
-
-    print(f"Found {len(all_broadcasters)} broadcasters in {state}.", file=sys.stderr)
-    return all_broadcasters
 
 
 def load_broadcaster_ids(path: str) -> list[str]:
@@ -271,32 +225,43 @@ def main():
 
     # Multi-broadcaster mode: --state or --broadcasters-file
     if args.state or args.broadcasters_file:
+        label = args.state or "multi"
+        all_items: list[dict] = []
+
         if args.state:
-            broadcasters = collect_state_broadcaster_ids(args.state)
+            # The /node/broadcasters endpoint requires elevated auth (403 for the
+            # public key), so we filter the sermons endpoint by state directly and
+            # let each sermon carry its own broadcaster info.
+            print(f"Fetching sermons for state '{args.state}' via API...", file=sys.stderr)
+            all_items = collect_sermons(state=args.state, page_size=args.page_size)
         else:
             bids = load_broadcaster_ids(args.broadcasters_file)
             broadcasters = [(bid, bid) for bid in bids]
+            if not broadcasters:
+                print("No broadcasters found.", file=sys.stderr)
+                return 1
+            for i, (bid, bname) in enumerate(broadcasters, 1):
+                print(f"\n[{i}/{len(broadcasters)}] {bname} ({bid})", file=sys.stderr)
+                all_items.extend(collect_sermons(bid, page_size=args.page_size))
 
-        if not broadcasters:
-            print("No broadcasters found.", file=sys.stderr)
+        if not all_items:
+            print("No sermons found.", file=sys.stderr)
             return 1
 
-        label = args.state or "multi"
-        all_rows: list[dict] = []
-        for i, (bid, bname) in enumerate(broadcasters, 1):
-            print(f"\n[{i}/{len(broadcasters)}] {bname} ({bid})", file=sys.stderr)
-            items = collect_sermons(bid, page_size=args.page_size)
-
-            if args.raw and items:
-                raw_path = os.path.join(args.out_dir, f"{slugify(bid)}_raw.json")
-                with open(raw_path, "w") as f:
-                    json.dump(items, f, indent=2, default=str)
-                print(f"  Wrote {len(items)} raw items -> {raw_path}", file=sys.stderr)
-            else:
-                for item in items:
-                    all_rows.append(flatten_sermon(item, bid, bname))
-
-        if not args.raw:
+        if args.raw:
+            raw_path = os.path.join(args.out_dir, f"{slugify(label)}_raw.json")
+            with open(raw_path, "w") as f:
+                json.dump(all_items, f, indent=2, default=str)
+            print(f"Wrote {len(all_items)} raw items -> {raw_path}", file=sys.stderr)
+        else:
+            all_rows = [
+                flatten_sermon(
+                    item,
+                    (item.get("broadcaster") or {}).get("broadcasterID", ""),
+                    (item.get("broadcaster") or {}).get("displayName", ""),
+                )
+                for item in all_items
+            ]
             out_path = os.path.join(args.out_dir, f"sermonaudio_{label}_metadata.csv")
             with open(out_path, "w", newline="") as f:
                 writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
