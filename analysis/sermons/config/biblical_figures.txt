@@ -1,0 +1,103 @@
+# Gazetteer of biblical figures (BIBLICAL_FIGURE).  One per line; '#' comments.
+# Deity names are kept separate (DEITY) so theological emphasis can be measured.
+
+# --- Deity / divine (tagged DEITY, see s07_ner.py) ---
+@DEITY
+God
+Jesus
+Jesus Christ
+Christ
+Lord
+Holy Spirit
+Holy Ghost
+Father
+Yahweh
+Jehovah
+Messiah
+Lamb of God
+Son of Man
+Son of God
+
+# --- Old Testament figures ---
+@BIBLICAL_FIGURE
+Adam
+Eve
+Cain
+Abel
+Noah
+Abraham
+Abram
+Sarah
+Isaac
+Rebekah
+Jacob
+Esau
+Joseph
+Moses
+Aaron
+Miriam
+Joshua
+Caleb
+Gideon
+Samson
+Ruth
+Naomi
+Boaz
+Samuel
+Saul
+David
+Solomon
+Elijah
+Elisha
+Isaiah
+Jeremiah
+Ezekiel
+Daniel
+Hosea
+Jonah
+Nehemiah
+Ezra
+Esther
+Mordecai
+Job
+Pharaoh
+Goliath
+Bathsheba
+Absalom
+Nebuchadnezzar
+
+# --- New Testament figures ---
+Mary
+Joseph of Nazareth
+John the Baptist
+Peter
+Simon Peter
+Andrew
+James
+John
+Philip
+Thomas
+Matthew
+Judas
+Judas Iscariot
+Paul
+Saul of Tarsus
+Barnabas
+Timothy
+Titus
+Luke
+Mark
+Stephen
+Lazarus
+Martha
+Mary Magdalene
+Nicodemus
+Pontius Pilate
+Herod
+Caiaphas
+Pilate
+Zacchaeus
+Cornelius
+Apollos
+Silas
+Philemon

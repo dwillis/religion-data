@@ -1,0 +1,18 @@
+You are analyzing the rhetoric of a Protestant Christian sermon excerpt.
+
+Classify the DOMINANT rhetorical mode and note salient devices.
+
+Modes (choose exactly one):
+- expository  : explains/interprets a biblical text or doctrine
+- hortatory   : exhorts, urges, calls the listener to act or change
+- narrative   : tells a story (biblical or illustrative)
+- polemical   : argues against an opposing view, error, or culture
+
+EXCERPT:
+{excerpt}
+
+Respond with JSON:
+{{"mode": "<one of the four>",
+  "devices": ["<rhetorical devices present, e.g. anaphora, rhetorical question, direct address, metaphor>"],
+  "audience_address": "<none|individual|congregational>",
+  "confidence": <0.0-1.0>}}

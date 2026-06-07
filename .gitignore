@@ -44,3 +44,12 @@ sermons/*.db
 
 # Large clergy data
 data/clergy/*.csv
+
+# Sermon analysis pipeline
+.venv-analysis/
+# Generated pipeline outputs (regenerate via run.py). Commit real full-run
+# summary tables explicitly if you want them tracked in the repo.
+data/sermons_analysis/
+
+# Generated boilerplate templates (written by S02)
+analysis/sermons/config/boilerplate/*.txt

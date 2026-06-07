@@ -1,0 +1,69 @@
+# Gazetteer of theologians / preachers / church-historical figures.
+# One name per line; '#' starts a comment. Used by S07 (NER) to tag the
+# THEOLOGIAN entity type and to validate spaCy PERSON spans. Extend freely.
+# Multi-word names are matched case-insensitively as whole phrases.
+
+# Reformers / early modern
+Martin Luther
+John Calvin
+Ulrich Zwingli
+John Knox
+William Tyndale
+Thomas Cranmer
+Philip Melanchthon
+Huldrych Zwingli
+
+# Puritans / 17th-18th c.
+John Owen
+Richard Baxter
+John Bunyan
+Jonathan Edwards
+George Whitefield
+John Wesley
+Charles Wesley
+Matthew Henry
+Thomas Watson
+
+# 19th c.
+Charles Spurgeon
+Charles Hodge
+B.B. Warfield
+Benjamin Warfield
+J.C. Ryle
+Abraham Kuyper
+Soren Kierkegaard
+
+# Early church / medieval
+Augustine
+Saint Augustine
+Athanasius
+Irenaeus
+Origen
+Tertullian
+John Chrysostom
+Anselm
+Thomas Aquinas
+Aquinas
+
+# 20th-21st c. evangelical / reformed
+Karl Barth
+Dietrich Bonhoeffer
+C.S. Lewis
+Cornelius Van Til
+Francis Schaeffer
+Martyn Lloyd-Jones
+J.I. Packer
+R.C. Sproul
+John MacArthur
+John Piper
+Tim Keller
+Timothy Keller
+Wayne Grudem
+D.A. Carson
+N.T. Wright
+John Stott
+Billy Graham
+A.W. Tozer
+Charles Ryrie
+Lewis Sperry Chafer
+Dallas Willard

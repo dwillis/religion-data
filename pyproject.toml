@@ -13,3 +13,30 @@ dependencies = [
     "pyside6>=6.11.1",
     "requests>=2.32.5",
 ]
+
+[dependency-groups]
+# Sermon text-analysis pipeline (analysis/sermons/). Install with:
+#   uv sync --group analysis
+# then once: uv run python -m spacy download en_core_web_lg
+# Heavy ML deps (torch/spacy/bertopic/gliner) are only needed for the embedding,
+# topic, and NER stages; the index/clean/scripture stages need only the first row.
+analysis = [
+    "polars>=1.0",
+    "duckdb>=1.0",
+    "pyarrow>=16.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "textstat>=0.7",
+    "python-docx>=1.1",
+    "spacy>=3.7",
+    "sentence-transformers>=3.0",
+    "bertopic>=0.16",
+    "umap-learn>=0.5",
+    "hdbscan>=0.8",
+    "gliner>=0.2",
+    "scikit-learn>=1.4",
+    "networkx>=3.2",
+    "altair>=5.3",
+    "ollama>=0.3",
+    "pydantic>=2.7",
+]

@@ -1,0 +1,67 @@
+book,testament,order,aliases
+Genesis,OT,1,Gen|Gen.|Ge|Gn
+Exodus,OT,2,Exod|Exod.|Exo|Ex
+Leviticus,OT,3,Lev|Lev.|Lv
+Numbers,OT,4,Num|Num.|Nu|Nm
+Deuteronomy,OT,5,Deut|Deut.|Deu|Dt
+Joshua,OT,6,Josh|Josh.|Jos|Jsh
+Judges,OT,7,Judg|Judg.|Jdg|Jg
+Ruth,OT,8,Rth|Ru
+1 Samuel,OT,9,1 Sam|1 Sam.|1Sam|1 Sm|First Samuel|I Samuel
+2 Samuel,OT,10,2 Sam|2 Sam.|2Sam|2 Sm|Second Samuel|II Samuel
+1 Kings,OT,11,1 Kgs|1 Kgs.|1 Ki|1Kings|First Kings|I Kings
+2 Kings,OT,12,2 Kgs|2 Kgs.|2 Ki|2Kings|Second Kings|II Kings
+1 Chronicles,OT,13,1 Chron|1 Chr|1 Chr.|1Chron|First Chronicles|I Chronicles
+2 Chronicles,OT,14,2 Chron|2 Chr|2 Chr.|2Chron|Second Chronicles|II Chronicles
+Ezra,OT,15,Ezr
+Nehemiah,OT,16,Neh|Neh.|Ne
+Esther,OT,17,Esth|Esth.|Est
+Job,OT,18,Jb
+Psalms,OT,19,Psalm|Ps|Ps.|Psa|Pslm
+Proverbs,OT,20,Prov|Prov.|Prv|Pro
+Ecclesiastes,OT,21,Eccles|Eccl|Eccl.|Qoheleth
+Song of Solomon,OT,22,Song of Songs|Song|Canticles|SOS|Songs
+Isaiah,OT,23,Isa|Isa.|Is
+Jeremiah,OT,24,Jer|Jer.|Jr
+Lamentations,OT,25,Lam|Lam.|La
+Ezekiel,OT,26,Ezek|Ezek.|Eze|Ezk
+Daniel,OT,27,Dan|Dan.|Dn
+Hosea,OT,28,Hos|Hos.|Ho
+Joel,OT,29,Joe|Jl
+Amos,OT,30,Am
+Obadiah,OT,31,Obad|Obad.|Ob
+Jonah,OT,32,Jon|Jnh
+Micah,OT,33,Mic|Mic.|Mc
+Nahum,OT,34,Nah|Nah.|Na
+Habakkuk,OT,35,Hab|Hab.|Hb
+Zephaniah,OT,36,Zeph|Zeph.|Zep|Zp
+Haggai,OT,37,Hag|Hag.|Hg
+Zechariah,OT,38,Zech|Zech.|Zec|Zc
+Malachi,OT,39,Mal|Mal.|Ml
+Matthew,NT,40,Matt|Matt.|Mat|Mt
+Mark,NT,41,Mrk|Mk|Mar
+Luke,NT,42,Luk|Lk
+John,NT,43,Jn|Jhn
+Acts,NT,44,Act|Acts of the Apostles
+Romans,NT,45,Rom|Rom.|Rm
+1 Corinthians,NT,46,1 Cor|1 Cor.|1Cor|First Corinthians|I Corinthians
+2 Corinthians,NT,47,2 Cor|2 Cor.|2Cor|Second Corinthians|II Corinthians
+Galatians,NT,48,Gal|Gal.|Ga
+Ephesians,NT,49,Eph|Eph.|Ephes
+Philippians,NT,50,Phil|Phil.|Php|Pp
+Colossians,NT,51,Col|Col.|Co
+1 Thessalonians,NT,52,1 Thess|1 Thes|1 Th|First Thessalonians|I Thessalonians
+2 Thessalonians,NT,53,2 Thess|2 Thes|2 Th|Second Thessalonians|II Thessalonians
+1 Timothy,NT,54,1 Tim|1 Tim.|1 Ti|First Timothy|I Timothy
+2 Timothy,NT,55,2 Tim|2 Tim.|2 Ti|Second Timothy|II Timothy
+Titus,NT,56,Tit|Ti
+Philemon,NT,57,Philem|Phlm|Phm
+Hebrews,NT,58,Heb|Heb.|Hbr
+James,NT,59,Jas|Jas.|Jm
+1 Peter,NT,60,1 Pet|1 Pet.|1 Pt|First Peter|I Peter
+2 Peter,NT,61,2 Pet|2 Pet.|2 Pt|Second Peter|II Peter
+1 John,NT,62,1 Jn|1 Jn.|1 Jhn|First John|I John
+2 John,NT,63,2 Jn|2 Jn.|2 Jhn|Second John|II John
+3 John,NT,64,3 Jn|3 Jn.|3 Jhn|Third John|III John
+Jude,NT,65,Jud|Jd
+Revelation,NT,66,Rev|Rev.|Re|Apocalypse|Revelations
