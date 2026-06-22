@@ -40,3 +40,12 @@ analysis = [
     "ollama>=0.3",
     "pydantic>=2.7",
 ]
+
+# YouTube worship-service ingest (analysis/sermons/ y00-y03). Install with:
+#   uv sync --group youtube
+# Transcription itself is done out-of-band in MacWhisper; this group only needs
+# yt-dlp to fetch video metadata (chapters/description/date). SRT/VTT/JSON
+# parsing is pure Python. The isolation cascade (y02) reuses the `analysis` group.
+youtube = [
+    "yt-dlp>=2024.1",
+]

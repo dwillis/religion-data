@@ -1,0 +1,20 @@
+You are reading a timestamped transcript of a full Christian worship service.
+The service contains music/singing, prayers, announcements, an offering, a
+scripture reading, the SERMON (a long continuous message preached from a biblical
+text), and a closing/benediction.
+
+Identify the START and END timestamps of the SERMON only -- the extended
+teaching/preaching portion -- NOT the songs, prayers, announcements, or readings
+around it. The sermon is almost always the single longest continuous block of one
+person speaking, and is dense with scripture references and exposition.
+
+Timestamps below are in seconds. The transcript is downsampled to ~one line per
+30 seconds, prefixed with its start time:
+
+{transcript}
+
+Respond with JSON only:
+{{"sermon_start": <seconds, number>,
+  "sermon_end": <seconds, number>,
+  "confidence": <0.0-1.0>,
+  "reason": "<one short sentence>"}}
