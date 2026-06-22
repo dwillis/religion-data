@@ -53,3 +53,8 @@ data/sermons_analysis/
 
 # Generated boilerplate templates (written by S02)
 analysis/sermons/config/boilerplate/*.txt
+
+# YouTube service staging area (y00-y03): transcripts, fetched metadata, and
+# proposed cuts. Working files only -- confirmed sermons are promoted into
+# sermons/ (tracked) by y03_promote.py.
+data/youtube_services/

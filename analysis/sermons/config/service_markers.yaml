@@ -1,0 +1,72 @@
+# Markers for isolating the sermon from a full worship-service transcript
+# (used by y02_isolate.py).  Matched case-insensitively as whole words/phrases.
+# These are deliberately small, transparent seed lists -- extend them as the
+# YouTube-service corpus reveals new patterns.
+
+# Phrases that signal preaching/exposition is underway -> boost sermon-likeness.
+homiletic_markers:
+  - turn with me to
+  - turn in your bible
+  - turn in your bibles
+  - open your bible
+  - open your bibles
+  - our text this morning
+  - our text this evening
+  - our passage
+  - in our text
+  - the text says
+  - the text tells us
+  - this morning we
+  - this evening we
+  - let me illustrate
+  - point number
+  - first point
+  - my first point
+  - secondly
+  - thirdly
+  - in conclusion
+  - as we close
+  - finally
+  - the word of god
+  - what does this mean
+  - the apostle paul
+  - let's look at
+  - look with me
+  - notice that
+  - notice how
+  - the greek word
+  - the hebrew word
+  - verse by verse
+
+# Phrases that mark the NON-sermon liturgical segments around the sermon
+# (singing, prayers, announcements, offering, reading) -> strong boundaries.
+liturgical_markers:
+  - let us pray
+  - let us worship
+  - let us stand
+  - please stand
+  - please be seated
+  - please rise
+  - you may be seated
+  - call to worship
+  - responsive reading
+  - the offering
+  - our offering
+  - tithes and offerings
+  - announcements
+  - welcome to
+  - give online
+  - prayer of confession
+  - assurance of pardon
+  - benediction
+  - doxology
+  - hymn number
+  - our next song
+  - our next hymn
+  - communion
+  - the lord's supper
+
+# Lyric/repetition detection: a window whose lines repeat heavily is singing.
+lyric_repetition:
+  window_segments: 12       # sliding window size (in transcript segments)
+  min_repeat_ratio: 0.45    # repeated-line fraction above which -> treat as music

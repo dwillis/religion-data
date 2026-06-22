@@ -103,3 +103,45 @@ Small summary tables (`corpus.parquet`, `scripture_*`, `topics`, `style`,
 `rhetoric`, `entities`, `report/*.csv`) are committed. Large intermediates
 (normalized/clean text, embeddings, LLM cache) live under
 `data/sermons_analysis/cache/` and are gitignored.
+
+## Ingesting sermons from full YouTube services (y00–y03)
+
+Many congregations publish their **whole worship service** on YouTube (music,
+prayers, announcements, offering, then the sermon). These stages isolate just the
+sermon from a transcript and feed it into the normal `sermons/<dir>/` ingest.
+Transcription is done **out-of-band in MacWhisper** — export each service as
+`.srt`/`.vtt`/`.json`. The pipeline **proposes** sermon boundaries for you to
+review; nothing lands in `sermons/` until you confirm.
+
+```bash
+uv sync --group youtube   # adds yt-dlp (metadata only; MacWhisper does the audio)
+
+# 1. Fetch YouTube metadata (chapters/description/date) — the strongest cue.
+uv run --group youtube python analysis/sermons/src/sermons/y00_fetch.py \
+    --congregation grace_bible_text https://youtu.be/VIDEOID
+
+# 2. Drop MacWhisper exports in data/youtube_services/grace_bible_text/transcripts/
+#    then parse them to timestamped segments.
+uv run --group analysis python analysis/sermons/src/sermons/y01_parse.py \
+    --congregation grace_bible_text
+
+# 3. Isolate the sermon (cascade: chapters → transcript scoring → optional LLM).
+uv run --group analysis python analysis/sermons/src/sermons/y02_isolate.py \
+    --congregation grace_bible_text [--llm]
+
+# 4. Review data/youtube_services/grace_bible_text/service_review.csv
+#    (set confirmed=yes, tweak sermon_start/sermon_end if needed), then promote.
+uv run --group analysis python analysis/sermons/src/sermons/y03_promote.py \
+    --congregation grace_bible_text   # writes sermons/grace_bible_text/<date> <title>.txt
+```
+
+The cascade (`y02`) finds the sermon by combining independent signals, cheapest
+first: **YouTube chapters / description timestamps**, then **transcript scoring**
+(split the timeline at liturgical markers / silence gaps / sustained song-lyric
+repetition, then pick the block maximising `duration × scripture+homiletic
+density × (1 − lyric_fraction)`), with **speaker labels** used opportunistically
+if your MacWhisper export is diarized, and an **Ollama** refinement pass
+(`--llm`) only for low-confidence cases. Markers live in
+`config/service_markers.yaml`; the LLM prompt in `prompts/sermon_boundary.txt`.
+The whole `data/youtube_services/` staging area is gitignored — only the promoted
+sermon files under `sermons/` are tracked.
